@@ -1,0 +1,120 @@
+# BKL Legal OS — EU Self-Hosting Profile
+#
+# Deploys the full stack within EU infrastructure:
+#   - Backend (Express/Node.js)
+#   - Frontend (Next.js / static)
+#   - Supabase (PostgreSQL + Auth + Storage — EU self-hosted)
+#   - Nginx reverse proxy with TLS
+#
+# DATA RESIDENCY NOTE:
+#   This compose file ensures data at rest and in transit stays in the EU.
+#   Whether LOGICC processes inference IN the EU must be confirmed contractually
+#   with LOGICC (Kapitel V DSGVO / SCCs). See SETUP-UND-OFFENE-PUNKTE.md.
+#
+# USAGE:
+#   1. Copy .env.eu.example to .env.eu and fill in all values
+#   2. docker compose --env-file .env.eu -f docker-compose.eu.yml up -d
+#
+# REGIONS:
+#   - Hetzner EU (Falkenstein/Nuremberg/Helsinki) or
+#   - AWS eu-central-1 (Frankfurt) or
+#   - OVHcloud DE/FR
+#   Do NOT use us-east-1, us-west-2 or any non-EU region.
+
+version: "3.9"
+
+services:
+
+  # --------------------------------------------------------------------------
+  # Backend
+  # --------------------------------------------------------------------------
+  backend:
+    build:
+      context: ./mike/backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: "3001"
+      FRONTEND_URL: "${FRONTEND_URL}"
+      LOGICC_API_KEY: "${LOGICC_API_KEY}"
+      LOGICC_EMBEDDING_MODEL: "${LOGICC_EMBEDDING_MODEL:-gemini-embedding-001}"
+      SUPABASE_URL: "${SUPABASE_URL}"
+      SUPABASE_SECRET_KEY: "${SUPABASE_SECRET_KEY}"
+      R2_ENDPOINT_URL: "${R2_ENDPOINT_URL}"
+      R2_ACCESS_KEY_ID: "${R2_ACCESS_KEY_ID}"
+      R2_SECRET_ACCESS_KEY: "${R2_SECRET_ACCESS_KEY}"
+      R2_BUCKET_NAME: "${R2_BUCKET_NAME:-bkl-legal-os}"
+      SMTP_HOST: "${SMTP_HOST}"
+      SMTP_PORT: "${SMTP_PORT:-587}"
+      SMTP_SECURE: "${SMTP_SECURE:-false}"
+      SMTP_USER: "${SMTP_USER}"
+      SMTP_PASS: "${SMTP_PASS}"
+      SMTP_FROM: "${SMTP_FROM}"
+      DOWNLOAD_SIGNING_SECRET: "${DOWNLOAD_SIGNING_SECRET}"
+      USER_API_KEYS_ENCRYPTION_SECRET: "${USER_API_KEYS_ENCRYPTION_SECRET}"
+      SCHEDULER_INTERVAL_MS: "${SCHEDULER_INTERVAL_MS:-300000}"
+      ONBOARDING_REVIEW_GATE: "${ONBOARDING_REVIEW_GATE:-true}"
+    networks:
+      - internal
+    expose:
+      - "3001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # --------------------------------------------------------------------------
+  # Frontend
+  # --------------------------------------------------------------------------
+  frontend:
+    build:
+      context: ./mike/frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: "${SUPABASE_URL}"
+        NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY: "${SUPABASE_ANON_KEY}"
+        NEXT_PUBLIC_API_BASE_URL: "${NEXT_PUBLIC_API_BASE_URL}"
+    restart: unless-stopped
+    networks:
+      - internal
+    expose:
+      - "3000"
+    depends_on:
+      - backend
+
+  # --------------------------------------------------------------------------
+  # Nginx reverse proxy (TLS termination)
+  # --------------------------------------------------------------------------
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+    networks:
+      - internal
+    depends_on:
+      - frontend
+      - backend
+
+networks:
+  internal:
+    driver: bridge
+
+# =============================================================================
+# EU Hosting Checklist (verify before deployment):
+# =============================================================================
+# [ ] Hetzner / OVH / AWS eu-central-1 server selected
+# [ ] Cloudflare R2 eu bucket OR S3 eu-central-1 bucket configured
+# [ ] SMTP provider hosted in EU (Hetzner Mail / mailcow self-hosted)
+# [ ] Supabase: EU region (eu-central-1) or self-hosted on EU VPS
+# [ ] LOGICC inference location: confirm EU processing with LOGICC contractually
+# [ ] TLS certificates provisioned (Let's Encrypt certbot or acme.sh)
+# [ ] Backups encrypted and stored in EU (e.g., Hetzner Object Storage Frankfurt)
+# [ ] Log aggregation in EU (Grafana Cloud EU or self-hosted)
+# =============================================================================

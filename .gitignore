@@ -1,0 +1,19 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+.env.local
+
+# Abhaengigkeiten / Build
+node_modules/
+.next/
+__pycache__/
+
+# Eingebettete Fremd-Repos (eigene Git-Historie)
+/erbrechts-helfer-ai/
+/mike/
+/vendor/klotzkette/
+
+# Lokale Tool-Einstellungen
+.claude/settings.local.json

@@ -1,0 +1,8 @@
+.env
+.dd-radar/
+__pycache__/
+*.pyc
+.pytest_cache/
+DD-Radar_*.xlsx
+DD-Radar_*.docx
+DD-Radar_*.html
