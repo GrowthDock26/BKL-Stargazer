@@ -1,0 +1,21 @@
+{
+  "name": "fachanwalt-transport-speditionsrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Transport- und Speditionsrecht. HGB §§ 407 ff. Frachtvertrag §§ 453 ff. Spedition CMR COTIF Montrealer Übereinkommen Haager Visby Regeln ADSp. Schnittstelle Plugin kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "transportrecht",
+    "speditionsrecht",
+    "fachanwalt",
+    "hgb-frachtrecht",
+    "cmr",
+    "cotif",
+    "montrealer-uebereinkommen",
+    "haager-visby",
+    "seehandel"
+  ]
+}

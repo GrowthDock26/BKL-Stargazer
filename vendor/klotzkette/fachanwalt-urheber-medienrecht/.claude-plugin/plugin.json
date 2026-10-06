@@ -1,0 +1,21 @@
+{
+  "name": "fachanwalt-urheber-medienrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Urheber- und Medienrecht. UrhG UWG KUG Recht am eigenen Bild Presserecht Persoenlichkeitsrecht Medienstaatsvertrag. Schnittstellen Plugin gewerblicher-rechtsschutz verlagsredaktion kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "urheberrecht",
+    "medienrecht",
+    "fachanwalt",
+    "urhg",
+    "kug",
+    "uwg",
+    "presserecht",
+    "persoenlichkeitsrecht",
+    "rundfunk"
+  ]
+}

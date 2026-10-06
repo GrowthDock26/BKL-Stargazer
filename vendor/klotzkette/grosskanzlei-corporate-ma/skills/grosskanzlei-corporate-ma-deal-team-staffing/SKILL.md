@@ -1,0 +1,75 @@
+---
+name: grosskanzlei-corporate-ma-deal-team-staffing
+description: "Deal-Team-Besetzung und Staffing-Plan für Corporate/M&A-Transaktionen: Anwendungsfall Senior-Partner oder Team-Lead muss Workstreams Anwalt, Counsel, Associate, Paralegals und externe Spezialisten zuweisen. §§ 43a BRAO Interessenkonflikte, § 3a RVG Budget. Prüfraster Workstream-Anforderungen, Erfahrungslevel, Interessenkonflikt-Check, Budget-Kapazitaet, Schnittstellen. Output Staffing-Matrix mit Workstream, Owner, Backup, Stunden-Budget und Eskalationspfad. Abgrenzung zu Deal-PMO-Steps-Plan für Fristen und zu Konflikt-GwG-Sanktions-Check für Mandat-Annahme."
+---
+
+# Deal-Team und Staffing
+
+## Zweck
+
+Plant Workstreams, Rollen, Kapazitäten, Review-Level und Eskalationswege für große Transaktionen.
+
+## Arbeitsmodus
+
+- Workstreams Recht, Tax, Finance, ESG, IP/IT, Employment, Regulatory, Litigation, Real Estate und PMI anlegen.
+- Owner, Reviewer, Partner, Mandant und Deadline je Workstream bestimmen.
+- Follow-the-sun oder Multi-Jurisdiction-Setup abbilden.
+- Überlastung und Review-Lücken sichtbar machen.
+
+## Rote Schwellen
+
+- Kein Senior Review für Red Flags.
+- Keine klare Mandantenfreigabe.
+- Materiality-Schwellen ohne Owner.
+
+## Standardausgabe
+
+- Kurze Deal-Karte mit Phase, Rolle, Owner, Frist, Risiko, nächster Aktion und Freigabegrad.
+- Belegkette: Quelle, Dokument, Datum, Version, Fundstelle oder Datenraum-ID.
+- Offene Punkte als `TODO` mit Owner und Eskalationsstufe.
+- Bei hohem Risiko immer Human-in-the-loop und Senior Review verlangen.
+
+## Übergabe an andere Skills
+
+- Komplexe Eingänge zuerst an `grosskanzlei-corporate-ma-kommandocenter` zurückspielen.
+- Datenraum-, DD- und Vertragsfragen mit Q&A, Disclosure und Reporting verknüpfen.
+- Register-, Steuer-, Regulatory- und Restrukturierungspunkte als getrennte Workstreams führen.
+
+## Vorlagen
+
+- assets/templates/deal-team-staffing-plan.md
+- assets/templates/authority-matrix.md
+
+## Triage
+
+1. Was ist die Deal-Komplexitaet — Gross-Transaktion (Cross-border, Multi-Jurisdiktion) oder Standard-M&A?
+2. Welche Workstreams sind zu besetzen — Corporate, Steuer, Arbeitsrecht, IP, Real Estate, Regulatory, Finance?
+3. Welche Kapazitaeten sind intern verfuegbar — Senior Associate, Associate, Partner?
+4. Sind externe Co-Counsel oder lokale Kanzleien fuer andere Jurisdiktionen erforderlich?
+5. Was ist das Honorarbudget und die Abrechnungsstruktur — Time-Based, Capped Fee, Success Fee?
+
+## Zentrale Rechtsgrundlagen
+
+- § 43a BRAO — Interessenkonflikt innerhalb des Deal-Teams: jeder Teamanwalt muss conflicts-geprueft sein
+- §§ 10, 11 GwG — GwG-Pflichten gelten fuer alle eingebundenen Berufsträger; Teamleiter traegt Gesamtverantwortung
+- § 49b BRAO — Honorarvereinbarung: bei M&A-Mandaten vertragliche Vereinbarung ueber Abrechnungsmodalitaeten; schriftliche Basis empfohlen
+
+## Aktuelle Rechtsprechung
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Schritt-fuer-Schritt-Workflow
+
+1. **Workstream-Matrix erstellen:** je Workstream: Leader, Reviewer, Associate, Deadline
+2. **Kapazitaetspruefung:** interne Verfuegbarkeit pruefen; bei Engpass: Co-Counsel-Einbindung
+3. **Conflicts-Check fuer gesamtes Team:** § 43a BRAO; alle Teamanwaltseintragungen im Conflicts-System
+4. **Eskalationswege definieren:** wer entscheidet bei Red Flag, Deal-Breaker, Media-Anfragen?
+5. **Honorarstruktur abstimmen:** Budget-Tracking, weekly Status, Kunden-Reporting
+
+## Rote Schwellen
+
+- Workstream ohne qualifizierten Spezialisten: Haftungsrisiko
+- Kein Conflicts-Check fuer Team-Mitglieder: § 43a BRAO-Verstoß

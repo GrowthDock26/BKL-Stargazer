@@ -1,0 +1,10 @@
+{
+  "name": "prozessrecht",
+  "version": "52.2.1",
+  "description": "Prozessrechtliche Skills für Mandate, Fristen, Mahnbescheid, Eilverfahren, Vollstreckung und Schriftsätze.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht"
+}

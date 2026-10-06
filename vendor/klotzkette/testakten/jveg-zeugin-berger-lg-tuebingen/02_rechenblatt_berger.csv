@@ -1,0 +1,5 @@
+position,norm,eingabe,rechnung,beantragt,pruefansatz,belegstatus,notiz
+Fahrtkosten,§ 5 Abs. 2 JVEG,2500 km * 0.35 EUR,875.00,875.00,875.00,Route offen aber plausibel,Gericht erkennt Satz ausdrücklich an
+Übernachtung,§ 6 JVEG,2 Nächte ca. 200 EUR,200.00,200.00,160.00 bei 80 EUR Cap,Hotelrechnung erforderlich,Notwendigkeit wegen 13h Fahrt je Strecke plausibel
+Verdienstausfall,§ 22 JVEG,24h * 22 EUR,528.00,528.00,528.00 bei Belegen,Belege fehlen,Netto/Brutto und Selbständigkeit klären
+Vorschuss,§ 3 JVEG,Fahrtkosten + Übernachtung,,1075.00,1035.00 ohne VE,Antrag vorhanden,Bedürftigkeit nicht alleiniges Tatbestandsmerkmal

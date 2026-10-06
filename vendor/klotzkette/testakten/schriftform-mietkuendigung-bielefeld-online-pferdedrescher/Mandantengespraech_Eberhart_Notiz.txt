@@ -1,0 +1,72 @@
+MANDANTENGESPRAECH -- NOTIZ
+Hassenstein-Heepen Rechtsanwaelte
+Az. HH/2022/0884/qES
+
+Datum: 19. April 2022, ca. 09:15 Uhr (Telefonat, ca. 38 Minuten)
+Notiert von: Dr. Veronika Hassenstein-Heepen
+Mandant: Goetz-Sieghart Eberhart-Wolframshausen, Eckendorfer Str. 188, App. 4 OG, 33609 Bielefeld
+
+======================================================
+ROEHER GESPRAECHSINHALT (Stichpunkte/teilweise woertlich)
+======================================================
+
+HINTERGRUND (Mandant erzaehlt):
+- Wohnt seit April 2017 in der Wohnung, Miete EUR 648,97/Monat
+- Hat tatsaechlich zeitweise weniger gezahlt (bestreitet aber Hoehe des Rueckstands)
+- "Ich habe IMMER gezahlt, nur manchmal spaeter oder weniger. Das Leben ist teuer."
+- Vermieterin hat am 08./09.02. per WhatsApp gemahnt ("schon wieder WhatsApp!")
+- Am 10.02.: Sprachnachricht auf WhatsApp -- "sowas als Kuendigung???"
+- Dann noch E-Mail mit PDF ohne Signatur -- "ich bin IT-Admin, ich weiss was eine qES ist!"
+- Mandant arbeitet als Senior IT-Administrator bei einem mittelstaendischen Unternehmen
+  in Bielefeld-Schildesche. Hat eindeutig technisches Vorwissen re: digitale Signaturen.
+
+ZUR KUENDIGUNG:
+- Mandant bestreitet Wirksamkeit der Kuendigung vom 10.02. (WhatsApp + E-Mail ohne qES)
+- "Das ist doch klar. § 568 BGB sagt Schriftform. § 126a BGB sagt qES. Die hat sie nicht."
+- Zur Klageschrift: "Ich kriege den Ausdruck. Da steht Transfervermerk drueber. Ein AUSDRUCK
+  ist kein elektronisches Dokument. Ich kann die Signatur da nicht pruefen."
+- Hat eigenhaendig (ohne Anwalt!) Klageerwiderung geschrieben und einreicht [sic!!]
+  --> Muss ich lesen, klingt aber gar nicht schlecht laut Mandant.
+
+FORDERUNGSHOEHE:
+- Vermieterin behauptet EUR 1.696,31 Rueckstand
+- Mandant sagt: "Das stimmt nicht! Ich habe in 2021 immer EUR 800,-- gezahlt statt 648,97.
+  Das sind Ueberzahlungen von ueber EUR 1.800,-- die verrechnet werden muessen!"
+- --> Pruefung: Kontoauszuege anfordern. Klaegerin hat wohl Kontoauszug als Anlage K-MIET-2
+  beigefuegt -- muss ich analysieren.
+
+MANDANT-WUNSCH:
+- "Ich will in der Wohnung bleiben. Ich zahle jetzt regelmaessig."
+- "Aber ich will auch, dass dieses rechtliche Argument zum BGH kommt. Das ist wichtig!"
+- "Koennen wir nicht einfach sagen: Kuendigung unwirksam, ich zahle den Rest, Thema erledigt?"
+  --> Erklaert: Das ist der optimale Ausgang, aber Klaegerin koennte erneut wirksam kuendigen.
+
+RECHTLICHE ERSTEINSCHAETZUNG (vorlaeufig!):
+- § 568 Abs. 1 BGB: Schriftform erforderlich
+- WhatsApp-Sprachnachricht: eindeutig unwirksam
+- E-Mail ohne qES: unwirksam (§ 125 BGB)
+- Klageschrift mit qES via Gerichtsausdruck: SPANNENDE Rechtsfrage!
+  -- § 130 Abs. 1 S. 1 BGB: Zugang muss in der Form erfolgen
+  -- Zweck der qES-Form: Echtheitsgewaehr, Pruefbarkeit durch Empfaenger
+  -- Ausdruck: Empfaenger kann Signatur NICHT pruefen -- Zweck nicht erfuellt?
+  -- Instanzrechtsprechung uneinheitlich (OLG Frankfurt, LG Berlin Tendenz: Ausdruck genuegt nicht)
+  -- BGH hat das noch nicht entschieden -- gute Revisionsfrage!
+
+NAECHSTE SCHRITTE:
+[ ] Vollmacht unterschrieben abholen
+[ ] Klageerwiderung des Mandanten (eigenhaendig) lesen
+[ ] Kontoauszuege Mandant anfordern (Zahlungsnachweise 2021)
+[ ] Schriftliche Stellungnahme zur Forderungshoehe vorbereiten
+[ ] Antrag auf Akteneinsicht AG Bielefeld
+
+PERSOENLICHE NOTIZ:
+Mandant ist sehr eigenstaendig und technisch versiert. Kein typischer Mieter. Hat die
+Rechtslage zu §§ 126a/130 BGB fuer sich allein herausgearbeitet -- mit Google, aber trotzdem
+beeindruckend. Wenn der BGH sein Argument bestaetigt, wird er nicht still darueber sein. ;-)
+Ggf. Presseanfragen vorbereiten wenn Fall oeffentlich wird.
+
+[Handschriftlicher Zusatz am Rand, spaeter:]
+"BGH hat Recht gegeben -- Nov. 2024! Mandant wollte partout Mietrecht-YouTuber werden. 😄"
+
+======================================================
+Erstellt fuer Plugin schriftform-und-textform-bgb

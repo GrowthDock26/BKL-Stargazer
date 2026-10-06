@@ -1,0 +1,63 @@
+MANDANTENNOTIZ — VERTRAULICH § 43a BRAO
+Datum: 06.05.2026, 14:30–15:45 Uhr, Besprechungsraum 2
+Anwalt: [Kanzlei intern]
+Mandant: Marcus Weber, geb. 12.09.1981, Berliner Str. 42, 10243 Berlin
+Tel.: 0172 / 4 83 21 09
+E-Mail: m.weber.berlin@protonmail.com
+
+SACHVERHALT (lt. Mandant)
+
+Beschäftigt seit 01.03.2018 als Senior IT-Admin bei TechLogix GmbH, Berlin.
+Zuletzt EUR 4.850 brutto/Monat (letzte Gehaltserhöhung Jan 2025).
+Keine schriftlichen Nachträge zum AV — nur mündliche Zusagen laut Mandant.
+
+Kündigung zugegangen am 30.04.2026 per Botenzustellung, ca. 16:42 Uhr.
+Einwurf in Hausbriefkasten Berliner Str. 42. Zeugin: Dorothea Koslowski, 1. OG.
+Koslowski war gerade auf dem Weg raus, hat den Boten gesehen, Original-Briefumschlag
+liegt beim Mandanten (Poststempel fehlt, kein Einschreiben).
+
+Ende März 2026 (Mandant: "so um den 25. herum"): Gespräch mit GF Kreutzfeldt.
+Kein Termin, spontan ins Büro gerufen. Sinngemäß: IT wird ausgelagert an DataFlow
+Solutions GmbH, Frankfurt. Stelle fällt weg. Kein Protokoll, Mandant hat Notiz
+gemacht (liegt vor als Anlage).
+Kreutzfeldt soll gesagt haben: "Wir sind noch in Verhandlungen, aber das ist beschlossen."
+
+Betriebsrat: Torsten Hähnel, BR-Vorsitz. Mandant hat ihn angerufen nach Erhalt Kündigung.
+Hähnel: "Wir haben das Anhörungsschreiben zu spät bekommen, ich hab aber nichts gemacht."
+— Was genau "zu spät" heißt: unklar. Kein Widerspruch eingelegt.
+Hähnel will Mandant nicht schriftlich bestätigen. Telefonisch nur informell.
+
+Vergleichbare AN im Betrieb (IT-Bereich, laut Mandant):
+1. Felix Grunewald — Junior Admin, ca. 32 J., ledig, keine Kinder, seit ca. Feb 2024
+2. Petra Sonnleitner — IT-Administratorin, ca. 51 J., 1 Kind (14), seit ca. Jun 2018
+   Sonnleitner hat laut Weber einen "Behindertenausweis, aber nur GdB 30, sie nutzt ihn nie"
+
+Betriebsgröße: Weber schätzt 22–25 AN. HR-Liste nicht vorgelegt.
+Kein Massenentlassungsverfahren nach § 17 KSchG (unter 10 Entlassungen).
+
+MANDATE WUNSCH
+1. Vorrangig: Weiterbeschäftigung, Kündigung angreifen
+2. Hilfsweise: Abfindung (Weber fragt nach "Faustformel")
+3. Keine Einigung unter EUR 25.000 — das sagte er explizit
+
+RECHTLICHES (erste Einschätzung Kanzlei)
+- Frist § 4 KSchG: läuft 20.05.2026 (Mittwoch) ab → KRITISCH, 14 Tage noch
+- KSchG anwendbar: ja (> 10 AN, > 6 Monate BZ)
+- Sozialauswahl: Grunewald klar schutzwürdiger als Weber? Nein — Weber hat längere BZ
+  und 2 Kinder. Sonnleitner: 8 J. BZ, 1 Kind, GdB 30 → evtl. Sonderschutz § 168 SGB IX?
+  → Prüfen ob GdB 30 ausreicht (nein: § 168 SGB IX erst ab GdB 50) aber Auswahlpunkte!
+- BR-Anhörung: Timing prüfen, Vollständigkeit prüfen → Formfehler möglich
+- DataFlow-Auftrag: wenn noch nicht unterschrieben → Wegfall BdB nicht nachgewiesen
+
+WEITERES
+Kostenbelehrung § 12a ArbGG erteilt (kein Kostenerstattungsanspruch 1. Instanz).
+PKH geprüft: Nettoeinkommen ca. EUR 3.200 + Kindergeld → knapp über Grenze, keine PKH.
+Vollmacht unterschrieben (Anlage).
+Terminvereinbarung Folgegespräch: 13.05.2026, 10:00 Uhr.
+
+OFFENE PUNKTE KANZLEI
+[ ] Klageschrift vorbereiten bis 14.05.
+[ ] Koslowski als Zeugin nochmal schriftlich anfragen
+[ ] HR-Liste TechLogix (23 AN?) verifizieren
+[ ] BR-Anhörungsunterlagen anfordern (§ 102 Abs. 4 BetrVG?)
+[ ] DataFlow-Vertragsstand recherchieren (Handelsregister, Presse?)

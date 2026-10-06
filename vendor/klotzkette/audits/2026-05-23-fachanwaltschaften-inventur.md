@@ -1,0 +1,173 @@
+## fachanwalt-agrarrecht
+  - mandat-triage-agrarrecht
+  - fachanwalt-agrarrecht-orientierung
+  - fachanwalt-agrarrecht-hoefe-uebergabe
+  - fachanwalt-agrarrecht-eu-agrarfoerderung
+  - fachanwalt-agrarrecht-duenge-ordnungswidrigkeit
+  - landpacht-und-hoferbfolge-pruefen
+  - sammelantrag-gap-checkliste
+## fachanwalt-arbeitsrecht
+  - fachanwalt-arbeitsrecht-befristung-tzbfg
+  - fachanwalt-arbeitsrecht-betriebsratsanhoerung
+  - fachanwalt-arbeitsrecht-kuendigungsschutzklage
+  - fachanwalt-arbeitsrecht-orientierung
+## fachanwalt-bank-kapitalmarktrecht
+  - fachanwalt-bank-kapitalmarktrecht-orientierung
+  - fachanwalt-bank-kapitalmarktrecht-anlageberatung-fehlerhaft
+  - fachanwalt-bank-kapitalmarktrecht-kreditkuendigung
+  - fachanwalt-bank-kapitalmarktrecht-schufa-eintrag
+  - anlageberatungsfehler-pruefen
+  - mandat-triage-bank-kapitalmarktrecht
+  - widerrufsjoker-immobiliendarlehen
+## fachanwalt-bau-architektenrecht
+  - nachtragsmanagement-650b
+  - fachanwalt-bau-architektenrecht-orientierung
+  - fachanwalt-bau-architektenrecht-werkmangel-pruefen
+  - fachanwalt-bau-architektenrecht-abnahme-mit-vorbehalt
+  - fachanwalt-bau-architektenrecht-bauablauf-vbg
+  - mandat-triage-bau-architektenrecht
+  - werkmangel-vob-bgb-pruefen
+## fachanwalt-erbrecht
+  - mandat-triage-erbrecht
+  - fachanwalt-erbrecht-orientierung
+  - fachanwalt-erbrecht-pflichtteilsberechnung
+  - fachanwalt-erbrecht-testamentsentwurf
+  - fachanwalt-erbrecht-erbschein-antrag
+  - pflichtteil-berechnen
+  - nachlassinsolvenz-erbenhaftung-begrenzen
+## fachanwalt-familienrecht
+  - fachanwalt-familienrecht-orientierung
+  - fachanwalt-familienrecht-zugewinnausgleich-berechnen
+  - fachanwalt-familienrecht-unterhaltsberechnung
+  - fachanwalt-familienrecht-scheidungsantrag-stellen
+  - mandat-triage-familienrecht
+  - unterhalt-duesseldorfer-tabelle
+  - umgangsregelung-mustervorlagen
+## fachanwalt-gewerblicher-rechtsschutz
+  - fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg
+  - fachanwalt-gewerblicher-rechtsschutz-designverletzung
+  - fachanwalt-gewerblicher-rechtsschutz-markenanmeldung
+  - fachanwalt-gewerblicher-rechtsschutz-orientierung
+## fachanwalt-handels-gesellschaftsrecht
+  - fachanwalt-handels-gesellschaftsrecht-geschaeftsfuehrerhaftung
+  - fachanwalt-handels-gesellschaftsrecht-gesellschafterstreit
+  - fachanwalt-handels-gesellschaftsrecht-handelsvertreterausgleich
+  - fachanwalt-handels-gesellschaftsrecht-orientierung
+## fachanwalt-insolvenz-sanierungsrecht
+  - fachanwalt-insolvenz-sanierungsrecht-glaeubigerantrag
+  - fachanwalt-insolvenz-sanierungsrecht-insolvenzanfechtung
+  - fachanwalt-insolvenz-sanierungsrecht-orientierung
+  - fachanwalt-insolvenz-sanierungsrecht-restrukturierungsplan
+## fachanwalt-internationales-wirtschaftsrecht
+  - mandat-triage-iwr
+  - fachanwalt-internationales-wirtschaftsrecht-orientierung
+  - fachanwalt-internationales-wirtschaftsrecht-rom-i-anwendbarkeit
+  - fachanwalt-internationales-wirtschaftsrecht-schiedsklausel
+  - gerichtsstand-und-rechtswahl-pruefen
+  - fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung
+  - sanktions-compliance-pruefung
+## fachanwalt-it-recht
+  - mandat-triage-it-recht
+  - fachanwalt-it-recht-orientierung
+  - fachanwalt-it-recht-software-mangel
+  - fachanwalt-it-recht-datenschutz-folgenabschaetzung
+  - fachanwalt-it-recht-vertragsstrafe-pruefen
+  - softwarefehler-mangelhaftung-pruefen
+  - cyber-incident-response-72h
+## fachanwalt-medizinrecht
+  - fachanwalt-medizinrecht-orientierung
+  - fachanwalt-medizinrecht-behandlungsfehler-pruefen
+  - fachanwalt-medizinrecht-aufklaerungsfehler
+  - fachanwalt-medizinrecht-kassenarztrecht
+  - behandlungsfehler-anspruch-pruefen
+  - mandat-triage-medizinrecht
+  - aufklaerungsfehler-beweisstrategie
+## fachanwalt-miet-wohnungseigentumsrecht
+  - fachanwalt-miet-wohnungseigentumsrecht-kuendigung
+  - fachanwalt-miet-wohnungseigentumsrecht-mieterhoehung
+  - fachanwalt-miet-wohnungseigentumsrecht-orientierung
+  - fachanwalt-miet-wohnungseigentumsrecht-weg-beschlussanfechtung
+## fachanwalt-migrationsrecht
+  - fachanwalt-migrationsrecht-orientierung
+  - fachanwalt-migrationsrecht-aufenthaltstitel-antrag
+  - fachanwalt-migrationsrecht-abschiebungsabwehr
+  - fachanwalt-migrationsrecht-einbuergerung
+  - aufenthaltstitel-pruefung
+  - mandat-triage-migrationsrecht
+  - asyl-anhoerung-vorbereiten
+## fachanwalt-sozialrecht
+  - fachanwalt-sozialrecht-erwerbsminderungsrente
+  - fachanwalt-sozialrecht-orientierung
+  - fachanwalt-sozialrecht-sgb-ii-bescheid
+  - fachanwalt-sozialrecht-widerspruch-sozialleistung
+## fachanwalt-sportrecht
+  - mandat-triage-sportrecht
+  - fachanwalt-sportrecht-orientierung
+  - fachanwalt-sportrecht-spielervertrag
+  - fachanwalt-sportrecht-doping-verfahren
+  - fachanwalt-sportrecht-vereinsstrafrecht
+  - verbandsstrafe-anfechten
+  - cas-berufung-vorbereiten
+## fachanwalt-steuerrecht
+  - fachanwalt-steuerrecht-betriebspruefung
+  - fachanwalt-steuerrecht-einspruch-finanzamt
+  - fachanwalt-steuerrecht-orientierung
+  - fachanwalt-steuerrecht-selbstanzeige
+## fachanwalt-strafrecht
+  - mandat-triage-strafrecht
+  - fachanwalt-strafrecht-orientierung
+  - fachanwalt-strafrecht-akteneinsicht-beantragen
+  - fachanwalt-strafrecht-einlassung-vorbereiten
+  - fachanwalt-strafrecht-hauptverhandlung-vorbereiten
+  - akteneinsicht-strafrecht-auswerten
+  - plaedoyer-vorbereitung-strafverteidigung
+## fachanwalt-transport-speditionsrecht
+  - fachanwalt-transport-speditionsrecht-orientierung
+  - fachanwalt-transport-speditionsrecht-cmr-haftung
+  - fachanwalt-transport-speditionsrecht-ladungsschaden
+  - fachanwalt-transport-speditionsrecht-lieferverzug
+  - frachtfuehrerhaftung-pruefen
+  - mandat-triage-transport-speditionsrecht
+  - reklamationsschreiben-cmr-hgb
+## fachanwalt-urheber-medienrecht
+  - gegendarstellung-presse
+  - fachanwalt-urheber-medienrecht-orientierung
+  - fachanwalt-urheber-medienrecht-abmahnung-pruefen
+  - fachanwalt-urheber-medienrecht-mod-erklaerung
+  - fachanwalt-urheber-medienrecht-presse-gegendarstellung
+  - mandat-triage-urheber-medienrecht
+  - urheber-abmahnung-pruefen
+## fachanwalt-vergaberecht
+  - fachanwalt-vergaberecht-orientierung
+  - fachanwalt-vergaberecht-nachpruefungsantrag-vk
+  - fachanwalt-vergaberecht-ruege-vor-zuschlag
+  - fachanwalt-vergaberecht-eignungspruefung
+  - mandat-triage-vergaberecht
+  - vergabe-nachpruefung-aussicht
+  - ruegeschriftsatz-erstellen
+## fachanwalt-verkehrsrecht
+  - fachanwalt-verkehrsrecht-orientierung
+  - fachanwalt-verkehrsrecht-bussgeldbescheid-pruefen
+  - fachanwalt-verkehrsrecht-regulierungsanforderung
+  - fachanwalt-verkehrsrecht-fahrerlaubnis-entzug
+  - mandat-triage-verkehrsrecht
+  - unfall-haftungsquote-berechnen
+  - bussgeld-einspruch-pruefen
+## fachanwalt-versicherungsrecht
+  - deckungsanfrage-pruefen
+  - fachanwalt-versicherungsrecht-orientierung
+  - fachanwalt-versicherungsrecht-leistungsablehnung-pruefen
+  - fachanwalt-versicherungsrecht-deckungsklage
+  - fachanwalt-versicherungsrecht-regress-abwehr
+  - mandat-triage-versicherungsrecht
+  - klage-versicherer-strategie
+## fachanwalt-verwaltungsrecht
+  - eilantrag-80-abs-5-vwgo
+  - fachanwalt-verwaltungsrecht-orientierung
+  - fachanwalt-verwaltungsrecht-widerspruchsschrift
+  - fachanwalt-verwaltungsrecht-anfechtungsklage
+  - fachanwalt-verwaltungsrecht-einstweiliger-rechtsschutz
+  - mandat-triage-verwaltungsrecht
+  - widerspruch-oder-klage-erstpruefung
+  - energieanlagen-bimschg-genehmigung-verfahren
+  - energietrassen-planfeststellung-rechtsschutz

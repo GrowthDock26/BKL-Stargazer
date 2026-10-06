@@ -1,0 +1,78 @@
+Persönliche Notiz — Dr. Carolin Vogt-Hesselbach
+Datum: 14.05.2026, 17:42 Uhr
+Anlass: Telko mit Frederik Schöning (Earlybird Venture Capital, General Partner)
+Dauer: ca. 45 Minuten
+
+---
+
+ZUSAMMENFASSUNG TELKO FREDERIK SCHÖNING (EARLYBIRD) — 14.05.2026
+
+Generelle Stimmung: Frederik ist optimistisch, was die Entwicklung von Paragrafix angeht. 
+Er hat die April-BWA und das MRR-Update gesehen und findet die +12 % MoM-Wachstumskurve 
+stark. Allerdings macht er sich Sorgen, dass wir den ARR-Meilenstein (2,5 Mio EUR bis 
+Ende Juni) nicht mehr schaffen — wir stehen aktuell bei ca. 2,25 Mio EUR ARR, was eine 
+Lücke von ca. 250.000 EUR bedeutet. Das entspricht in etwa 4–5 Monaten organischem 
+Wachstum bei unserem aktuellen Tempo.
+
+KERNAUSSAGEN FREDERIK:
+
+1. "We will not leave you hanging." — Klares Signal, dass Earlybird nicht einfach 
+   abtaucht. Er sieht unsere Lage als "manageable but needs to be addressed urgently".
+
+2. Er will bis zum 15. Juni 2026 einen harten Milestone-Nachweis: 
+   - ARR-Zahl per 31. Mai (nicht 30. Juni) mit belastbarer Projektion auf Ende Juni
+   - Liste der neuen zahlenden Kunden seit 01.04.
+   - NRR-Kohorten-Auswertung aus HubSpot
+   - Bestätigung unserer Steuerberaterin (Steiglitz) über die Buchführungszahlen
+
+3. Seine bevorzugte Lösung wäre NICHT die volle Tranche 2 (3,0 Mio EUR) —
+   er möchte stattdessen eine Bridge von 1,5 Mio EUR aus dem Investorenkonsortium 
+   (Earlybird + ggf. Cherry Ventures je 50/50). Das wäre als Wandeldarlehen 
+   strukturiert, kein Equity jetzt. Wandlung in Series B.
+   
+   → Er findet das "fair" — ich auch. Weniger Dilution für uns jetzt, mehr Flexibilität.
+   
+   → ABER: das bedeutet, wir haben dann insgesamt nur 1,5 Mio aus Tranche 2 statt 3,0 Mio. 
+     Cash-Runway würde dann bis ca. Ende Q1 2027 reichen, nicht bis Mitte 2027. 
+     Wir müssen SEHR schnell wachsen und/oder die Kosten weiter drücken.
+
+4. Er erwähnte auch, dass Cherry Ventures (Hauke Moje sprach gestern mit ihm) 
+   prinzipiell mitziehen würde, aber keine Alleingänge macht. Wenn Earlybird 
+   committet, macht Cherry 500k mit.
+
+WAS ICH DENKE / TO-DOS:
+
+- Das finde ich in Ordnung als Deal-Struktur. Lieber 1,5 Mio sicher als 3,0 Mio 
+  unsicher. Mit den Kostensenkungsmaßnahmen (kein Senior-Sales-Hire, 
+  kein zweiter CS-Manager) kommen wir damit durch bis Series B.
+
+- MUSS mit Yannik durchsprechen: Vor allem wegen der Implikationen für 
+  den Tech-Hiring-Plan H2 2026. Er hat uns eine ML Engineer-Pipeline aufgebaut,
+  die wir jetzt vielleicht einfrieren müssen. Das wird ein schwieriges Gespräch.
+  
+- Termin mit Yannik: Morgen 15.05.2026, 09:00 Uhr, Konferenzraum "Heide"
+
+- Rechtliche Schritte: 
+  * Rechtsanwalt Dr. Krauss (Krauss & Partner, Insolvenzrecht) muss in CC sein 
+    bei allem was wir jetzt dokumentieren
+  * Steiglitz für formale Fortbestehensprognose bis 20.05.2026 beauftragen
+    (haben wir schon gemacht, sie hat zugesagt)
+  * Term Sheet Wandeldarlehen von Orrick entwerfen lassen bis 20.05. 
+    (Orrick Berlin, Ansprechpartnerin: Katharina Lühr)
+
+- Kommunikation an Gesellschafter-Ausschuss: Formales Update-Memo bis 16.05.2026
+  (liegt als Entwurf bei Datei 13_Sanierungsbausteine_Memo.docx)
+
+PERSÖNLICHE EINSCHÄTZUNG:
+Wir sind in einer engen, aber lösbaren Situation. Die Produkt-Traktion ist da 
+(+12% MoM, 213 Kunden, gutes NPS-Feedback). Das Hauptrisiko ist timing — wenn 
+Tranche 2 oder Bridge sich verzögert UND die Großkunden-Voraus-Zahlung nicht klappt, 
+wird es eng. Ich schlafe derzeit wenig, aber ich bin nicht panisch. 
+Wir haben Werkzeug, wir haben Unterstützung, wir müssen jetzt liefern.
+
+-- Carolin
+
+P.S.: Bitte diese Notiz in der Fortbestehensprognose-Akte ablegen 
+(Ordner: fortbestehensprognose-paragrafix-gmbh). Sie ist Bestandteil der 
+Selbstdokumentation der Geschäftsführerin nach § 19 Abs. 2 InsO i. V. m. 
+den Sorgfaltspflichten gemäß § 43 GmbHG.

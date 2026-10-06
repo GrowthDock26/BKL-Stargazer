@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Insolvenzverwaltung - IV-Cockpit</title>
+  <style>
+    :root { color-scheme: light; --ink:#162033; --muted:#526070; --line:#d8e0ea; --panel:#ffffff; --blue:#214e7a; --silver:#edf2f7; --orange:#d96d1f; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif; color:var(--ink); background:linear-gradient(135deg,#f7fafc 0%,#e7edf4 54%,#fff7ef 100%); }
+    main { width:min(1160px, calc(100% - 32px)); margin:0 auto; padding:40px 0 56px; }
+    .hero { display:grid; grid-template-columns: 1.15fr .85fr; gap:24px; align-items:stretch; min-height:420px; }
+    .copy { padding:32px 0; }
+    .eyebrow { color:var(--blue); font-weight:700; font-size:13px; letter-spacing:.02em; text-transform:uppercase; }
+    h1 { font-size: clamp(38px, 5vw, 72px); line-height:.98; letter-spacing:0; margin:14px 0 18px; max-width:760px; }
+    .lead { color:var(--muted); font-size:20px; line-height:1.5; max-width:720px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .button { display:inline-flex; align-items:center; gap:10px; min-height:44px; padding:0 16px; border-radius:8px; border:1px solid var(--line); background:#fff; color:var(--ink); text-decoration:none; font-weight:650; }
+    .button.primary { background:var(--blue); color:#fff; border-color:var(--blue); }
+    .device { border:1px solid rgba(33,78,122,.22); background:rgba(255,255,255,.82); border-radius:14px; box-shadow:0 24px 70px rgba(22,32,51,.16); overflow:hidden; align-self:center; }
+    .bar { height:42px; background:linear-gradient(90deg,#dfe8f2,#f5f8fb); display:flex; align-items:center; gap:8px; padding:0 14px; border-bottom:1px solid var(--line); }
+    .dot { width:10px; height:10px; border-radius:50%; background:#b7c4d3; }
+    .dot:nth-child(1){background:#f2a65a}.dot:nth-child(2){background:#d9b44a}.dot:nth-child(3){background:#75a47f}
+    .screen { padding:18px; display:grid; gap:14px; }
+    .row { display:grid; grid-template-columns: 1fr auto; gap:12px; align-items:center; border:1px solid var(--line); border-radius:8px; padding:14px; background:#fff; }
+    .row strong { font-size:14px; }
+    .pill { color:#7a3e00; background:#fff1df; border:1px solid #f2c99b; border-radius:999px; padding:5px 9px; font-size:12px; font-weight:700; }
+    .grid { display:grid; grid-template-columns: repeat(4, 1fr); gap:14px; margin-top:30px; }
+    .card { border:1px solid var(--line); border-radius:8px; background:rgba(255,255,255,.9); padding:16px; min-height:150px; }
+    .card span { color:var(--orange); font-weight:800; font-size:12px; text-transform:uppercase; }
+    .card h3 { margin:10px 0 8px; font-size:17px; letter-spacing:0; }
+    .card p { margin:0; color:var(--muted); line-height:1.45; font-size:14px; }
+    .band { margin-top:26px; border-top:1px solid var(--line); padding-top:20px; color:var(--muted); display:grid; grid-template-columns: repeat(3,1fr); gap:16px; }
+    .band strong { display:block; color:var(--ink); margin-bottom:6px; }
+    @media (max-width: 860px) { .hero { grid-template-columns:1fr; min-height:0; } .copy { padding:18px 0 0; } .grid { grid-template-columns:1fr 1fr; } .band { grid-template-columns:1fr; } }
+    @media (max-width: 560px) { main { width:min(100% - 22px, 1160px); padding-top:22px; } h1 { font-size:38px; } .lead { font-size:17px; } .grid { grid-template-columns:1fr; } .actions { flex-direction:column; } .button { justify-content:center; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="copy">
+        <div class="eyebrow">Freistehendes Claude-Cowork-Plugin</div>
+        <h1>Insolvenzverwaltung - IV-Cockpit</h1>
+        <p class="lead">Vom Gutachtenauftrag bis zur Schlussrechnung: ein ruhiges, schnelles IV-Cockpit für Masse, Tabelle, Anfechtung, § 15b InsO, Eigenverwaltung, Schutzschirm, Insolvenzplan, StaRUG und Gerichtberichte.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/insolvenzverwaltung.zip">Plugin-ZIP laden</a>
+          <a class="button" href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-insolvenzverwaltung-moebelwerk-havelberg-regelverfahren.zip">Akte laden</a>
+        </div>
+      </div>
+      <div class="device" aria-label="Plugin-Vorschau">
+        <div class="bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+        <div class="screen">
+          <div class="row"><strong>Eröffnungsgutachten</strong><span class="pill">Masse/Kostendeckung</span></div>
+          <div class="row"><strong>Forderungstabelle</strong><span class="pill">Prüfungstermin</span></div>
+          <div class="row"><strong>Anfechtung/§ 15b</strong><span class="pill">Massemehrung</span></div>
+          <div class="row"><strong>Schlussbericht</strong><span class="pill">Quote</span></div>
+          <div class="row"><strong>Planwerkstatt</strong><span class="pill">InsO/StaRUG</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="grid">
+      <article class="card"><span>Start</span><h3>Kommandocenter</h3><p>Erkennt Verfahrensart, Rolle, rote Schwellen und nächste sichere Aktion.</p></article>
+<article class="card"><span>File</span><h3>Akte</h3><p>Legt eine vollständige Verfahrensakte mit Tabellen, Konten und Workstreams an.</p></article>
+<article class="card"><span>Gutachten</span><h3>Eröffnungsgutachten</h3><p>Strukturiert Eröffnungsgrund, Massekostendeckung, Sicherung und Fortführung.</p></article>
+<article class="card"><span>Sicherung</span><h3>Vorläufig</h3><p>Steuert Zustimmungsvorbehalt, Kasse, Post, Banken und Sofortmaßnahmen.</p></article>
+<article class="card"><span>Betrieb</span><h3>Fortführung</h3><p>Baut Wochenplan, Cash-Bridge, Lieferantenampel und Insolvenzgeldpfad.</p></article>
+<article class="card"><span>InsO</span><h3>Regelverfahren</h3><p>Ordnet eröffnetes Regelverfahren, Masse, Tabelle, Berichte und Verwertung.</p></article>
+<article class="card"><span>Sachwalter</span><h3>Eigenverwaltung</h3><p>Trennt Schuldnerverwaltung, Sachwalterkontrolle, Haftung und Anfechtung.</p></article>
+<article class="card"><span>270d</span><h3>Schutzschirm</h3><p>Prüft Bescheinigung, Frist, Planreife und Anzeige der Zahlungsunfähigkeit.</p></article>
+<article class="card"><span>Cash</span><h3>Masseeinsammlung</h3><p>Sammelt Forderungen, Konten, Herausgabeansprüche, Rückstände und Drittrechte.</p></article>
+<article class="card"><span>Value</span><h3>Massemehrung</h3><p>Entwickelt Verwertungs-, Vergleichs-, Prozess- und Fortführungsoptionen.</p></article>
+<article class="card"><span>129 ff.</span><h3>Anfechtung</h3><p>Prüft Deckung, Vorsatz, Gesellschafterdarlehen, Bargeschäft und Klagepfad.</p></article>
+<article class="card"><span>Haftung</span><h3>§ 15b InsO</h3><p>Rekonstruiert Insolvenzreife, Zahlungen, Ausnahmen, Schaden und Klage.</p></article>
+<article class="card"><span>Tabelle</span><h3>Forderungen</h3><p>Prüft Forderungsanmeldungen auf Grund, Betrag, Rang, Belege und vbuH.</p></article>
+<article class="card"><span>Termin</span><h3>Prüfungstermin</h3><p>Bereitet Prüfungstermin, Widersprüche, Auszüge und Feststellungsklagen vor.</p></article>
+<article class="card"><span>§ 208</span><h3>Masseunzulänglichkeit</h3><p>Prüft Anzeige, Rang, Zahlungsstopp, Kommunikation und Fortverwaltung.</p></article>
+<article class="card"><span>Lohn</span><h3>Personal</h3><p>Ordnet Löhne, Insolvenzgeld, Kündigungen, Betriebsrat und Personalmaßnahmen.</p></article>
+<article class="card"><span>Tax</span><h3>Steuern/SV</h3><p>Prüft Steuerforderungen, Masseverbindlichkeiten, § 15b-Ausnahmen und SV.</p></article>
+<article class="card"><span>Report</span><h3>Berichte</h3><p>Erstellt Zwischenberichte, Ausschussberichte, Sachstandsberichte und Beschlussvorlagen.</p></article>
+<article class="card"><span>Quote</span><h3>Schluss</h3><p>Bereitet Schlussbericht, Schlussrechnung, Verteilung und Nachtragsverteilung vor.</p></article>
+<article class="card"><span>QA</span><h3>Quality Gate</h3><p>Findet Lücken, Widersprüche, Fristen, Rechenfehler und Rollenverwechslungen.</p></article>
+<article class="card"><span>Plan</span><h3>Planwerkstatt</h3><p>Erstellt Sanierungskonzept, Vergleichsrechnung, Insolvenzplan, StaRUG-Plan und Vollzugsmonitoring.</p></article>
+    </section>
+    <section class="band">
+      <p><strong>Freistehend</strong>Alle Workflows, Vorlagen und Quellenhinweise liegen im Plugin selbst.</p>
+      <p><strong>IV-Sicht</strong>Priorisiert Masseinteresse, Planfähigkeit, Gerichtsfähigkeit, Belege und Rollenreinheit.</p>
+      <p><strong>Testakte</strong>Fiktive Möbelwerk-Akte mit OPOS, Zahlungsanalyse, Tabelle, Berichten und Verteilung.</p>
+    </section>
+  </main>
+</body>
+</html>

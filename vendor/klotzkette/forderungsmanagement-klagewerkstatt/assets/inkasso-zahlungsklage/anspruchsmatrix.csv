@@ -1,0 +1,5 @@
+position,anspruchsgrundlage,betrag_eur,faelligkeit,verzug,beleg,einwendung,status,entscheidung
+Hauptforderung,§ 433 Abs. 2 BGB / vertragliche Entgeltforderung,698.00,17.04.2025,kalendermäßig oder Mahnung,Rechnung; Bestellung; Zustellung,Zahlung vor Klageeinreichung,ROT,Nicht einklagen
+Mahnkosten,§§ 280 Abs. 1 und 2; 286 BGB,5.50,nach Verzug,Mahnung und Zugang erforderlich,Mahnschreiben,Zugang/Verschulden prüfen,GELB,Nur nach Freigabe
+Verzugszinsen,§ 288 Abs. 1 BGB,10.80,ab Verzugseintritt,Verzug erforderlich,Zinsberechnung; Basiszinssatz,Verschulden/Zugang prüfen,GELB,Nur nach Freigabe
+Inkassokosten,§§ 280 Abs. 1 und 2; 286 BGB; Schadensminderung,83.54,nach Inkassoauftrag,Verzug vor Beauftragung erforderlich,Inkassorechnung; Abtretung; Auftrag,Erforderlichkeit und Höhe prüfen,GELB,Nur nach Freigabe

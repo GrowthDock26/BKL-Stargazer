@@ -1,0 +1,12 @@
+datum,ereignis,kanal,betrag_eur,frist,beleg,bewertung
+2025-04-06,Rechnung R-20250406-3098,Rechnung,698.00,2025-04-17,04_Rechnung_R-20250406-3098.pdf,Grün: Fälligkeit dokumentiert
+2025-04-20,Erste Zahlungserinnerung,E-Mail/PDF,698.00,2025-04-27,05_Erste_Zahlungserinnerung_20-04-2025.pdf,Gelb: Zugang im Streitfall prüfen
+2025-05-04,Zweite Mahnung,E-Mail,703.50,2025-05-11,06_Zweite_Mahnung_E-Mail_04-05-2025.pdf,Gelb: Mahnkosten und Zugang prüfen
+2025-05-05,Erste Mahnung Post,Post,698.00,2025-05-12,07_Erste_Mahnung_Post_05-05-2025.pdf,Gelb: Zugangsnachweis prüfen
+2025-05-22,Letzte Mahnung vor Inkasso,Post,710.30,2025-06-02,08_Zweite_Mahnung_Post_22-05-2025.pdf,Gelb: Zinsen/Mahnkosten nachrechnen
+2025-06-08,Abtretung an InkassoZentrale,Urkunde,714.30,,09_Abtretungserklaerung_08-06-2025.pdf,Grün: Aktivlegitimation grundsätzlich belegbar
+2025-06-10,Inkassoschreiben,Post,797.84,2025-06-24,10_Inkassoschreiben_10-06-2025.pdf,Gelb: Verzug vor Inkassoauftrag und Kostenhöhe prüfen
+2025-06-25,Letzte Inkassoaufforderung,Post,797.84,2025-07-02,11_Letzte_Inkassoaufforderung_25-06-2025.pdf,Gelb: Zugang streitig möglich
+2025-06-26,Zahlung Hauptforderung,Bank,698.00,,19_Kontoauszug_Altenhausen_26-06-2025.pdf,Rot für Hauptforderung ab diesem Zeitpunkt
+2025-07-01,Interne Zahlungsnotiz Inkasso,Aktenvermerk,698.00,,15_Zahlungsnotiz_Inkasso_01-07-2025.pdf,Rot: Klage auf Hauptforderung gesperrt
+2025-07-25,Klageschrift,Gericht,797.84,,23_Klageschrift_InkassoZentrale_25-07-2025.pdf,Fehler: Hauptforderung trotz Erfüllung eingeklagt

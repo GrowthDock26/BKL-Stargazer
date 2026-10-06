@@ -1,0 +1,26 @@
+Datum,Empfänger,Betrag_EUR,Kategorie,Risiko,Erstmaßnahme
+2023-03-20,Europol Sicherheitsdienst,6386.59,fake-authority,akut,Bankrückholung und Strafanzeige prüfen
+2023-10-07,Helvetica Vermögensverwaltung AG,7841.99,foreign-investment,akut,Auslandsanlage und Rückabwicklung prüfen
+2024-02-07,Europol Sicherheitsdienst,3909.82,fake-authority,hoch,weitere Telefonkontakte sichern
+2024-06-23,Helvetica Vermögensverwaltung AG,5120.64,foreign-investment,akut,Auslandsüberweisung stoppen und Vertrag prüfen
+2024-08-11,Horizon Property Development S.L.,12522.54,foreign-property,akut,Reservierungsvertrag und weitere Raten stoppen
+2024-08-17,Windpark Nordsee Beteiligungs-GmbH & Co. KG,8778.05,high-risk-investment,akut,Kommanditbeteiligung und Risikoaufklärung prüfen
+2025-01-05,Europol Sicherheitsdienst,6802.41,fake-authority,akut,Bank und Polizei einschalten
+2025-02-09,Helvetica Vermögensverwaltung AG,3459.89,foreign-investment,hoch,Depot-/Vertragsunterlagen sichern
+2025-12-09,Helvetica Vermögensverwaltung AG,6356.48,foreign-investment,akut,Auslandsüberweisung und Folgeschäden prüfen
+2024-04-23,PC-Doktor Fernwartung GmbH,119.90,remote-access,hoch,Fernwartungszugang sperren
+2025-06-09,PC-Doktor Fernwartung GmbH,89.18,remote-access,hoch,Geräteprüfung veranlassen
+2025-10-19,PC-Doktor Fernwartung GmbH,113.87,remote-access,hoch,Kündigung und Remote-Protokolle anfordern
+2023-08-18,Digital-Schutz24 GmbH,121.80,remote-access,hoch,Sicherheitssoftware und Partnerbezug prüfen
+2024-09-20,Digital-Schutz24 GmbH,130.70,remote-access,hoch,SEPA-Mandat und Nutzen prüfen
+2025-11-14,Digital-Schutz24 GmbH,143.96,remote-access,hoch,Kündigung und Zahlungsstopp prüfen
+2023-02-22,VitalPlus Gesundheitsprodukte GmbH,2231.05,senior-pressure-sale,hoch,Widerruf/Anfechtung und Lieferung prüfen
+2024-02-10,SeniorenWohl Handels GmbH,1783.70,senior-pressure-sale,mittel,Veranstaltung und Aufklärung prüfen
+2024-10-10,ThermoVital Wärmesysteme GmbH,3684.61,senior-pressure-sale,hoch,Bedarf und Widerrufsrecht prüfen
+2025-02-10,SafeGold Edelmetallhandel GmbH,3169.65,precious-assets,hoch,Lieferung und Verwahrung prüfen
+2023-04-22,Diamanten Kontor Hamburg GmbH,5368.79,precious-assets,akut,Echtheit und Rückgabe prüfen
+2024-12-16,Premium-Kontakte AG,67.77,subscription,mittel,Kündigung und Nutzen prüfen
+2025-02-08,Premium-Kontakte AG,78.91,subscription,mittel,Kündigung prüfen
+2023-02-04,NKL Nordwestdeutsche Klassenlotterie,218.74,lottery,mittel,Wunsch und Kündigung prüfen
+2025-09-06,NKL Nordwestdeutsche Klassenlotterie,210.52,lottery,mittel,SEPA-Mandat prüfen
+2025-07-05,Svetlana Petrova,500.00,private-care,mittel,Leistungsnachweis und Vertrag anfordern

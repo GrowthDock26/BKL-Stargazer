@@ -1,0 +1,6 @@
+position,norm,eingabe,rechenregel,kappung,beleg,ergebnis,risiko
+Fahrtkosten Kfz,§ 5 Abs. 2 JVEG,km_total*0.35,gefahrene Kilometer mal 0.35 EUR,nur notwendige Strecke,Streckenbeleg,EUR,gelb
+Übernachtung,§ 6 JVEG,nights*cost,notwendige auswärtige Übernachtung,BRKG/Gerichtshinweis,Hotelrechnung,EUR,gelb
+Verdienstausfall,§ 22 JVEG,hours*hourly,regelmäßiger Bruttoverdienst inkl. AG-Anteile,max 25 EUR/h und Zeitlimit,Arbeitgeber/Selbständigenbelege,EUR,rot
+Zeitversäumnis,§ 20 JVEG,hours*4,nur wenn kein Verdienstausfall/Haushaltsführung,4 EUR/h,Termin-/Reisezeit,EUR,gelb
+Haushaltsführung,§ 21 JVEG,hours*17,nur gesetzliche Voraussetzungen,max Zeitlimit,Haushalts-/Betreuungsangaben,EUR,gelb

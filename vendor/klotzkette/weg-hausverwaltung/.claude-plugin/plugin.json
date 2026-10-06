@@ -1,0 +1,31 @@
+{
+  "name": "weg-hausverwaltung",
+  "version": "52.2.1",
+  "description": "Operatives WEG- und Hausverwaltungs-Plugin fuer Beschluesse, Eigentuemerversammlung, Protokoll, Beschlusssammlung, Wirtschaftsplan, Jahresabrechnung, Hausgeld, Sonderumlage, Betriebskosten, Handwerker, bauliche Veraenderungen, Steckersolar, Wallbox, Verwalter, Beirat und Anwalt-Eskalation.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "weg",
+    "wohnungseigentum",
+    "hausverwaltung",
+    "eigentuemer",
+    "eigentuemerversammlung",
+    "beschluss",
+    "beschlusssammlung",
+    "wirtschaftsplan",
+    "jahresabrechnung",
+    "hausgeld",
+    "sonderumlage",
+    "betriebskosten",
+    "nebenkosten",
+    "handwerker",
+    "beirat",
+    "verwalter",
+    "bauliche-veraenderung",
+    "steckersolar",
+    "wallbox"
+  ]
+}

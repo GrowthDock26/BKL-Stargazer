@@ -1,0 +1,22 @@
+{
+  "name": "methodenlehre-buergerliches-recht",
+  "version": "52.2.1",
+  "description": "Methodenlehre und Rechtsanwendung im deutschen buergerlichen Recht aus Anwaltsperspektive. Gutachtenstil. Anspruchsgrundlagen-Reihenfolge. Auslegung Wortlaut System Historie Telos pragmatisch ohne starren Vorrang. Verfassungs- und unionsrechtskonforme Auslegung. Lueckenfuellung. Verjährung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "methodenlehre",
+    "rechtsanwendung",
+    "buergerliches-recht",
+    "falloesung",
+    "gutachtenstil",
+    "anspruchsgrundlagen",
+    "auslegung",
+    "verjaehrung",
+    "fristen",
+    "beweislast"
+  ]
+}

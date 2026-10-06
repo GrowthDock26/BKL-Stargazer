@@ -1,0 +1,1012 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "klotzkette-german-legal-skills",
+  "description": "Klotzkette German Legal Skills - deutsche Rechtsfaehigkeiten fuer die anwaltliche Praxis. Skills, Agenten, Ausloeser und Agentenrezepte fuer Arbeit, Vertrag, Gesellschaft, IP, Datenschutz, Prozess, Regulierung, KI-Governance, Insolvenzrecht, Liquiditaetsplanung und Steuerberater-Werkzeuge. Mit strenger Quellenhygiene: Rechtsprechung nur verifiziert; keine BeckRS-, Kommentar- oder Aufsatz-Blindzitate.",
+  "owner": {
+    "name": "Klotzkette"
+  },
+  "plugins": [
+    {
+      "name": "aktenaufbereiter-strafrecht",
+      "source": "./aktenaufbereiter-strafrecht",
+      "description": "Aktenaufbereiter für die Strafverteidigung. Sechs Excel-fähige Übersichten — Aktenvorblatt; Personenverzeichnis; Tatkomplexe; Beziehungen; Chronologie; Fristen. Fortlaufend ergaenzbar. Erkennt Luecken und Widersprueche. Kein Ersatz für Aktenlektuere.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "aktenauszug-gerichtsverfahren",
+      "source": "./aktenauszug-gerichtsverfahren",
+      "description": "Strukturierter Aktenauszug für deutsche Gerichtsverfahren: Verfahrensidentifikation Einleitungssatz Verfahrenszusammenfassung Sachverhaltschronologie Verfahrensgeschichte tabellarische Gegenüberstellung der Parteivortraege Beweismittel und Rechtsargumente für schnelle Einarbeitung in Akten.",
+      "version": "52.2.1",
+      "author": {
+        "name": "Klotzkette"
+      }
+    },
+    {
+      "name": "anlagen-zu-schriftsaetzen",
+      "source": "./anlagen-zu-schriftsaetzen",
+      "description": "Zuordnung von Anlagen zu gerichtlichen Schriftsaetzen. Sortiert PDF/Word/Excel nach Schriftsatz-Logik; konvertiert alles nach PDF; benennt beA-konform; stempelt oben rechts Anlage K1/B1/A1 in Arial 12; baut Anlagenkonvolut; Prüfmodus für bereits zugeordnete Anlagen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "arbeitsrecht",
+      "source": "./arbeitsrecht",
+      "description": "Arbeitsrechtliche Workflows fuer Kuendigung, Befristung, Urlaub, AGG, Aufhebungsvertrag, Betriebsrat, Arbeitszeit, Lohn und Expansion. Rechtsprechung wird nur mit Gericht, Datum, Aktenzeichen und verifizierbarer Quelle verwendet.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "arbeitszeugnis-analyse",
+      "source": "./arbeitszeugnis-analyse",
+      "description": "Analyse deutscher Arbeitszeugnisse nach Ampelsystem (Rot/Orange/Grün). Geheimcodes, Schaufenster-Drift, negative Codeworte, Steigerungsadverbien. Satzweise Notenmatrix, begründete Gesamtnotenspanne. Vollständiger Mandatsablauf: Erstgespräch, Mandantenbericht, Aufforderungsschreiben, Klagestrategie.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "aussenwirtschaft-zoll-sanktionen",
+      "source": "./aussenwirtschaft-zoll-sanktionen",
+      "description": "Freistehendes Plugin für Außenwirtschaft, Sanktionen, Zoll, Exportkontrolle, BAFA, TARIC, CBAM, Verbrauchsteuer, AWV, AML/KYC und Ermittlungen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "barrierefreiheit-web-checker",
+      "source": "./barrierefreiheit-web-checker",
+      "description": "Web-Barrierefreiheits-Checker für BFSG, BFSGV, BITV 2.0, EN 301 549 und WCAG: Scope, Audit, Tastatur, Screenreader, Formulare, PDFs, Erklärung, Roadmap und Abnahme.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "bav-strategie-konzern",
+      "source": "./bav-strategie-konzern",
+      "description": "Strategische Beratung zur betrieblichen Altersversorgung in Konzernen: Pensionsmodelle alle fuenf Durchführungswege CTA Pension Buyouts Drei-Stufen-Theorie Versorgungssystem-Harmonisierung internationale Benefits Restrukturierung DB-zu-DC im Duesseldorfer Boutique-Stil.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "bereicherungs-und-anfechtungsrecht-pruefer",
+      "source": "./bereicherungs-und-anfechtungsrecht-pruefer",
+      "description": "Mechanisches Durchprüfen von Bereicherungsrecht §§ 812 ff. BGB, AnfG und Insolvenzanfechtung §§ 129-147 InsO. Mit KI-Screening von Schuldnerakten, § 135 Gesellschafterdarlehen, Bargeschäft § 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "berufsrecht-ki-vertragspruefung",
+      "source": "./berufsrecht-ki-vertragspruefung",
+      "description": "Berufsrechtliche und strafrechtliche Vorprüfung von Vertraegen mit privaten Legal-AI-Anbietern. Für Anwaelte StB WP Patentanwaelte Notare. §§ 43e BRAO 62a StBerG 50a WPO 39c PAO 26a BNotO § 203 StGB. DAV-Stellungnahme. Gutachten Rückfragebrief Klauseln.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "betreuungsrecht",
+      "source": "./betreuungsrecht",
+      "description": "Betreuungsrechtliche Skills für Jahresbericht, Vermögensverzeichnis, Genehmigungspflichten, Kontoanalyse und Verdachtsverträge nach BtOG und BGB.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "bgb-at-pruefer",
+      "source": "./bgb-at-pruefer",
+      "description": "Großes Prüfplugin zum BGB Allgemeiner Teil: Vertragsschluss, Willenserklärung, Zugang, Geschäftsfähigkeit, Form, qES, beA, § 130e ZPO, § 46h ArbGG, Anfechtung, Stellvertretung, Fristen und Verjährung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "common-law-kompass",
+      "source": "./common-law-kompass",
+      "description": "Freistehendes Common-Law-Plugin für deutsche Wirtschaftsjuristen: UK/US-False-Friends, Vertragsbegriffe, Consideration, Suretyship, Indemnity, UCC, Precedent, Discovery und bilinguale Drafting-Reviews.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "corporate-kanzlei",
+      "source": "./corporate-kanzlei",
+      "description": "Corporate-Kanzlei-Plugin: Deal-Kommandocenter, Datenraum, Due Diligence, SPA/APA, Umwandlung, StaRUG, Insolvenzplan, W&I, Signing/Closing, PMI.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "datenschutzrecht",
+      "source": "./datenschutzrecht",
+      "description": "DSGVO/BDSG/TDDDG – PIA/DPIA, AVV-Review, Auskunft Art. 15, Datenpanne Art. 33/34, Drittlandstransfer Art. 44 ff. inkl. US-Transfer, DPF, SCC, TIA und Behördenpaket.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "dfg-foerderantrag",
+      "source": "./dfg-foerderantrag",
+      "description": "DFG-Förderantragssteller für Sachbeihilfe, adaptive Anfänger-/Profi-Führung, kleine schnelle Anträge, große Koselleck-Strategien, elan-Formalia, Finanzplan, Reviewer-Red-Team, Forschungsdaten, KI-/Ethik-Check und Wiedereinreichung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "dsa-dma-digitalregulierung",
+      "source": "./dsa-dma-digitalregulierung",
+      "description": "Digitalregulierung der EU: DSA (VO 2022/2065) und DMA (VO 2022/1925) plus Data Act DGA AI Act NIS-2 DORA CRA eIDAS 2.0 DDG P2B-VO und § 19a GWB. Gatekeeper-Schwellen VLOP-Einordnung Risikobewertung Art. 34 Forschungsdatenzugang Art. 40 Account-Sperre Art. 20-23 Zustellung Art. 13 DSA Klagewege.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "einfache-leichte-sprache-jura",
+      "source": "./einfache-leichte-sprache-jura",
+      "description": "Juristische Texte in Einfache Sprache oder Leichte Sprache übertragen: experimentelle Standard-Annäherung, Zielgruppe klären, Rechtsinhalt sichern und Qualitätsgate nutzen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "email-umformulierer-berufsrecht",
+      "source": "./email-umformulierer-berufsrecht",
+      "description": "Formuliert unfreundliche, emotionale oder unsachliche E-Mails in hoefliche, sachliche und berufsrechtskonform formulierte Texte um. Fokus auf BRAO/BORA-Konformität, mit Varianten für Steuerberater, Notare und allgemeine berufliche Korrespondenz.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "energierecht",
+      "source": "./energierecht",
+      "description": "Freistehendes Energierecht-Plugin für Stadtwerke, Versorger, Wärme, Netze, Vertrieb, Industrie, EEG, KWKG, Verfahren, Transaktionen und Projektfinanzierung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "europarecht-kompass",
+      "source": "./europarecht-kompass",
+      "description": "Freistehendes Europarecht-Plugin gegen deutsche Denkfehler: Vorrang, unmittelbare Wirkung, Richtlinien, Verordnungen, Charta, Grundfreiheiten, Beihilfen, Vorlageverfahren und EU-Drafting.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-agrarrecht",
+      "source": "./fachanwalt-agrarrecht",
+      "description": "Plugin Fachanwalt für Agrarrecht. Höferecht (HöfeO Anerbenrecht Länder) Landpachtrecht BGB §§ 581 ff. GAP EU-Direktzahlungen Cross-Compliance Düngeverordnung Pflanzenschutz Tierschutz Forstrecht. Schnittstelle Plugin fachanwalt-erbrecht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-arbeitsrecht",
+      "source": "./fachanwalt-arbeitsrecht",
+      "description": "Fachanwalt-Arbeitsrecht nach FAO Paragraf 10: KSchG, BetrVG, TzBfG, AGG, EntgTranspG, Urlaub, Betriebsrat, Befristung und Vergleichspraxis. Rechtsprechung nur mit Datum, Aktenzeichen und verifizierter Quelle.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-bank-kapitalmarktrecht",
+      "source": "./fachanwalt-bank-kapitalmarktrecht",
+      "description": "Plugin Fachanwalt für Bank- und Kapitalmarktrecht. KWG ZAG WpHG WpIG MiFID-II MAR MiCAR Verbraucherkredit Vermögensanlage Beratungshaftung. Schnittstellen Plugin gesellschaftsrecht regulatorisches-recht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-bau-architektenrecht",
+      "source": "./fachanwalt-bau-architektenrecht",
+      "description": "Plugin Fachanwalt für Bau- und Architektenrecht. BGB Werkvertrag VOB-A VOB-B VOB-C HOAI Bauordnungsrecht. Bauvertrag Maengelhaftung Abnahme Vergaberecht. Schnittstellen Plugin fachanwalt-vergaberecht kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-erbrecht",
+      "source": "./fachanwalt-erbrecht",
+      "description": "Plugin Fachanwalt für Erbrecht. BGB Erbrecht §§ 1922 ff. Pflichtteil Testament Erbschein Erbauseinandersetzung Erbschaftsteuer EU-ErbVO. Schnittstellen Plugin steuerrecht-anwalt-und-berater kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-familienrecht",
+      "source": "./fachanwalt-familienrecht",
+      "description": "Plugin Fachanwalt für Familienrecht. Orientierung Normen Mandate Fristen Literatur. Familiengericht FamFG Scheidung Sorge Umgang Unterhalt Zugewinn Ehevertrag eingetragene Lebenspartnerschaft. Ergaenzend zum Plugin kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-gewerblicher-rechtsschutz",
+      "source": "./fachanwalt-gewerblicher-rechtsschutz",
+      "description": "Plugin Fachanwalt für gewerblichen Rechtsschutz nach FAO § 14k. MarkenG. DesignG. UWG. PatG GebrMG. UrhG-Bezuege. Markenanmeldung DPMA EUIPO. UWG-Abmahnung §§ 8 ff. UWG. Designverletzung. Einstweilige Verfuegung Verletzungsklage Lizenzanaloger Schadensersatz.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-handels-gesellschaftsrecht",
+      "source": "./fachanwalt-handels-gesellschaftsrecht",
+      "description": "Plugin Fachanwalt für Handels- und Gesellschaftsrecht nach FAO § 14i. HGB. AktG. GmbHG. PartGG. UmwG. Geschäftsführerhaftung §§ 43 GmbHG 93 AktG. Gesellschafterstreit Beschlussanfechtung. Handelsvertreterausgleich § 89b HGB. MoPeG GbR seit 2024. Schnittstellen kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-insolvenz-sanierungsrecht",
+      "source": "./fachanwalt-insolvenz-sanierungsrecht",
+      "description": "Plugin Fachanwalt für Insolvenz- und Sanierungsrecht nach FAO § 14. InsO Eroeffnung Antragspflicht § 15a Gläubigerantrag § 14 InsO. StaRUG Restrukturierungsplan. Insolvenzanfechtung §§ 129 ff. InsO. Schnittstellen insolvenzrecht und steuerrecht-anwalt-und-berater.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-internationales-wirtschaftsrecht",
+      "source": "./fachanwalt-internationales-wirtschaftsrecht",
+      "description": "Plugin Fachanwalt für Internationales Wirtschaftsrecht. CISG Bruessel Ia Rom I Rom II Schiedsverfahren ICC UNCITRAL Investitionsschutz ICSID WTO EU-Aussenhandel LkSG. Schnittstelle Plugin kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-it-recht",
+      "source": "./fachanwalt-it-recht",
+      "description": "Plugin Fachanwalt für Informationstechnologierecht. SaaS Software-Lizenz DSGVO BDSG TTDSG TKG NIS2 DDG DSA DMA EU-KI-VO Open-Source. Schnittstellen Plugin datenschutzrecht ki-governance kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-medizinrecht",
+      "source": "./fachanwalt-medizinrecht",
+      "description": "Plugin Fachanwalt für Medizinrecht. Arzthaftung §§ 630a ff. BGB Patientenrechte Vertragsarztrecht Berufsrecht Aerzte SGB V Krankenversicherung MPDG Apothekenrecht. Schnittstellen Plugin fachanwalt-sozialrecht und kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-miet-wohnungseigentumsrecht",
+      "source": "./fachanwalt-miet-wohnungseigentumsrecht",
+      "description": "Plugin Fachanwalt für Miet- und Wohnungseigentumsrecht nach FAO § 14e. BGB §§ 535 ff. Wohnraummiete und Gewerberaummiete. Mieterhoehung §§ 558 ff. Kündigung §§ 543 569 573 BGB. WEG-Beschlussanfechtung § 44 WEG. BetrKV. Schnittstellen kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-migrationsrecht",
+      "source": "./fachanwalt-migrationsrecht",
+      "description": "Plugin Fachanwalt für Migrationsrecht. AufenthG AsylG GFK Dublin-VO Verfahrens-RL Qualifikations-RL StAG. Einbürgerung Familiennachzug Notfrist § 36 AsylG eine Woche. Schnittstellen Plugin rechtsberatungsstelle.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-sozialrecht",
+      "source": "./fachanwalt-sozialrecht",
+      "description": "Plugin Fachanwalt für Sozialrecht nach FAO § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch § 84 SGG Klage § 87 SGG Eilantrag § 86b SGG. Buergergeld Erwerbsminderung GdB Pflegegrad Hilfsmittel Eingliederungshilfe. Bescheidanalyse Akteneinsicht PKH Fristenbuch.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-sportrecht",
+      "source": "./fachanwalt-sportrecht",
+      "description": "Plugin Fachanwalt für Sportrecht. Verbandsrecht (DFB FIFA UEFA IOC DOSB) CAS Schiedsverfahren Spielerverträge Doping WADA-Code NADA Sponsoring Persönlichkeitsrechte Veranstalterhaftung. Schnittstelle Plugin gesellschaftsrecht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-strafrecht",
+      "source": "./fachanwalt-strafrecht",
+      "description": "Plugin Fachanwalt für Strafrecht. Orientierung StPO StGB Nebenstrafrecht. Strafverteidigung Ermittlungsverfahren Hauptverhandlung Revision. Nebenklage Opfervertretung Zeugenbeistand Adhaesion Insolvenzantrag StA. Ergaenzt aktenaufbereiter-strafrecht und kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-transport-speditionsrecht",
+      "source": "./fachanwalt-transport-speditionsrecht",
+      "description": "Plugin Fachanwalt für Transport- und Speditionsrecht. HGB §§ 407 ff. Frachtvertrag §§ 453 ff. Spedition CMR COTIF Montrealer Übereinkommen Haager Visby Regeln ADSp. Schnittstelle Plugin kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-urheber-medienrecht",
+      "source": "./fachanwalt-urheber-medienrecht",
+      "description": "Plugin Fachanwalt für Urheber- und Medienrecht. UrhG UWG KUG Recht am eigenen Bild Presserecht Persoenlichkeitsrecht Medienstaatsvertrag. Schnittstellen Plugin gewerblicher-rechtsschutz verlagsredaktion kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-vergaberecht",
+      "source": "./fachanwalt-vergaberecht",
+      "description": "Plugin Fachanwalt für Vergaberecht. GWB §§ 97 ff. VgV UVgO SektVO KonzVgV VOB-A. EU-Vergabe-RL. Nachprüfungsverfahren Vergabekammer und OLG-Vergabesenat. Schnittstelle Plugin fachanwalt-bau-architektenrecht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-verkehrsrecht",
+      "source": "./fachanwalt-verkehrsrecht",
+      "description": "Plugin Fachanwalt für Verkehrsrecht. StVG StVO PflVG VVG-Bezuege. Verkehrsunfall Personen- und Sachschaden Bußgeld Fahrerlaubnis Verkehrsstrafrecht (§§ 315c 316 StGB). Schnittstelle Plugin kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-versicherungsrecht",
+      "source": "./fachanwalt-versicherungsrecht",
+      "description": "Plugin Fachanwalt für Versicherungsrecht. VVG VAG Berufsunfähigkeit private Krankenversicherung Lebens- und Rentenversicherung Sachversicherung Haftpflicht D-und-O. Schnittstelle Plugin kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fachanwalt-verwaltungsrecht",
+      "source": "./fachanwalt-verwaltungsrecht",
+      "description": "Plugin Fachanwalt für Verwaltungsrecht. VwGO VwVfG. Anfechtungs- und Verpflichtungsklage Eilrechtsschutz § 80 Abs 5 VwGO einstweilige Anordnung Normenkontrolle Polizei- und Ordnungsrecht. Schnittstelle Plugin kanzlei-allgemein.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fluggastrechte",
+      "source": "./fluggastrechte",
+      "description": "Fluggastrechte selber geltend machen nach VO (EG) Nr. 261/2004. Tickets erfassen, Annullierung oder Verspaetung pruefen, aussergewoehnliche Umstaende, Distanz, Ausgleich, Forderungsschreiben, Mahnung und Klage. Rechtsprechung nur nach Live-Verifikation.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "forderungsmanagement-klagewerkstatt",
+      "source": "./forderungsmanagement-klagewerkstatt",
+      "description": "Klagewerkstatt für Forderungsmanagement mit Zuständigkeitsprüfung, Mahnvorlauf, Inkasso-Zahlungsklage und Anspruchs-Gatekeeper: Nur klare, fällige und belegte Forderungen werden zur Klage freigegeben.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "forschungszulage-antragstellung",
+      "source": "./forschungszulage-antragstellung",
+      "description": "Forschungszulage-Antragstellung nach FZulG: adaptiver Fördercheck, BSFZ-Portaltexte mit Zeichenbudgets, Finanzamt-Antrag, FuE-Abgrenzung, Bemessungsgrundlage 2026, Auszahlung, Verlust-/Insolvenzlage, Dokumentation, Beihilfen, Einspruch und Mehrjahresroadmap.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "fortbestehensprognose",
+      "source": "./fortbestehensprognose",
+      "description": "Fortbestehensprognose § 19 Abs. 2 InsO als Geschäftsführer-Selbstdokumentation. Bilanzstatus Annahmen Plausibilisierung Zwoelf-Monats-Liquiditaet. Sanierungsbausteine Patronatserklärung Comfortletter Rangrücktritt Stundung Forderungsverzicht. IDW S 11 StaRUG. Eskalation bei negativer Prognose.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "geldwaeschepraevention-aml-kyc",
+      "source": "./geldwaeschepraevention-aml-kyc",
+      "description": "Freistehendes Plugin für Geldwäscheprävention, AML, KYC, GwG-Risikoanalyse, UBO, PEP, Sanktionen, FIU/goAML, Transparenzregister und Behördenverfahren.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "gesellschaftsgruender",
+      "source": "./gesellschaftsgruender",
+      "description": "Gründungsassistent deutsche Gesellschaften (GmbH UG GbR OHG KG GmbH und Co KG PartG mbB gGmbH). Von Rechtsformwahl über Gesellschaftsvertrag und Geschäftsführervertrag bis Notar Handelsregister Gewerbeamt Finanzamt Transparenzregister. MoPeG DiRUG GwG. Kein Ersatz für Anwaltsberatung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "gesellschaftsrecht",
+      "source": "./gesellschaftsrecht",
+      "description": "Gesellschaftsrecht – GmbH/AG/Personengesellschaften, M&A-Due-Diligence ohne Discovery (Q&A + Datenraum), Gesellschafterbeschlüsse, HRB/HRA-Anmeldungen, Closing Checklists, Compliance-Fristen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "gesellschaftsrecht-legal-english",
+      "source": "./gesellschaftsrecht-legal-english",
+      "description": "Didaktisches Gesellschaftsrecht — English Business Terms: Corporate Legal English fuer Big-Law-Anfaenger. Dealroom: Cap Table vs Gesellschafterliste; Term Sheet; SHA; Vesting; Drag/Tag; Liquidation Preference; Anti-Dilution; SPA; DD; Notar/HR; Multi-Format-Auswertung; Frankfurt-Startup-Akte.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "gewerblicher-rechtsschutz",
+      "source": "./gewerblicher-rechtsschutz",
+      "description": "Gewerblicher Rechtsschutz – DPMA/EUIPO-Markenrecherche und -anmeldung, Freedom-to-Operate, Patentscreening, UWG- und Urheberrechts-Abmahnung (Versand und Reaktion), Open-Source-Compliance, IP-Klausel-Review, Schutzrechts-Fristen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "grosskanzlei-corporate-ma",
+      "source": "./grosskanzlei-corporate-ma",
+      "description": "Freistehendes Big-Law-Corporate/M&A-Plugin: Deal-Kommandocenter, Anfänger-/First-Year-Modus, Aktenanlage, Datenraum, Legal DD, Tabellenreview, Liquiditätsvorschau, SPA/APA, W&I, Public M&A, UmwG/StaRUG, CP-Kalender, E-Rechnung/GoBD, PMI.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "hausarbeitenmacher",
+      "source": "./hausarbeitenmacher",
+      "description": "Didaktisches Plugin für juristische Hausarbeiten und Seminararbeiten. Führt sokratisch durch Zivilrecht öffentliches Recht Strafrecht mit Ausfluegen in Europarecht und Rechtstheorie. Adressaten-Strategie ohne Schleimerei. Liefert keine fertigen Lösungen sondern führt zur eigenen Subsumtion.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "immobilienrechtspraxis",
+      "source": "./immobilienrechtspraxis",
+      "description": "Werkzeuge fuer immobilienrechtliche Rechtsabteilungen: musterbasierte Vertragserstellung mit Klauselschutz, Vertragspruefung gegen Playbook, Grundbuchanalyse, Sachverhaltsermittlung, Mieteranfragen, Case Management und AVV-Pruefung. Rechtsprechung nur nach Live-Verifikation.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "insolvenzforderungsanmeldungspruefung",
+      "source": "./insolvenzforderungsanmeldungspruefung",
+      "description": "Freistehendes Plugin für die Insolvenzforderungsanmeldungsprüfung: Intake, § 174 InsO, Belege, Grund, Betrag, Rang, vbuH, Nachforderungen, Tabellenimport, Prüfungstermin, Bestreiten, Feststellung, Tabellenauszug und Verteilung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "insolvenzplan-starug-planwerkstatt",
+      "source": "./insolvenzplan-starug-planwerkstatt",
+      "description": "Freistehendes Plugin für Insolvenzplan und StaRUG-Restrukturierungsplan: Intake, Sanierungskonzept, Vergleichsrechnung, Gruppen, Klassen, darstellender und gestaltender Teil, Anlagen, Abstimmung, Cram-down, Minderheitenschutz, Gericht und Planvollzug.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "insolvenzrecht",
+      "source": "./insolvenzrecht",
+      "description": "Insolvenzrechtliche Skills zu Zahlungsunfähigkeit, Überschuldung, Antragspflicht und Gläubigerantrag.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "insolvenzverwaltung",
+      "source": "./insolvenzverwaltung",
+      "description": "Freistehendes Insolvenzverwaltungs-Plugin aus Sicht von Insolvenzverwalter, Sachwalter und vorläufiger Verwaltung: Regelverfahren, Eigenverwaltung, Schutzschirm, Anfechtung, § 15b InsO, Masse, Forderungsprüfung, Insolvenzplan, StaRUG-Planwerkstatt, Gutachten, Berichte und Schlussrechnung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "jurastudium",
+      "source": "./jurastudium",
+      "description": "Studium und Referendariat – Prüfungsgespräch nach AG-Tradition, Subsumtionslehre, Methodenlehre (Zivilrecht, Strafrecht, Öffentliches Recht), Rechtsgeschichte, Lernstrategien, Lösungsschemata, Gutachtenstil, Klausurkorrektur, Lernplanung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "jveg-kostenpruefer",
+      "source": "./jveg-kostenpruefer",
+      "description": "Freistehender JVEG-Kostenprüfer für Zeugenentschädigung, Vorschuss, Fahrtkosten, Übernachtung, Verdienstausfall, Sachverständigen- und Dolmetscherkosten, Fristen, Festsetzung, Beschwerde und belegfeste Rechenprotokolle.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "kanzlei-allgemein",
+      "source": "./kanzlei-allgemein",
+      "description": "Kanzlei-Allgemein-Plugin (fusioniert mit Cowork): edles Kommandocenter Mandatsannahme/GwG Klage/Replik Vertrag Rechtsprechung Handelsregister beA-Journal Rechnung UStVA Fristenbuch Timesheet RVG Versand-Vor-Check Posteingang Mandantenakte Mahnwesen Tagesbrief Geburtstage Weihnachtskarten.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "kanzlei-builder-hub",
+      "source": "./kanzlei-builder-hub",
+      "description": "Findet, prüft und installiert Community-Skills mit Security-Review-Gate vor dem Deployment in die Kanzleiumgebung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "kartellrecht-marktabgrenzung-pruefung",
+      "source": "./kartellrecht-marktabgrenzung-pruefung",
+      "version": "52.2.1",
+      "description": "Kritische kartellrechtliche Pruefinstanz fuer Marktabgrenzungen nach Paragraf 18 GWB sowie Art. 101 und 102 AEUV: SSNIP-Test, Nachfrage- und Angebotsumstellung, raeumlicher Markt, Evidenz, Konsistenz, Red Flags und Marktbeherrschung. Rechtsprechung nur nach Live-Verifikation.",
+      "author": {
+        "name": "Klotzkette"
+      }
+    },
+    {
+      "name": "ki-governance",
+      "source": "./ki-governance",
+      "description": "EU-KI-VO + DSGVO – Use-Case-Triage, KI-Inventar, AIA/DPIA, Vendor-Review, Drift-Monitoring der KI-Richtlinie.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "ki-richtlinie-kanzleien",
+      "source": "./ki-richtlinie-kanzleien",
+      "description": "Erstellt und pflegt eine berufsrechtskonforme KI-Nutzungsrichtlinie für Kanzleien und Rechtsabteilungen mit Anwaelten und Syndikus-Anwaelten. Beruht auf BRAO, BORA, DSGVO, KI-Verordnung sowie BRAK- und DAV-Hinweisen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "ki-vo-ai-act-pruefer",
+      "source": "./ki-vo-ai-act-pruefer",
+      "description": "Mechanik-Workflow zur KI-VO (EU 2024/1689): KI-System-Definition, Rollen, Risikoklassen, Hochrisiko-Diagnose, GPAI, Art. 43-Konformitätsbewertung, CE/EU-DB, Marktbeobachtung und Konformitäts-Evidence-Pack.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "krisenfrueherkennung-starug",
+      "source": "./krisenfrueherkennung-starug",
+      "description": "Krisenfrüherkennung und Krisenmanagement nach StaRUG: Pflicht zum 24-Monats-Frühwarnsystem nach § 1 StaRUG, § 102 StaRUG Warnpflicht der Berater, Geschäftsführerhaftung, drohende Zahlungsunfähigkeit, integrierte Planung, Restrukturierungsplan und Stabilisierungsanordnung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "legistik-werkstatt",
+      "source": "./legistik-werkstatt",
+      "description": "Legistik-Werkstatt für Ministerien, Bundestag, Fraktionen/Opposition, Länder, Landtage und Normgeber. Baut Referenten- und Kabinettsentwürfe, Vorlagen aus der Mitte, Änderungs-/Entschließungsanträge, Rechtsverordnungen und Satzungen mit Begründung, Synopse, XML und Prüfpfaden.",
+      "category": "verwaltung",
+      "version": "52.2.1",
+      "tags": [
+        "legistik",
+        "gesetzgebung",
+        "rechtssetzung",
+        "bund",
+        "land",
+        "verordnung",
+        "satzung",
+        "begruendung"
+      ],
+      "author": {
+        "name": "Klotzkette"
+      }
+    },
+    {
+      "name": "liquiditaetsplanung",
+      "source": "./liquiditaetsplanung",
+      "description": "Liquiditaetsplanung nach deutschem Recht: 3-Wochen-Vorschau, 13/26/52-Wochen-Forecast, Excel-Export, Quote/Luecken-Ampel, Dokumentationspaket und Schnittstellen zu Fortbestehensprognose und Insolvenzrecht. Rechtsprechung nur nach Live-Verifikation.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "lobbyregister-bundestag",
+      "source": "./lobbyregister-bundestag",
+      "description": "Lobbyregister-Bundestag-Superplugin mit 50 geführten Skills für Registrierungspflicht, Ausnahmen, Registereintrag, Regelungsvorhaben, Stellungnahmen, Finanzdaten, Aktualisierung, Verhaltenskodex, Meldung von Verstoessen und Fristen nach LobbyRG.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "mandantenanfragen-assistent",
+      "source": "./mandantenanfragen-assistent",
+      "description": "Assistent für Anwaltskanzleien zur Erstantwort auf Mandantenanfragen per E-Mail: dankt foermlich übernimmt die Anrede aus der eingehenden E-Mail nennt die telefonische Terminvergabe bittet um Sachverhalt per E-Mail oder bietet eine Telefon-Transkription mit DSGVO-Einwilligungshinweis an.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "markenrecht-fashion-luxus",
+      "source": "./markenrecht-fashion-luxus",
+      "description": "Markenrecht-Boutique für Luxus-Modehaeuser - DPMA/EUIPO Alicante/USPTO Lanham Act via NYC-Korrespondenz, alle Markenarten (Wort/Bild/Slogan/Sound/Duft/3D/Position/Haptik/Anti-KI), Widerspruch, Löschung, Verletzung, Produktpiraterie, Selektivvertrieb.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "meinungspruefer",
+      "source": "./meinungspruefer",
+      "description": "Meinungsprüfer für Äußerungsrecht: Meinung oder Tatsache, Beleidigung, üble Nachrede, Verleumdung, § 188 StGB, Art. 5 GG, Art. 10 EMRK, Art. 11 GRCh, EGMR/EuGH, OLG-Praxis, US-Supreme-Court-Vergleich, Zivilrecht, Plattformen, Social Media, Arbeitsplatz, Schule und kommunale Machtkritik.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "memorandums-ersteller",
+      "source": "./memorandums-ersteller",
+      "description": "Wandelt Mandantenunterlagen in ein juristisches Memorandum mit Vier-Teile-Gliederung — Sachverhalt mit Quellenreferenz; Ein-Satz-Fragen; Ein-Satz-Antworten; rechtliche Ausführungen mit Pinpoint-Zitierung. Optional Piercing-Questions. Rechtsgebietsneutral. Alias Memorandumsmacher.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "methodenlehre-buergerliches-recht",
+      "source": "./methodenlehre-buergerliches-recht",
+      "description": "Methodenlehre und Rechtsanwendung im deutschen buergerlichen Recht aus Anwaltsperspektive. Gutachtenstil. Anspruchsgrundlagen-Reihenfolge. Auslegung Wortlaut System Historie Telos pragmatisch ohne starren Vorrang. Verfassungs- und unionsrechtskonforme Auslegung. Lueckenfuellung. Verjährung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "mietrecht",
+      "source": "./mietrecht",
+      "description": "Mietrecht für Mieter und Vermieter mit ausschließlich amtlichen Mietspiegel-Quellen pro Bundesland und für Top- und Universitaetsstaedte. Datenerhebung Mieterhoehungs-Widerspruch Mietsenkungsverlangen Nebenkostenprüfung und Erstellung Mieteranfragen Klageentwurf zum Amtsgericht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "mittelstand-corporate-ma",
+      "source": "./mittelstand-corporate-ma",
+      "description": "Freistehendes Mittelstandsmandat-Corporate/M&A-Plugin: Deal-Kommandocenter, Aktenanlage, Datenraum, Legal DD, Tabellenreview, Liquiditätsvorschau, SPA/APA, W&I, Public M&A, Umwandlung, StaRUG/Insolvenzplan, CP-Kalender, E-Rechnung/GoBD, PMI.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "nachbarschaftsstreit-pruefer",
+      "source": "./nachbarschaftsstreit-pruefer",
+      "description": "Nachbarrecht und Nachbarschaftsstreit: Überbau, Überhang, Äste/Wurzeln, Grenzbaum, Zaun/Mauer/Hecke, Immissionen, Vertiefung, Notweg, Hammerschlagsrecht, Beweise, Aufforderung, Klage und Vergleich.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "nda-abgleich",
+      "source": "./nda-abgleich",
+      "description": "Gleicht NDA-Entwurf der Gegenseite gegen eigenen Standard ab und setzt Haltelinien chirurgisch im Word-Aenderungsmodus durch. Ampelmatrix ROT/GELB/GRUEN. Ausgabe .docx mit echten Tracked Changes. Keine Absatzlöschungen, keine Klausel-Neufassungen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "normenkontrolle-bauleitplanung",
+      "source": "./normenkontrolle-bauleitplanung",
+      "description": "Freistehendes Plugin für die Prüfung und Anfechtung von Bebauungsplänen, Flächennutzungsplänen und örtlichen Bauvorschriften nach § 47 VwGO vor BayVGH und OVG. Mandatsperspektive Antragstellervertretung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "patentrecherche",
+      "source": "./patentrecherche",
+      "description": "Patentrecherche für Patentanwaelte agentisch in Espacenet Google Patents DPMAregister DEPATISnet EPO Register WIPO USPTO. Stand der Technik Neuheit § 3 PatG Art. 54 EPUe erfinderische Tätigkeit § 4 PatG Art. 56 EPUe Problem-Solution-Approach FTO CPC IPC INPADOC Recherchebericht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "phishing-vorfall-pruefer",
+      "source": "./phishing-vorfall-pruefer",
+      "description": "Freistehender Phishing-Vorfall-Prüfer für Online-Banking: BGB § 675u, § 675v, § 675w, pushTAN, Call-ID-Spoofing, grobe Fahrlässigkeit, Beweislast, Bankpflichten, Schlichtung und Klage.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "produktrecht",
+      "source": "./produktrecht",
+      "description": "Produktrechtliche Skills für Launch-Review, Impressumspflicht nach DDG und PAngV sowie UWG-Bewertungen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "prozessrecht",
+      "source": "./prozessrecht",
+      "description": "Prozessrechtliche Skills für Mandate, Fristen, Mahnbescheid, Eilverfahren, Vollstreckung und Schriftsätze.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "rechtsberatungsstelle",
+      "source": "./rechtsberatungsstelle",
+      "description": "Pro-Bono- und Rechtsberatungsstellen (RDG-konform): Mandantenintake, Fristenkontrolle, Übergabe am Semesterende, mandantenfreundliche Briefe.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "regulatorisches-recht",
+      "source": "./regulatorisches-recht",
+      "description": "Aufsichtsrecht – KWG, ZAG, WpHG, GwG, EnWG, TKG, HeilMWerbG, Umsatzsteuer-Voranmeldung, Inkasso/RDG, Regulator-Feeds, Wochendigest.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "schriftform-und-textform-bgb",
+      "source": "./schriftform-und-textform-bgb",
+      "description": "Formerfordernisse im deutschen Zivilrecht: Schriftform, Textform, qES, Zugang, beA/ERV und Prozessordnungen. Mit Checklisten, Dokumentation und Rechtsprechung nur nach Live-Verifikation.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "selbstvertreter-amtsgericht",
+      "source": "./selbstvertreter-amtsgericht",
+      "description": "Selbstvertretung vor dem Amtsgericht ohne Anwalt: Anfänger-Workflow, Fristen, Zuständigkeit, §23 GVG/§511 ZPO-Grenzen, Klage/Erwiderung/Replik, Beweise, PKH, Termin, Sanity-Check, Rechtsprechungschat, Berufung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "selbstvertreter-sozialgericht",
+      "source": "./selbstvertreter-sozialgericht",
+      "description": "Selbstvertretung vor dem Sozialgericht ohne Anwalt: Anfänger-Workflow, Widerspruch, Klage, Eilantrag, Pflegegrad, Krankenkasse, Bürgergeld, EM-Rente, GdB, Belege, Gutachten, Kostenfreiheit, Sanity-Check, Rechtsprechungschat, Berufung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "steuerrecht-anwalt-und-berater",
+      "source": "./steuerrecht-anwalt-und-berater",
+      "description": "Steuerrecht für Anwalt (anw- FAO § 9) und Steuerberater (stb-): Einspruch Klage FG Aussenprüfung Selbstanzeige, Grundsteuer, Grunderwerbsteuer, Share Deals, Signing Closing, BWA SuSa Lohnbuchhaltung Jahresabschluss.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "strafbefehl-verteidiger",
+      "source": "./strafbefehl-verteidiger",
+      "description": "Freistehendes Strafbefehls-Plugin für Verteidigung gegen Strafbefehl, Einspruch, Akteneinsicht, Tagessätze, Nebenfolgen, Pflichtverteidigung, Wiedereinsetzung, Einstellung, Zeugenstrategie und Hauptverhandlung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "strafzumessung",
+      "source": "./strafzumessung",
+      "description": "Strafzumessung nach deutschem Strafrecht vom Strafbefehl bis zur grossen Strafkammer. § 46 StGB Strafzumessungstatsachen Tagessatz Geldstrafe Freiheitsstrafe Bewaehrung § 56 § 49 Regelbeispiele besonders schwerer Fall Verstaendigung § 257c StPO TOA § 46a Gesamtstrafe § 55 JGG.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "subsumtions-pruefer",
+      "source": "./subsumtions-pruefer",
+      "description": "Interaktiver Subsumtions-Workflow für deutsches Recht und Europarecht: Tatbestandsmerkmale zerlegen, Vier-Schritt-Schema anwenden, Rechtsfolgen und Einreden prüfen. Keine Rechtsberatung.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "tabellenreview-3d",
+      "source": "./tabellenreview-3d",
+      "description": "3D-Tabellenreview als Wuerfel: Spaltenprompts pro Datenpunkt x Zeilenprompts pro Dokument x Arbeitsblatt-Perspektiven (Recht / Steuer / Wirtschaft) gestapelt. Massenprüfung Vertragsstapel M&A-DD Immobilien Vendor-Onboarding mit Excel-Mehrblatt Kreuzblatt-Konsistenz Audit-Trail Belegkette.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "umweltrecht",
+      "source": "./umweltrecht",
+      "description": "Freistehendes Umweltrecht-Plugin für BImSchG, TEHG, Abfall, Wasser, Boden, Naturschutz, UIG, Verfahren, Bußgeld, Umwelt-Due-Diligence, Klimaklagen UmwRG, Lieferkettensorgfalt LkSG/CSDDD und ESG-Greenwashing/CSRD.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "urteilsbauer-relationsmacher",
+      "source": "./urteilsbauer-relationsmacher",
+      "description": "Urteils- und Beschluss-Werkstatt für Amts- Land- und Familienrichter sowie Rechtspfleger. Aktenintake Relation Beweiswürdigung mit Richter-Input Tatbestandsmerkmale Tenor Tatbestand Entscheidungsgründe Rechtsmittelbelehrung. Erzeugt DOCX nach Paragraf 313 ZPO.",
+      "version": "52.2.1",
+      "author": {
+        "name": "Klotzkette"
+      }
+    },
+    {
+      "name": "verfassungsrecht",
+      "source": "./verfassungsrecht",
+      "description": "Deutsches Verfassungsrecht unter dem Grundgesetz aus Sicht einer Spezialkanzlei. Rechtsprechungsgetrieben mit Live-Recherche auf bundesverfassungsgericht.de. Acht Skills für Gesetzgebungskompetenz formelle und materielle Verfassungsmäßigkeit Grundrechte und Verfassungsbeschwerde.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "verkehr-infrastrukturrecht",
+      "source": "./verkehr-infrastrukturrecht",
+      "description": "Freistehendes Verkehrs- und Infrastrukturrecht-Plugin für Verkehrsplanung, Planfeststellung, Straßenbahn, Ladeinfrastruktur, Parkraum und Verkehrswende.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "verkehrsowi-verteidiger",
+      "source": "./verkehrsowi-verteidiger",
+      "description": "Freistehendes VerkehrsOWi-Plugin für Bußgeldbescheid, Anhörung, Einspruch, Punkte, Fahrverbot, Rotlicht, Geschwindigkeit, Abstand, Handy, Alkohol, Drogen, Akteneinsicht, Messakte, Zeugenstrategie und Amtsgericht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "verlagsredaktion",
+      "source": "./verlagsredaktion",
+      "description": "Verlagsdesk fuer juristische und fachliche Verlage: Eingangskorb, Manuskript, Redaktion, Rechtecheck, Zitate, Bildrechte, Autorenkommunikation, Heftplanung, Buchprojekte, Satzfahnen, Metadaten, Marketing und Produktionsuebergabe.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "vertragsausfueller",
+      "source": "./vertragsausfueller",
+      "description": "Freistehendes Vertragsausfüller-Plugin: DOCX-Vorlagen und Altverträge strippen, Felder erkennen, Term Sheets mappen, Rückfragen führen, neue Verträge erzeugen und Track-Changes-Fassungen nur nach ausdrücklicher Nachfrage vorbereiten.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "vertragsrecht",
+      "source": "./vertragsrecht",
+      "description": "Vertragsrecht – Lieferanten- und Vertriebsverträge, AGB §§ 305 ff. BGB, NDA, SaaS-/MSA-Review, Renewal-Tracking, Eskalations-Routing, Business-Zusammenfassungen.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "wandeldarlehen-lebenszyklus",
+      "source": "./wandeldarlehen-lebenszyklus",
+      "description": "Begleitet den vollständigen Lebenszyklus eines Wandeldarlehens für GmbH und UG: Vertragserstellung (bilingual/einsprachig), Beurkundungsprüfung, Wandelereignisse, Wandlungsberechnung, Cap-Table-Update, Gesellschafterbeschluss und Notar-Paket.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "weg-hausverwaltung",
+      "source": "./weg-hausverwaltung",
+      "description": "Operatives WEG- und Hausverwaltungs-Plugin fuer Beschluesse, Eigentuemerversammlung, Protokoll, Beschlusssammlung, Wirtschaftsplan, Jahresabrechnung, Hausgeld, Sonderumlage, Betriebskosten, Handwerker, bauliche Veraenderungen, Steckersolar, Wallbox, Verwalter, Beirat und Anwalt-Eskalation.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "word-legal-ai-plugin-and-skill-for-german-lawyers",
+      "source": "./word-legal-ai-plugin-and-skill-for-german-lawyers",
+      "description": "Word Legal AI for German Lawyers: Kaltstart, Kanzleistil, makrofreies Word-Finish, Verträge, Schriftsätze, Memos, Redlines, Klauselbibliothek, Defensive Drafting, Term Sheet, DE-EN Bilingual, US/UK Legal Writing und englische Verträge nach deutschem Recht.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "zitierweise-deutsches-recht",
+      "source": "./zitierweise-deutsches-recht",
+      "description": "Deutsche juristische Hauszitierweise v4.0: Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und verifizierbarer Quelle; keine BeckRS-, Kommentar- oder Aufsatz-Blindzitate. Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "zwangsverwaltung-zvg",
+      "source": "./zwangsverwaltung-zvg",
+      "description": "Freistehendes ZVG-Plugin für Zwangsverwaltung und Versteigerung: Beschlagnahme, Besitz, Mieten, Treuhandkonto, Berichte, Verteilung, ZVG-Portal-Recherche, Bieterangebote und Versteigerungsteilnahme.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    },
+    {
+      "name": "zwangsvollstreckung",
+      "source": "./zwangsvollstreckung",
+      "description": "Plugin Zwangsvollstreckung §§ 704 ff. ZPO: Mahn-/Vollstreckungsbescheid, PfÜB Bank/Arbeit, § 802l Kontensuche, Vermögensauskunft, Räumung, § 800 ZPO Notar, § 201 InsO, ZVG, EU-Kontenpfändung VO 655/2014, § 765a Härtefall, Schuldnerschutz.",
+      "author": {
+        "name": "Klotzkette"
+      },
+      "version": "52.2.1"
+    }
+  ],
+  "version": "52.2.1"
+}

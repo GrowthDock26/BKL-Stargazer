@@ -1,0 +1,27 @@
+{
+  "name": "anlagen-zu-schriftsaetzen",
+  "version": "52.2.1",
+  "description": "Zuordnung von Anlagen zu gerichtlichen Schriftsaetzen. Sortiert PDF/Word/Excel nach Schriftsatz-Logik; konvertiert alles nach PDF; benennt beA-konform; stempelt oben rechts Anlage K1/B1/A1 in Arial 12; baut Anlagenkonvolut; Prüfmodus für bereits zugeordnete Anlagen.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "anlagen",
+    "anlagenkonvolut",
+    "beA",
+    "schriftsatz",
+    "klageschrift",
+    "klageerwiderung",
+    "replik",
+    "duplik",
+    "anlage-K",
+    "anlage-B",
+    "pdf-konvertierung",
+    "anlagenstempel",
+    "dokumentenproduktion",
+    "ervv",
+    "rdg"
+  ]
+}

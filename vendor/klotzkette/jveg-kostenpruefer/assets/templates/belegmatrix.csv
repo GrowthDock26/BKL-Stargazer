@@ -1,0 +1,7 @@
+beleg,position,status,was_beweist_der_beleg,fehlt_noch,prioritaet
+Ladung,Heranziehung,offen,Termin und Rolle,,hoch
+Streckenbeleg,Fahrtkosten,offen,Entfernung und Route,,hoch
+Hotelrechnung,Übernachtung,offen,Nacht und Preis,,hoch
+Arbeitgeberbescheinigung,Verdienstausfall,offen,Ausfall und Bruttoverdienst inkl. AG-Anteile,,hoch
+BWA/Umsatznachweis,Verdienstausfall Selbständige,offen,plausibler Ausfall,,mittel
+Betreuungsnachweis,Haushaltsführung/Vertretung,offen,Notwendigkeit und Kosten,,mittel

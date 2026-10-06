@@ -1,0 +1,151 @@
+# Beispiel-Wuerfel-Schema fuer ein kleines M&A-DD-Mandat.
+# Drei Achsen: spalten, zeilen, arbeitsblaetter.
+# Anwendung: ueber Skill `wuerfel-aufbauen` erzeugen — diese Datei dient als Referenz.
+
+projekt: "ma-dd-x-gmbh-2026"
+stichtag: "2026-05-20"
+
+# ---------------------------------------------------------------------------
+# Achse 1: Spalten (Datenpunkte). Spaltenprompts gelten fuer ALLE Dokumente.
+# ---------------------------------------------------------------------------
+spalten:
+
+  - id: vertragsart
+    titel: "Vertragsart"
+    prompt: "Welcher Vertragstyp liegt vor? Rahmenvertrag / Einzelvertrag / NDA / Lizenz / Werk / Dienst / Liefer / Sonstiges?"
+    antworttyp: aufzaehlung
+    pflichtfeld: true
+
+  - id: laufzeit
+    titel: "Laufzeit und Beginn"
+    prompt: "Wann begann der Vertrag? Festlaufzeit oder unbefristet? Falls Festlaufzeit: Endedatum."
+    antworttyp: zitat-mit-fundstelle
+    pflichtfeld: true
+
+  - id: change-of-control
+    titel: "Change of Control"
+    prompt: |
+      Enthaelt der Vertrag eine Klausel die bei Kontrollwechsel beim Vertragspartner
+      Kuendigung Zustimmungspflicht oder Anpassung ausloest?
+      Wenn ja woertliches Zitat mit Fundstelle und Ausloeseschwelle.
+    antworttyp: zitat-mit-fundstelle
+    pflichtfeld: true
+    ampel-regel:
+      rot: "Klausel vorhanden + harte Kuendigungsfolge ohne Heilungsmoeglichkeit"
+      gelb: "Zustimmungsvorbehalt oder unklare Schwelle"
+      gruen: "Keine Klausel oder branchenuebliche Schwelle"
+
+  - id: haftungsbegrenzung
+    titel: "Haftungsbegrenzung"
+    prompt: "Wie ist die Haftung beschraenkt? Pro Fall und pro Jahr? Welche Ausnahmen?"
+    antworttyp: zitat-mit-fundstelle
+    pflichtfeld: true
+    ampel-regel:
+      rot: "Ausschluss auch fuer Vorsatz oder grobe Fahrlaessigkeit"
+      gelb: "Cap unter 6 Monatsverguetungen ohne klare Begruendung"
+      gruen: "Marktueblicher Cap und Ausschluesse"
+
+# ---------------------------------------------------------------------------
+# Achse 2: Zeilen (Dokumente). Pro Zeile optional Sonderanweisung.
+# ---------------------------------------------------------------------------
+zeilen:
+
+  - id: z-001
+    pfad: "vdr/kunden/001-rahmenvertrag-mueller-gmbh.pdf"
+    hash: "sha256:placeholder001"
+    typ: "rahmenvertrag-kunde"
+    sprache: "de"
+
+  - id: z-002
+    pfad: "vdr/lieferanten/002-lizenzvertrag-saas-anbieter.pdf"
+    hash: "sha256:placeholder002"
+    typ: "lizenzvertrag-lieferant"
+    sprache: "de"
+    zeilenprompt: |
+      SaaS-Lizenzvertrag.
+      Zusaetzlich: Datenschutz-AVV pruefen (DSGVO Artikel 28).
+      Bei Drittlandtransfer: SCC und TIA in der Spalte 'Datenschutz-AVV' bewerten.
+
+  - id: z-003
+    pfad: "vdr/personal/003-anstellungsvertrag-geschaeftsfuehrer.pdf"
+    hash: "sha256:placeholder003"
+    typ: "anstellungsvertrag-geschaeftsfuehrer"
+    sprache: "de"
+    zeilenprompt: |
+      Geschaeftsfuehrer-Anstellungsvertrag.
+      Spalten 'Wettbewerbsverbot' und 'Karenzentschaedigung' obligatorisch pruefen.
+
+# ---------------------------------------------------------------------------
+# Achse 3: Arbeitsblaetter (Perspektiven). Pro Blatt eigene Zusatzspalten.
+# ---------------------------------------------------------------------------
+arbeitsblaetter:
+
+  - id: recht
+    titel: "Rechtliche Perspektive"
+    perspektive: "anwalt"
+    pruefer-rolle: "rechtsanwalt"
+    eigene-spalten-zusaetze:
+      - id: agb-wirksamkeit
+        prompt: "Sind die Allgemeinen Geschaeftsbedingungen wirksam? Pruefung gegen BGB Paragraph 305 ff."
+        antworttyp: ja-nein-mit-begruendung
+        ampel-regel:
+          rot: "Unwirksame Klausel mit Hauptleistungsbezug"
+          gelb: "Wirksamkeit zweifelhaft"
+          gruen: "Wirksam oder Individualvereinbarung"
+
+  - id: steuer
+    titel: "Steuerliche Perspektive"
+    perspektive: "steuerberater"
+    pruefer-rolle: "steuerberater"
+    eigene-spalten-zusaetze:
+      - id: umsatzsteuer-behandlung
+        prompt: "Wie ist die Umsatzsteuer behandelt? Reverse-Charge bei B2B grenzueberschreitend?"
+        antworttyp: aufzaehlung
+    auslassungen:
+      - haftungsbegrenzung  # primaer rechtlich, hier nicht zustaendig
+
+  - id: wirtschaft
+    titel: "Wirtschaftliche Perspektive"
+    perspektive: "buyside-analyst"
+    pruefer-rolle: "deal-lead"
+    eigene-spalten-zusaetze:
+      - id: vertragsvolumen-pro-jahr
+        prompt: "Welches Volumen hat der Vertrag pro Jahr in EUR?"
+        antworttyp: geldbetrag
+
+  - id: datenschutz
+    titel: "Datenschutz-Perspektive"
+    perspektive: "datenschutzbeauftragter"
+    pruefer-rolle: "dsb"
+    eigene-spalten-zusaetze:
+      - id: avv-vorhanden
+        prompt: "Bei Auftragsverarbeitung im Sinne DSGVO Artikel 28: liegt eine AVV vor?"
+        antworttyp: ja-nein-mit-begruendung
+        ampel-regel:
+          rot: "Auftragsverarbeitung ohne AVV"
+          gelb: "AVV vorhanden aber unvollstaendig"
+          gruen: "AVV vollstaendig und aktuell"
+
+# ---------------------------------------------------------------------------
+# Risikoampel-Konsolidierung ueber alle drei Achsen.
+# ---------------------------------------------------------------------------
+ampel-konsolidierung:
+  zeile-rot-wenn: "mindestens 1 rote Zelle ueber alle Spalten und Arbeitsblaetter"
+  arbeitsblatt-rot-wenn: "mehr als 20 Prozent rote Zeilen"
+  wuerfel-rot-wenn: "irgendein Arbeitsblatt rot UND Pruefer-Abnahme steht aus"
+
+# ---------------------------------------------------------------------------
+# Belegkette-Konvention.
+# ---------------------------------------------------------------------------
+belegkette:
+  fundstellen-format: "Datei-ID + Seite + Absatz"
+  zitat-laenge-max: 500
+  ocr-mindest-konfidenz: 0.90  # darunter automatisch Pruefer-Flag
+
+# ---------------------------------------------------------------------------
+# Modell- und Audit-Konfiguration.
+# ---------------------------------------------------------------------------
+audit:
+  modell-version-pflicht: true
+  prompt-version-pflicht: true
+  pruefer-unterschrift-pflicht-vor-mandatsversand: true

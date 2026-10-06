@@ -1,0 +1,162 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kanzlei Volkert & Partner//Fristenkalender OWi//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OWi 326.OWi.2026.77142 Mertens - Fahrverbot & Fristen
+X-WR-TIMEZONE:Europe/Berlin
+
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:19701025T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:owi-frist-einspruch-20260521@volkert-partner.de
+SUMMARY:FRIST: Einspruch OWi 326.OWi.2026.77142 (Ausschlussfrist)
+DTSTART;TZID=Europe/Berlin:20260521T090000
+DTEND;TZID=Europe/Berlin:20260521T090000
+DESCRIPTION:Einspruch gegen Bußgeldbescheid Stadt Köln vom 30.04.2026 muss spätestens heute eingegangen sein.\nZustellung lt. Mandant: 07.05.2026\nFristende: 21.05.2026 24:00 Uhr\nEinspruch wurde abgesandt am 14.05.2026 per Fax und Einschreiben.
+STATUS:CONFIRMED
+PRIORITY:1
+BEGIN:VALARM
+TRIGGER:-PT24H
+ACTION:DISPLAY
+DESCRIPTION:MORGEN: Einspruchsfrist OWi Mertens läuft ab!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-einspruch-abgesandt-20260514@volkert-partner.de
+SUMMARY:Einspruch OWi Mertens abgesandt (Fax + Einschreiben)
+DTSTART;TZID=Europe/Berlin:20260514T143000
+DTEND;TZID=Europe/Berlin:20260514T150000
+DESCRIPTION:Einspruch gegen Bußgeldbescheid 326.OWi.2026.77142 abgesandt.\nEmpfänger: Stadt Köln, Bußgeldstelle\nPer Fax: 0221/221-29999\nPer Einschreiben Rückschein: Aufgegeben Köln-Ehrenfeld, Einschreibnummer: DE 7744 5512 8DE\nEinspruch ohne Begründung, Akteneinsicht beantragt.
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-akteneinsicht-frist-20260603@volkert-partner.de
+SUMMARY:Akteneinsicht – Erwarteter Eingang Behörde (ca. 6 Wochen)
+DTSTART;TZID=Europe/Berlin:20260603T090000
+DTEND;TZID=Europe/Berlin:20260603T090000
+DESCRIPTION:Akteneinsicht beantragt am 14.05.2026.\nErwarteter Eingang: ca. 6 Wochen = 03.06.2026 (Schätzung).\nBehörde: Stadt Köln, Bußgeldstelle.\nFalls bis 10.06.2026 keine Rückmeldung: Erinnerungsschreiben.
+STATUS:CONFIRMED
+PRIORITY:2
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-akteneinsicht-erinnerung-20260610@volkert-partner.de
+SUMMARY:Erinnerung: Akteneinsicht OWi Mertens (falls noch nicht erhalten)
+DTSTART;TZID=Europe/Berlin:20260610T090000
+DTEND;TZID=Europe/Berlin:20260610T090000
+DESCRIPTION:Falls Akteneinsicht bis heute nicht vorliegt: Erinnerungsschreiben an Stadt Köln, Bußgeldstelle.\nFalls innerhalb weiterer 2 Wochen keine Reaktion: Dienstaufsichtsbeschwerde und Sachstandsanfrage beim AG Köln.
+STATUS:CONFIRMED
+PRIORITY:3
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-begruendung-frist-20260617@volkert-partner.de
+SUMMARY:ZIEL: Einspruchsbegründung nach Akteneinsicht (spätestens)
+DTSTART;TZID=Europe/Berlin:20260617T090000
+DTEND;TZID=Europe/Berlin:20260617T090000
+DESCRIPTION:Begründung des Einspruchs nach Akteneinsicht.\nSchwerpunkte:\n- Fahreridentifikation Frontfoto (Sonnenbrille, Schatten)\n- Fahrspurkorrektur im Messprotokoll\n- Härtevortrag Fahrverbot (DVGW-Zulassung, Notfallbereitschaft)\n- Antrag Sachverständigengutachten Foto\n- Antrag vollständige Messunterlagen\nZieldatum: 17.06.2026 (3 Wochen nach erwartetem Akteneinsicht-Eingang)
+STATUS:CONFIRMED
+PRIORITY:1
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:In 3 Tagen: Einspruchsbegründung Mertens OWi abgeben!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mandant-rufbereitschaft-rheinauhafen-20260603@volkert-partner.de
+SUMMARY:Mandant: Rufbereitschaft Rheinauhafen (Härtevortrag)
+DTSTART;TZID=Europe/Berlin:20260603T080000
+DTEND;TZID=Europe/Berlin:20260610T170000
+DESCRIPTION:Jonas Mertens: Wartungsvertrag Rheinauhafen, Wohnanlage Agrippinawerft 30.\n3 Tage Jahreswartung Heizanlage.\nDVGW-Zulassung erforderlich – nur Mandant qualifiziert.\nAls Härtevortrag dokumentieren.\nAuftrags-Nr.: AO-2026-0219
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mandant-gasabnahme-pulheim-20260609@volkert-partner.de
+SUMMARY:Mandant: Gasinstallation Abnahme Pulheim (Härtevortrag)
+DTSTART;TZID=Europe/Berlin:20260609T090000
+DTEND;TZID=Europe/Berlin:20260609T160000
+DESCRIPTION:Jonas Mertens: Abnahme Gasinstallation Neubau Pulheim.\nGVG-Abnahme erfordert physische Anwesenheit des Inhabers mit DVGW-Zertifikat.\nBei Fahrverbot: Auftrag nicht ausführbar, Vertragsstrafe drohend.\nHärtevortrag dokumentieren.\nAuftrags-Nr.: AO-2026-0220
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mandant-thermeneinbau-kalk-20260615@volkert-partner.de
+SUMMARY:Mandant: Thermeneinbau Kalk (Härtevortrag)
+DTSTART;TZID=Europe/Berlin:20260615T080000
+DTEND;TZID=Europe/Berlin:20260615T160000
+DESCRIPTION:Jonas Mertens: Einbau Therme Wohnungssanierung Kalk.\nAuftrags-Nr.: AO-2026-0221\nHärtevortrag: Ohne Führerschein nicht erreichbar (Werkzeug, Material).
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mandant-notfall-nippes-20260622@volkert-partner.de
+SUMMARY:Mandant: Heizungsnotfall Vertrag Nippes (Härtevortrag)
+DTSTART;TZID=Europe/Berlin:20260622T000000
+DTEND;TZID=Europe/Berlin:20260622T235900
+DESCRIPTION:Jonas Mertens: Vertragliche 24/7-Notfallbereitschaft Nippes.\nKeine Alternative ohne Führerschein – Mitarbeiter nicht DVGW-qualifiziert.\nHärtevortrag: Vertragspflicht gegenüber Hausverwaltung Nippes Wohnen GbR.\nAuftrags-Nr.: NOT-2026-VERT
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-fahrverbot-wahlmonat-beginn-20260701@volkert-partner.de
+SUMMARY:FAHRVERBOT Wahlmonat – frühestmöglicher Beginn (falls Rechtskraft)
+DTSTART;TZID=Europe/Berlin:20260701T000000
+DTEND;TZID=Europe/Berlin:20260801T000000
+DESCRIPTION:Strategische Planung falls kein Freispruch:\nFahrverbot 1 Monat nach § 25 Abs. 2a StVG selbst wählen (Wahlmonat).\nFrühestmöglich: nach Urlaubsplanung und Auftragslage.\nEmpfehlung: August 2026 (Ferienzeit, geringeres Auftragsvolumen).\nFüherschein beim Vollstreckungsgericht vorlegen.\nFrist für Wahlmonat: 4 Monate nach Rechtskraft des Bescheids.
+STATUS:TENTATIVE
+PRIORITY:3
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-fahrverbot-empfohlen-august-20260803@volkert-partner.de
+SUMMARY:EMPFEHLUNG: Fahrverbot Monat August 2026 (strategisch günstig)
+DTSTART;TZID=Europe/Berlin:20260803T000000
+DTEND;TZID=Europe/Berlin:20260902T000000
+DESCRIPTION:Strategisch empfohlener Fahrverbotsmonat (falls Rechtskraft nicht abgewendet):\nAugust 2026 – Ferienzeit, weniger Notfalltermine.\nVoraussetzung: Rechtskraft muss vor 04.08.2026 eingetreten sein.\nAbsprache mit Mandant und Kanzlei nötig.\nFahrtenbuch für diesen Monat gesondert führen (durch Mitarbeiter).
+STATUS:TENTATIVE
+PRIORITY:4
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-hauptverhandlung-ag-koeln-schaetzung-herbst@volkert-partner.de
+SUMMARY:SCHÄTZTERMIN: Hauptverhandlung AG Köln (Herbst 2026)
+DTSTART;TZID=Europe/Berlin:20261001T090000
+DTEND;TZID=Europe/Berlin:20261001T120000
+DESCRIPTION:Geschätzter Termin Hauptverhandlung AG Köln.\nAktenzeichen AG Köln: noch nicht bekannt.\nVorbereitung:\n- Fragenkatalog PHK Kramer (15_hauptverhandlung_fragenkatalog.md)\n- Sachverständigengutachten Foto\n- Härtevortrag mit Belegen\n- Mandant instruieren (keine Spontanäußerungen)\nFrist Ladung: wird nachgetragen.
+STATUS:TENTATIVE
+PRIORITY:2
+END:VEVENT
+
+BEGIN:VEVENT
+UID:owi-kba-auskunft-nach-rechtskraft@volkert-partner.de
+SUMMARY:KBA-Auskunft erneut anfordern nach Rechtskraft
+DTSTART;TZID=Europe/Berlin:20261015T090000
+DTEND;TZID=Europe/Berlin:20261015T090000
+DESCRIPTION:Nach Verfahrensabschluss KBA-Auskunft erneut anfordern.\nPrüfen: Korrekte Eintragung der Punkte und ggf. Tilgungsfristen.\nGgf. Seminar-Option prüfen (1 Punkt Abbau bei 1–5 Punkten).
+STATUS:TENTATIVE
+PRIORITY:5
+END:VEVENT
+
+END:VCALENDAR

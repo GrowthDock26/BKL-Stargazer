@@ -1,0 +1,20 @@
+{
+  "name": "jveg-kostenpruefer",
+  "version": "52.2.1",
+  "description": "Freistehender JVEG-Kostenprüfer für Zeugenentschädigung, Vorschuss, Fahrtkosten, Übernachtung, Verdienstausfall, Sachverständigen- und Dolmetscherkosten, Fristen, Festsetzung, Beschwerde und belegfeste Rechenprotokolle.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "jveg",
+    "kosten",
+    "zeugenentschaedigung",
+    "vorschuss",
+    "sachverstaendige",
+    "dolmetscher",
+    "gerichtskosten",
+    "freistehend"
+  ]
+}

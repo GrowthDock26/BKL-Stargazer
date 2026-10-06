@@ -1,0 +1,490 @@
+{
+  "case": {
+    "name": "Betreuung Schmalfeld",
+    "person": "Herbert Wilhelm Schmalfeld",
+    "period": "2023-01-01 bis 2025-12-31",
+    "account": "DE89 1005 0000 0800 4523 19"
+  },
+  "summary": {
+    "transactions_checked": 21,
+    "risk_levels": {
+      "akut": 7,
+      "hoch": 7,
+      "mittel": 7
+    },
+    "categories": {
+      "fake-authority": 3,
+      "foreign-property": 1,
+      "foreign-investment": 3,
+      "high-risk-investment": 1,
+      "precious-assets": 2,
+      "remote-access": 4,
+      "senior-pressure-sale": 2,
+      "private-care": 1,
+      "lottery": 2,
+      "subscription": 2
+    },
+    "acute_count": 7,
+    "high_count": 7
+  },
+  "top_counterparties": [
+    {
+      "counterparty": "Helvetica Vermögensverwaltung AG",
+      "total_abs_eur": 19319.11
+    },
+    {
+      "counterparty": "Europol Sicherheitsdienst",
+      "total_abs_eur": 17098.82
+    },
+    {
+      "counterparty": "Horizon Property Development S.L.",
+      "total_abs_eur": 12522.54
+    },
+    {
+      "counterparty": "Windpark Nordsee Beteiligungs-GmbH & Co. KG",
+      "total_abs_eur": 8778.05
+    },
+    {
+      "counterparty": "Diamanten Kontor Hamburg GmbH",
+      "total_abs_eur": 5368.79
+    },
+    {
+      "counterparty": "ThermoVital Wärmesysteme GmbH",
+      "total_abs_eur": 3684.61
+    },
+    {
+      "counterparty": "SafeGold Edelmetallhandel GmbH",
+      "total_abs_eur": 3169.65
+    },
+    {
+      "counterparty": "VitalPlus Gesundheitsprodukte GmbH",
+      "total_abs_eur": 2231.05
+    },
+    {
+      "counterparty": "Svetlana Petrova",
+      "total_abs_eur": 500.0
+    },
+    {
+      "counterparty": "NKL Nordwestdeutsche Klassenlotterie",
+      "total_abs_eur": 429.26
+    }
+  ],
+  "ranked_transactions": [
+    {
+      "date": "2025-01-05",
+      "counterparty": "Europol Sicherheitsdienst",
+      "amount_eur": 6802.41,
+      "category": "fake-authority",
+      "risk_factors": [
+        "Vertrag oder Mandat fehlt",
+        "dritte Sicherheitskaution",
+        "telefonische Anweisung",
+        "wiederholter Empfänger"
+      ],
+      "contract_missing": true,
+      "repeat_counterparty": true,
+      "score": 14,
+      "risk_level": "akut",
+      "recommended_actions": [
+        "Bankrückholung und Strafanzeige prüfen",
+        "Telefon-/Kontaktspur sichern",
+        "Betreuungsgericht über akutes Schutzthema informieren",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2023-03-20",
+      "counterparty": "Europol Sicherheitsdienst",
+      "amount_eur": 6386.59,
+      "category": "fake-authority",
+      "risk_factors": [
+        "Autoritätskulisse",
+        "Vertrag oder Mandat fehlt",
+        "telefonische Anweisung",
+        "wiederholter Empfänger"
+      ],
+      "contract_missing": true,
+      "repeat_counterparty": true,
+      "score": 14,
+      "risk_level": "akut",
+      "recommended_actions": [
+        "Bankrückholung und Strafanzeige prüfen",
+        "Telefon-/Kontaktspur sichern",
+        "Betreuungsgericht über akutes Schutzthema informieren",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2024-08-11",
+      "counterparty": "Horizon Property Development S.L.",
+      "amount_eur": 12522.54,
+      "category": "foreign-property",
+      "risk_factors": [
+        "Auslands-IBAN oder SWIFT-Zahlung",
+        "spanische Immobilienreservierung",
+        "weitere Raten angekündigt"
+      ],
+      "foreign_iban": true,
+      "score": 13,
+      "risk_level": "akut",
+      "recommended_actions": [
+        "Reservierungsvertrag und Rücktrittsrechte prüfen",
+        "Zahlplan stoppen, soweit keine Pflicht besteht",
+        "Betreuungsgericht wegen erheblichem Vermögensrisiko informieren",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2023-10-07",
+      "counterparty": "Helvetica Vermögensverwaltung AG",
+      "amount_eur": 7841.99,
+      "category": "foreign-investment",
+      "risk_factors": [
+        "Auslands-IBAN oder SWIFT-Zahlung",
+        "Kapitalverlustrisiko",
+        "Schweizer Depot",
+        "wiederholter Empfänger"
+      ],
+      "foreign_iban": true,
+      "repeat_counterparty": true,
+      "score": 13,
+      "risk_level": "akut",
+      "recommended_actions": [
+        "Vertrag, Geeignetheit und Rückabwicklung prüfen",
+        "Auslandsüberweisungen mit Bank abgleichen",
+        "Genehmigungs- und Einwilligungsvorbehalt prüfen",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2025-12-09",
+      "counterparty": "Helvetica Vermögensverwaltung AG",
+      "amount_eur": 6356.48,
+      "category": "foreign-investment",
+      "risk_factors": [
+        "Auslands-IBAN oder SWIFT-Zahlung",
+        "späte weitere Auslandsüberweisung",
+        "unklare Depotentwicklung",
+        "wiederholter Empfänger"
+      ],
+      "foreign_iban": true,
+      "repeat_counterparty": true,
+      "score": 13,
+      "risk_level": "akut",
+      "recommended_actions": [
+        "Vertrag, Geeignetheit und Rückabwicklung prüfen",
+        "Auslandsüberweisungen mit Bank abgleichen",
+        "Genehmigungs- und Einwilligungsvorbehalt prüfen",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2024-06-23",
+      "counterparty": "Helvetica Vermögensverwaltung AG",
+      "amount_eur": 5120.64,
+      "category": "foreign-investment",
+      "risk_factors": [
+        "Auslands-IBAN oder SWIFT-Zahlung",
+        "Gebührenmodell",
+        "weitere Auslandsüberweisung",
+        "wiederholter Empfänger"
+      ],
+      "foreign_iban": true,
+      "repeat_counterparty": true,
+      "score": 13,
+      "risk_level": "akut",
+      "recommended_actions": [
+        "Vertrag, Geeignetheit und Rückabwicklung prüfen",
+        "Auslandsüberweisungen mit Bank abgleichen",
+        "Genehmigungs- und Einwilligungsvorbehalt prüfen",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2024-02-07",
+      "counterparty": "Europol Sicherheitsdienst",
+      "amount_eur": 3909.82,
+      "category": "fake-authority",
+      "risk_factors": [
+        "Vertrag oder Mandat fehlt",
+        "telefonische Anweisung",
+        "wiederholter Empfänger",
+        "zweite Sicherheitskaution"
+      ],
+      "contract_missing": true,
+      "repeat_counterparty": true,
+      "score": 13,
+      "risk_level": "akut",
+      "recommended_actions": [
+        "Bankrückholung und Strafanzeige prüfen",
+        "Telefon-/Kontaktspur sichern",
+        "Betreuungsgericht über akutes Schutzthema informieren"
+      ]
+    },
+    {
+      "date": "2024-08-17",
+      "counterparty": "Windpark Nordsee Beteiligungs-GmbH & Co. KG",
+      "amount_eur": 8778.05,
+      "category": "high-risk-investment",
+      "risk_factors": [
+        "Kommanditbeteiligung",
+        "Totalverlustrisiko",
+        "lange Bindung"
+      ],
+      "score": 9,
+      "risk_level": "hoch",
+      "recommended_actions": [
+        "Zeichnungsschein, Risikoaufklärung und Laufzeit prüfen",
+        "Rückabwicklung und Schadensersatzspur sichern",
+        "Vermögensverzeichnis als zweifelhafte Anlage ergänzen",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2023-04-22",
+      "counterparty": "Diamanten Kontor Hamburg GmbH",
+      "amount_eur": 5368.79,
+      "category": "precious-assets",
+      "risk_factors": [
+        "Diamant als Anlage",
+        "Verwahrung unklar"
+      ],
+      "score": 9,
+      "risk_level": "hoch",
+      "recommended_actions": [
+        "Lieferung, Verwahrung und Echtheitsnachweis sichern",
+        "Angemessenheit und Rückgabe prüfen",
+        "Sofortige Vermögenssicherungsmaßnahme prüfen"
+      ]
+    },
+    {
+      "date": "2025-11-14",
+      "counterparty": "Digital-Schutz24 GmbH",
+      "amount_eur": 143.96,
+      "category": "remote-access",
+      "risk_factors": [
+        "Zusammenhang mit Fernzugriff möglich",
+        "wiederholter Empfänger",
+        "wiederkehrende Sicherheitssoftware"
+      ],
+      "remote_access_related": true,
+      "repeat_counterparty": true,
+      "score": 9,
+      "risk_level": "hoch",
+      "recommended_actions": [
+        "Fernwartungszugang sofort sperren",
+        "Gerät durch unabhängige IT prüfen lassen",
+        "Onlinebanking und Karten absichern"
+      ]
+    },
+    {
+      "date": "2023-08-18",
+      "counterparty": "Digital-Schutz24 GmbH",
+      "amount_eur": 121.8,
+      "category": "remote-access",
+      "risk_factors": [
+        "Installation über PC-Doktor",
+        "Sicherheitssoftware",
+        "Zusammenhang mit Fernzugriff möglich",
+        "wiederholter Empfänger"
+      ],
+      "remote_access_related": true,
+      "repeat_counterparty": true,
+      "score": 9,
+      "risk_level": "hoch",
+      "recommended_actions": [
+        "Fernwartungszugang sofort sperren",
+        "Gerät durch unabhängige IT prüfen lassen",
+        "Onlinebanking und Karten absichern"
+      ]
+    },
+    {
+      "date": "2024-04-23",
+      "counterparty": "PC-Doktor Fernwartung GmbH",
+      "amount_eur": 119.9,
+      "category": "remote-access",
+      "risk_factors": [
+        "Fernwartungssoftware",
+        "Zugang zum Rechner",
+        "Zusammenhang mit Fernzugriff möglich",
+        "wiederholter Empfänger"
+      ],
+      "remote_access_related": true,
+      "repeat_counterparty": true,
+      "score": 9,
+      "risk_level": "hoch",
+      "recommended_actions": [
+        "Fernwartungszugang sofort sperren",
+        "Gerät durch unabhängige IT prüfen lassen",
+        "Onlinebanking und Karten absichern"
+      ]
+    },
+    {
+      "date": "2025-10-19",
+      "counterparty": "PC-Doktor Fernwartung GmbH",
+      "amount_eur": 113.87,
+      "category": "remote-access",
+      "risk_factors": [
+        "Zusammenhang mit Fernzugriff möglich",
+        "wiederholter Empfänger",
+        "wiederkehrende Serviceflatrate"
+      ],
+      "remote_access_related": true,
+      "repeat_counterparty": true,
+      "score": 9,
+      "risk_level": "hoch",
+      "recommended_actions": [
+        "Fernwartungszugang sofort sperren",
+        "Gerät durch unabhängige IT prüfen lassen",
+        "Onlinebanking und Karten absichern"
+      ]
+    },
+    {
+      "date": "2025-02-10",
+      "counterparty": "SafeGold Edelmetallhandel GmbH",
+      "amount_eur": 3169.65,
+      "category": "precious-assets",
+      "risk_factors": [
+        "Goldkauf",
+        "Verwahrung unklar"
+      ],
+      "score": 8,
+      "risk_level": "hoch",
+      "recommended_actions": [
+        "Lieferung, Verwahrung und Echtheitsnachweis sichern",
+        "Angemessenheit und Rückgabe prüfen"
+      ]
+    },
+    {
+      "date": "2024-10-10",
+      "counterparty": "ThermoVital Wärmesysteme GmbH",
+      "amount_eur": 3684.61,
+      "category": "senior-pressure-sale",
+      "risk_factors": [
+        "Bedarf unklar",
+        "Infrarotkabine"
+      ],
+      "score": 7,
+      "risk_level": "mittel",
+      "recommended_actions": [
+        "Widerruf, Anfechtung und Bedarf prüfen",
+        "Liefer- und Beratungssituation dokumentieren"
+      ]
+    },
+    {
+      "date": "2023-02-22",
+      "counterparty": "VitalPlus Gesundheitsprodukte GmbH",
+      "amount_eur": 2231.05,
+      "category": "senior-pressure-sale",
+      "risk_factors": [
+        "hochpreisiges Seniorenprodukt"
+      ],
+      "score": 7,
+      "risk_level": "mittel",
+      "recommended_actions": [
+        "Widerruf, Anfechtung und Bedarf prüfen",
+        "Liefer- und Beratungssituation dokumentieren"
+      ]
+    },
+    {
+      "date": "2025-07-05",
+      "counterparty": "Svetlana Petrova",
+      "amount_eur": 500.0,
+      "category": "private-care",
+      "risk_factors": [
+        "Leistungsnachweis fehlt",
+        "Vertrag oder Mandat fehlt",
+        "private Pflegehilfe",
+        "wiederholter Empfänger"
+      ],
+      "contract_missing": true,
+      "repeat_counterparty": true,
+      "score": 6,
+      "risk_level": "mittel",
+      "recommended_actions": [
+        "Leistungsnachweise, Vertrag und Angemessenheit anfordern",
+        "Abhängigkeit oder Einflussnahme gesondert prüfen"
+      ]
+    },
+    {
+      "date": "2023-02-04",
+      "counterparty": "NKL Nordwestdeutsche Klassenlotterie",
+      "amount_eur": 218.74,
+      "category": "lottery",
+      "risk_factors": [
+        "Lotterie",
+        "fortlaufender Spielvertrag",
+        "wiederholter Empfänger"
+      ],
+      "repeat_counterparty": true,
+      "score": 4,
+      "risk_level": "mittel",
+      "recommended_actions": [
+        "Kündigungszeitpunkt und SEPA-Mandat prüfen",
+        "Wunsch der betreuten Person gesondert dokumentieren"
+      ]
+    },
+    {
+      "date": "2025-09-06",
+      "counterparty": "NKL Nordwestdeutsche Klassenlotterie",
+      "amount_eur": 210.52,
+      "category": "lottery",
+      "risk_factors": [
+        "Lotterie",
+        "wiederholter Empfänger",
+        "wiederkehrende Lastschrift"
+      ],
+      "repeat_counterparty": true,
+      "score": 4,
+      "risk_level": "mittel",
+      "recommended_actions": [
+        "Kündigungszeitpunkt und SEPA-Mandat prüfen",
+        "Wunsch der betreuten Person gesondert dokumentieren"
+      ]
+    },
+    {
+      "date": "2025-02-08",
+      "counterparty": "Premium-Kontakte AG",
+      "amount_eur": 78.91,
+      "category": "subscription",
+      "risk_factors": [
+        "Kontaktportal",
+        "wiederholter Empfänger",
+        "wiederkehrende Lastschrift"
+      ],
+      "repeat_counterparty": true,
+      "score": 4,
+      "risk_level": "mittel",
+      "recommended_actions": [
+        "Laufzeit, Kündigung und Nutzen prüfen",
+        "SEPA-Mandat bei fehlendem Nutzen beenden"
+      ]
+    },
+    {
+      "date": "2024-12-16",
+      "counterparty": "Premium-Kontakte AG",
+      "amount_eur": 67.77,
+      "category": "subscription",
+      "risk_factors": [
+        "Kontaktportal",
+        "automatische Verlängerung",
+        "wiederholter Empfänger"
+      ],
+      "repeat_counterparty": true,
+      "score": 4,
+      "risk_level": "mittel",
+      "recommended_actions": [
+        "Laufzeit, Kündigung und Nutzen prüfen",
+        "SEPA-Mandat bei fehlendem Nutzen beenden"
+      ]
+    }
+  ],
+  "measures": [
+    "Akute Positionen noch heute priorisieren",
+    "Originale Kontoauszüge und Verträge unverändert sichern",
+    "Bankkontakt herstellen und weitere atypische Abflüsse monitoren",
+    "SEPA-Mandate, Daueraufträge, Karten und Onlinebanking prüfen",
+    "Fernwartungs- und Gerätezugriff unabhängig prüfen lassen",
+    "Auslandszahlungen mit Bank und Vertragslage abgleichen"
+  ]
+}

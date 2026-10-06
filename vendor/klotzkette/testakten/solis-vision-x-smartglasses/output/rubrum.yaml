@@ -1,0 +1,20 @@
+gericht: "Amtsgericht Hamburg"
+aktenzeichen: "11 C 2406/26"
+verkuendet_am: "3. Juni 2026"
+urkundsbeamter: "Schmidt"
+spruchkoerper: "die Richterin am Amtsgericht Dr. Beispiel"
+termin_muendliche_verhandlung: "15. Mai 2026"
+schluss_muendlich: "15. Mai 2026"
+im_namen_des_volkes: true
+
+klaeger:
+  name: "Datenschutzverein NORD e.V., vertreten durch den Vorsitzenden Dr. Jens Holm"
+  anschrift: "Eppendorfer Landstrasse 88 in 20249 Hamburg"
+  rolle: "Klaegerin"
+  prozessbevollmaechtigte: "Rechtsanwaeltin Dr. Mareike Wendt, Rothenbaumchaussee 30, 20148 Hamburg"
+
+beklagter:
+  name: "Lir Optics Ltd., gesetzlich vertreten durch den CEO Sean Murphy"
+  anschrift: "Galway Technology Park in H91 X7P2 Galway, Irland"
+  rolle: "Beklagte"
+  prozessbevollmaechtigte: "Rechtsanwalt Markus Rieder, Theatinerstrasse 42, 80333 Muenchen"

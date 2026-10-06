@@ -1,0 +1,29 @@
+{
+  "name": "tabellenreview-3d",
+  "version": "52.2.1",
+  "description": "3D-Tabellenreview als Wuerfel: Spaltenprompts pro Datenpunkt x Zeilenprompts pro Dokument x Arbeitsblatt-Perspektiven (Recht / Steuer / Wirtschaft) gestapelt. Massenprüfung Vertragsstapel M&A-DD Immobilien Vendor-Onboarding mit Excel-Mehrblatt Kreuzblatt-Konsistenz Audit-Trail Belegkette.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "tabellenreview",
+    "3d-review",
+    "prompt-matrix",
+    "wuerfel",
+    "spaltenprompt",
+    "zeilenprompt",
+    "arbeitsblatt-perspektive",
+    "due-diligence",
+    "vertragsreview",
+    "stapelpruefung",
+    "kreuzblatt-konsistenz",
+    "audit-trail",
+    "belegkette",
+    "excel-export",
+    "vendor-review",
+    "portfolio-pruefung",
+    "ma-dd"
+  ]
+}

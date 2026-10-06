@@ -1,0 +1,5 @@
+position,betrag_eur,anspruchsgrundlage,belege,einwendungen,status,entscheidung
+Hauptforderung Rechnung R-20250406-3098,698.00,§ 433 Abs. 2 BGB,Rechnung; Bestellung; Zustellung; Abtretung; Kontoauszug,Zahlung am 26.06.2025 und interne Kenntnis am 01.07.2025,ROT,Nicht einklagen
+Mahnkosten,5.50,§§ 280 Abs. 1 und 2; 286 BGB,Mahnschreiben,Zugang und konkrete Kostenhöhe prüfen,GELB,Nur nach Freigabe oder Vergleich
+Verzugszinsen,10.80,§ 288 Abs. 1 BGB,Zinsaufstellung; Mahnchronologie,Verzugseintritt und Zeitraum nach Zahlung prüfen,GELB,Nur nach Freigabe oder Vergleich
+Inkassokosten,83.54,§§ 280 Abs. 1 und 2; 286 BGB; Schadensminderung,Inkassoschreiben; Gebührenrechnung; Abtretung,Erforderlichkeit; Verzug vor Inkassoauftrag; Höhe; Verbrauchereinwendungen,GELB,Nur nach Freigabe oder Vergleich

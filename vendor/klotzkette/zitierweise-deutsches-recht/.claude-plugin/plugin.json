@@ -1,0 +1,27 @@
+{
+  "name": "zitierweise-deutsches-recht",
+  "version": "52.2.1",
+  "description": "Deutsche juristische Hauszitierweise v4.0: Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und verifizierbarer Quelle; keine BeckRS-, Kommentar- oder Aufsatz-Blindzitate. Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "zitierweise",
+    "juristische-zitation",
+    "pinpoint-zitierung",
+    "bgh-randnummer",
+    "aktenzeichen-marker",
+    "grueneberg",
+    "palandt",
+    "muekobgb",
+    "muenchkomm",
+    "beckok",
+    "verlag",
+    "diss-habil",
+    "gerichtshierarchie",
+    "haus-zitierweise",
+    "typografie"
+  ]
+}

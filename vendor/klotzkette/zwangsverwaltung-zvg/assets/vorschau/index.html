@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZVG-Zwangsverwaltung - Verwalter-Cockpit</title>
+  <style>
+    :root { color-scheme: light; --ink:#162033; --muted:#526070; --line:#d8e0ea; --panel:#ffffff; --blue:#214e7a; --silver:#edf2f7; --orange:#cc6a22; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif; color:var(--ink); background:linear-gradient(135deg,#f7fafc 0%,#e7edf4 54%,#fff7ef 100%); }
+    main { width:min(1160px, calc(100% - 32px)); margin:0 auto; padding:40px 0 56px; }
+    .hero { display:grid; grid-template-columns: 1.15fr .85fr; gap:24px; align-items:stretch; min-height:420px; }
+    .copy { padding:32px 0; }
+    .eyebrow { color:var(--blue); font-weight:700; font-size:13px; letter-spacing:.02em; text-transform:uppercase; }
+    h1 { font-size: clamp(38px, 5vw, 72px); line-height:.98; letter-spacing:0; margin:14px 0 18px; max-width:760px; }
+    .lead { color:var(--muted); font-size:20px; line-height:1.5; max-width:720px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .button { display:inline-flex; align-items:center; gap:10px; min-height:44px; padding:0 16px; border-radius:8px; border:1px solid var(--line); background:#fff; color:var(--ink); text-decoration:none; font-weight:650; }
+    .button.primary { background:var(--blue); color:#fff; border-color:var(--blue); }
+    .device { border:1px solid rgba(33,78,122,.22); background:rgba(255,255,255,.82); border-radius:14px; box-shadow:0 24px 70px rgba(22,32,51,.16); overflow:hidden; align-self:center; }
+    .bar { height:42px; background:linear-gradient(90deg,#dfe8f2,#f5f8fb); display:flex; align-items:center; gap:8px; padding:0 14px; border-bottom:1px solid var(--line); }
+    .dot { width:10px; height:10px; border-radius:50%; background:#b7c4d3; }
+    .dot:nth-child(1){background:#f2a65a}.dot:nth-child(2){background:#d9b44a}.dot:nth-child(3){background:#75a47f}
+    .screen { padding:18px; display:grid; gap:14px; }
+    .row { display:grid; grid-template-columns: 1fr auto; gap:12px; align-items:center; border:1px solid var(--line); border-radius:8px; padding:14px; background:#fff; }
+    .row strong { font-size:14px; }
+    .pill { color:#7a3e00; background:#fff1df; border:1px solid #f2c99b; border-radius:999px; padding:5px 9px; font-size:12px; font-weight:700; }
+    .grid { display:grid; grid-template-columns: repeat(4, 1fr); gap:14px; margin-top:30px; }
+    .card { border:1px solid var(--line); border-radius:8px; background:rgba(255,255,255,.9); padding:16px; min-height:150px; }
+    .card span { color:var(--orange); font-weight:800; font-size:12px; text-transform:uppercase; }
+    .card h3 { margin:10px 0 8px; font-size:17px; letter-spacing:0; }
+    .card p { margin:0; color:var(--muted); line-height:1.45; font-size:14px; }
+    .band { margin-top:26px; border-top:1px solid var(--line); padding-top:20px; color:var(--muted); display:grid; grid-template-columns: repeat(3,1fr); gap:16px; }
+    .band strong { display:block; color:var(--ink); margin-bottom:6px; }
+    @media (max-width: 860px) { .hero { grid-template-columns:1fr; min-height:0; } .copy { padding:18px 0 0; } .grid { grid-template-columns:1fr 1fr; } .band { grid-template-columns:1fr; } }
+    @media (max-width: 560px) { main { width:min(100% - 22px, 1160px); padding-top:22px; } h1 { font-size:38px; } .lead { font-size:17px; } .grid { grid-template-columns:1fr; } .actions { flex-direction:column; } .button { justify-content:center; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="copy">
+        <div class="eyebrow">Freistehendes Claude-Cowork-Plugin</div>
+        <h1>ZVG-Zwangsverwaltung - Verwalter-Cockpit</h1>
+        <p class="lead">Von der Bestallungsurkunde bis zur Endabrechnung: ein schlankes ZVG-Cockpit für Objekt, Mieter, Konto, Bericht, Rechnungslegung und Verteilung.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/zwangsverwaltung-zvg.zip">Plugin-ZIP laden</a>
+          <a class="button" href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-zwangsverwaltung-zvg-mietshaus-parkstrasse.zip">Akte laden</a>
+        </div>
+      </div>
+      <div class="device" aria-label="Plugin-Vorschau">
+        <div class="bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+        <div class="screen">
+          <div class="row"><strong>Besitzerlangung</strong><span class="pill">§ 3 ZwVwV</span></div>
+          <div class="row"><strong>Rent Roll</strong><span class="pill">Soll/Ist</span></div>
+          <div class="row"><strong>Treuhandkonto</strong><span class="pill">Belege</span></div>
+          <div class="row"><strong>Verteilungsplan</strong><span class="pill">§ 155 ZVG</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="grid">
+      <article class="card"><span>Start</span><h3>Kommandocenter</h3><p>Startet Zwangsverwaltung mit Objekt, Beteiligten, Beschluss und Sofortmaßnahmen.</p></article>
+<article class="card"><span>File</span><h3>Objektcockpit</h3><p>Legt Objektakte, Rent Roll, Lastenregister, Konto und Berichtswesen an.</p></article>
+<article class="card"><span>Beschluss</span><h3>Bestellung</h3><p>Prüft Anordnung, Beschlagnahmeumfang, Ausweis, Rang und Gerichtsvorgaben.</p></article>
+<article class="card"><span>Vor Ort</span><h3>Besitz</h3><p>Organisiert Besitznahme, Protokoll, Schlüssel, Zustand, Mobilien und Sofortgefahren.</p></article>
+<article class="card"><span>Miete</span><h3>Mietverwaltung</h3><p>Verwaltet Miet- und Pachtverträge, Zahlstellen, Vorausverfügungen und Kautionen.</p></article>
+<article class="card"><span>Inkasso</span><h3>Einzug</h3><p>Treibt Mieten ein, matcht Zahlungen, mahnt und bereitet Klagen vor.</p></article>
+<article class="card"><span>BK</span><h3>Kosten</h3><p>Steuert Betriebskosten, Hausgeld, Dienstleister, Abrechnung und Liquidität.</p></article>
+<article class="card"><span>Objekt</span><h3>Sicherung</h3><p>Prüft Verkehrssicherung, Notmaßnahmen, Instandhaltung, Zustimmung und Budget.</p></article>
+<article class="card"><span>Risiko</span><h3>Versicherung</h3><p>Sichert Gebäudeversicherung, Haftpflicht, Beitragsrückstände und Schadensfälle.</p></article>
+<article class="card"><span>Abgaben</span><h3>Lasten</h3><p>Erfasst Grundsteuer, Gebühren, Lasten, Rang und Zahlungsplan.</p></article>
+<article class="card"><span>Buch</span><h3>Konto</h3><p>Führt Treuhandkonto, Soll-Ist, Belege, Vorschüsse und Kassenbuch.</p></article>
+<article class="card"><span>Report</span><h3>Berichte</h3><p>Erstellt Besitzerlangungsbericht, Sachstandsbericht, Monatsnotiz und Gerichtsvorlage.</p></article>
+<article class="card"><span>Jahr</span><h3>Rechnung</h3><p>Erstellt Jahresrechnung, Schlussrechnung, Endabrechnung und Belegpaket.</p></article>
+<article class="card"><span>§ 155</span><h3>Verteilung</h3><p>Bereitet Verteilung der Nutzungen, Ausgaben, Gläubigerzahlungen und Gerichtskosten vor.</p></article>
+<article class="card"><span>Dialog</span><h3>Kommunikation</h3><p>Formuliert klare Schreiben an Schuldner, Gläubiger, Mieter, Behörden und Gericht.</p></article>
+<article class="card"><span>Konflikt</span><h3>Räumung</h3><p>Prüft Kündigung, Räumung, Schuldnerwohnräume, Mieterrechte und Eskalation.</p></article>
+<article class="card"><span>Schnittstelle</span><h3>Insolvenz</h3><p>Koordiniert ZVG mit Insolvenzverfahren, IV, Absonderungsrechten und Massefragen.</p></article>
+<article class="card"><span>Sale</span><h3>Versteigerung</h3><p>Hält Schnittstelle zur Zwangsversteigerung, Werterhalt, Besichtigung und Erlöslogik.</p></article>
+<article class="card"><span>Training</span><h3>Simulation</h3><p>Simuliert einen kompletten Zwangsverwaltungstag mit echten Fallakten-Artefakten.</p></article>
+<article class="card"><span>QA</span><h3>Quality Gate</h3><p>Prüft Beschluss, Konto, Rent Roll, Belege, Berichte, Verteilung und Rollen.</p></article>
+    </section>
+    <section class="band">
+      <p><strong>Objektklarheit</strong>Einheiten, Mieten, Lasten, Versicherung und Gefahren an einem Ort.</p>
+      <p><strong>Gerichtsfest</strong>Berichte, Rechnungen und Verteilungen werden beleg- und saldenorientiert aufgebaut.</p>
+      <p><strong>Testakte</strong>Fiktives Mietshaus mit Rent Roll, Rückständen, Versicherungen, Kasse und Schlussrechnung.</p>
+    </section>
+  </main>
+</body>
+</html>

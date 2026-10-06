@@ -1,0 +1,13 @@
+einheit,nutzung,lage,flaeche_qm,mieter,mietbeginn,kaltmiete,nebenkosten_vz,gesamtmiete,kaution,kaution_hinterlegt,rueckstand_alt,rueckstand_zvw,status,anmerkung
+WE01,Wohnen,VH EG links,58,Ingrid Berger,01.09.2019,720.00,210.00,930.00,2160.00,ja,0.00,0.00,ok,pünktlich zahlend
+WE02,Wohnen,VH EG rechts,55,Bogdan Matuschek,01.03.2021,690.00,205.00,895.00,2070.00,ja,1790.00,895.00,mahnen,"Maimiete an Schuldner gezahlt; ab Jun 26 Treuhandkonto"
+WE03,Wohnen,VH 1.OG links,72,Leerstand,–,0.00,0.00,0.00,0.00,–,0.00,0.00,leerstand,"Auszug Dez 2025; Renovierungsbedarf; Wiedervermietung geplant Q3 26"
+WE04,Wohnen,VH 1.OG rechts,68,Claudia Ohrend,01.07.2018,680.00,200.00,880.00,2040.00,ja,0.00,0.00,ok,"Minderung Balkon geltend gemacht; Gespräch 28.05.26"
+WE05,Wohnen,VH 2.OG links,72,Michael und Renate Stöckel,01.04.2015,850.00,240.00,1090.00,2550.00,ja,0.00,0.00,ok,langjährige Mieter
+WE06,Wohnen,VH 2.OG rechts,68,Denis Farber,01.11.2022,640.00,195.00,835.00,1920.00,ja,0.00,0.00,ok,–
+WE07,Wohnen,VH 3.OG links,72,Annette Baumgärtner,01.02.2020,730.00,215.00,945.00,2190.00,ja,0.00,0.00,ok,–
+WE08,Wohnen,VH 3.OG rechts,68,Franz Möller,01.08.2017,660.00,200.00,860.00,1980.00,ja,0.00,430.00,mahnen,"halbe Miete Mai 26; Heizungsmangel behauptet; geklärt 28.05.26"
+WE09,Wohnen,VH DG,48,Simon Kreller,01.06.2023,520.00,160.00,680.00,1560.00,ja,0.00,816.00,mahnen,"20% Minderung Dachfenster; Abdichtung Sep 26; danach regulär"
+WE10,Wohnen,SF OG,51,Petra Voss,01.01.2021,600.00,185.00,785.00,1800.00,ja,0.00,0.00,ok,–
+GE01,Gewerbe,VH+SF EG,124,Bäckerei Kranz GmbH (Werner Kranz),01.03.2018,1850.00,480.00,2330.00,5550.00,ja,4660.00,2900.00,streitig,"Feuchtigkeitsmängel; Vergleich 28.07.26; Raten Jul–Sep 26"
+GE02,Gewerbe,SF EG,74,Kosmetikstudio Luma (Luma Osei),01.09.2020,980.00,260.00,1240.00,2940.00,ja,0.00,0.00,ok,–

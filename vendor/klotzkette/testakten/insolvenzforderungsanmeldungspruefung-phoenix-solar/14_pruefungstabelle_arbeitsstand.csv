@@ -1,0 +1,36 @@
+lfd_nr,pruefnummer,glaeubiger,grund,betrag_angemeldet,betrag_vorschlag_feststellung,betrag_bestreiten,rang,status,widerspruch_von,streitpunkt,klagefrist
+1,IFAP-001a,Solarteile Nord GmbH,Warenlieferung Rechnungen SN-014 bis -018 (ohne -016),24250.20,24250.20,0.00,§ 38 InsO,Widerspruch Schuldner,Schuldner (Wendler),Mängeleinwand Modulleistung; kein Gutachten vorgelegt,17.09.2026
+2,IFAP-001b,Solarteile Nord GmbH,Rechnung SN-2026-016 (Dublette/OPOS),4200.00,0.00,4200.00,§ 38 InsO,Bestritten IV,Insolvenzverwalter,OPOS Schuldnerin zeigt Zahlung; kein Zahlungsbeleg Gläubiger,offen
+3,IFAP-001c,Solarteile Nord GmbH,Zinsen SN-2026-018,37.54,37.54,4.46,§ 38 InsO,teilweise festgestellt,–,Zeitraum korrigiert auf 30.04.2026; Differenz zu angemeldeten 42 EUR bestritten,–
+4,IFAP-002,Havelbank AG,Betriebsmitteldarlehen HB-44-901 (Ausfall nach Verwertung),103624.00,103624.00,0.00,§ 38 InsO,zurückgestellt / festgestellt nach Bewertung,–,Sicherheitenbewertung lag zunächst nicht vor; nach Verwertungserlös 46376 EUR an Havelbank: Ausfall 103624 EUR,–
+5,IFAP-003a,Finanzamt Potsdam,Umsatzsteuer 02/2026,18400.00,18400.00,0.00,§ 38 InsO,festgestellt ohne besond. Rechtsgrund,IV (besond. Rechtsgrund),Steuerstraftat nicht nachgewiesen; Feststellung nur § 38 InsO,–
+6,IFAP-003b,Finanzamt Potsdam,Vorsteuerberichtigung § 17 UStG,9800.00,9800.00,0.00,§ 38 InsO,festgestellt,–,Betrag vorläufig; Nachberechnung nach Tabellenstand angekündigt,–
+7,IFAP-003c,Finanzamt Potsdam,Lohnsteuer 03/2026,8200.00,8200.00,0.00,§ 38 InsO,festgestellt ohne besond. Rechtsgrund,IV (besond. Rechtsgrund),Steuerstraftat-Nachweis fehlt,–
+8,IFAP-003d,Finanzamt Potsdam,Säumniszuschläge USt+LSt,1330.00,1330.00,0.00,§ 38 InsO,festgestellt,–,Zeitraum korrekt (vor Eröffnung),–
+9,IFAP-004,BKK Handwerk Mitte,SV-Beiträge Feb-Apr 2026 (korrigiert),21862.35,21862.35,0.00,§ 38 InsO,festgestellt,–,Zeitraum nach Abstimmung bereinigt; April anteilig,–
+10,IFAP-005a,Lena Vogt,Bruttolohn März 2026,3100.00,3100.00,0.00,§ 38 InsO,festgestellt unstreitig,–,Insolvenzgeld-Übergang prüfen; Bundesagentur ggf. Forderung übernimmt,–
+11,IFAP-005b,Lena Vogt,Bruttolohn April 2026,3100.00,3100.00,0.00,§ 38 InsO,Widerspruch Schuldner,Schuldner (Wendler),Unentschuldigte Abwesenheit behauptet; kein Beleg,17.09.2026
+12,IFAP-006,Lena Vogt,Schmerzensgeld vbuH § 302 Nr.1 InsO,3000.00,0.00,3000.00,§ 38 InsO,Bestritten IV,Insolvenzverwalter,Tatsachenbasis deliktische Handlung fehlt; Arztbescheinigung unvollständig,17.09.2026
+13,IFAP-007,Gründerkreis Phoenix GbR,Gesellschafterdarlehen Hauptforderung,85000.00,85000.00,0.00,§ 39 Abs.1 Nr.5 InsO (Nachrang),festgestellt als Nachrang; Rang bestritten Gläubiger,Insolvenzverwalter (Rang),Gläubiger hält Darlehen für fremdüblich; BGH-Rspr. widerspricht,17.09.2026
+14,IFAP-007z,Gründerkreis Phoenix GbR,Zinsen Gesellschafterdarlehen 7.5% p.a.,9796.23,9796.23,0.00,§ 39 Abs.1 Nr.5 InsO (Nachrang),festgestellt als Nachrang,Insolvenzverwalter (Rang),Zinsen teilen Rang der Hauptforderung,–
+15,IFAP-008,Gewerbepark Babelsberg GmbH,Miete April 2026 (29/30 Insolvenzforderung),4640.00,4640.00,0.00,§ 38 InsO,festgestellt,–,Mai/Juni aus Anmeldung herausgenommen (Masse),–
+16,IFAP-009,Gewerbepark Babelsberg GmbH,Schadensersatz Hallentor,5400.00,0.00,5400.00,§ 38 InsO,Bestritten IV,Insolvenzverwalter,Kein Schadensgutachten; keine Fotodokumentation; kein Kostenvoranschlag,01.07.2026 (Belege-Frist)
+17,IFAP-010,Elektro Schaffner GmbH,Reparaturleistungen Solaranlage,8340.00,8340.00,0.00,§ 38 InsO,festgestellt,–,,–
+18,IFAP-011,Zollingerwerke GmbH & Co. KG,Kabelmaterial + Installationszubehör,14900.00,14900.00,0.00,§ 38 InsO,festgestellt,–,,–
+19,IFAP-012,Transporte Haase GmbH,Speditionsleistungen,3290.00,3290.00,0.00,§ 38 InsO,festgestellt,–,,–
+20,IFAP-013,Hans Köhler,Lohn März+April 2026,2800.00,2800.00,0.00,§ 38 InsO,festgestellt,–,Insolvenzgeld-Übergang prüfen,–
+21,IFAP-014,Carmen Dietrich,Lohn März+April 2026,3100.00,3100.00,0.00,§ 38 InsO,festgestellt,–,Insolvenzgeld-Übergang prüfen,–
+22,IFAP-015,Klaus-Peter Müller,Lohn + Provision März 2026,4600.00,4600.00,0.00,§ 38 InsO,festgestellt,–,Provision durch Gehaltsabrechnung belegt,–
+23,IFAP-016a,Alexandra Wolff,Bruttolohn März+April 2026,3100.00,3100.00,0.00,§ 38 InsO,festgestellt,–,Lohn unstreitig; vbuH offen,–
+24,IFAP-016b,Alexandra Wolff,Überstundenvergütung + vbuH,2700.00,0.00,2700.00,§ 38 InsO,Bestritten IV,Insolvenzverwalter,Überstundennachweis fehlt; vbuH ohne Tatsachenbasis,17.09.2026
+25,IFAP-017,Finanzamt Cottbus,USt-Erstattung Dritter,1200.00,0.00,1200.00,–,Abgewiesen,Insolvenzverwalter,Kein Anspruchsgrund; FA Cottbus nicht Gläubiger der Schuldnerin,–
+26,IFAP-018,Dachdecker Meier & Söhne GbR,Reparaturleistungen Betriebsgelände,6800.00,6800.00,0.00,§ 38 InsO,festgestellt,–,,–
+27,IFAP-019,GreenTech Leasing GmbH,Leasingrückstände Hebebühnen,18500.00,18500.00,0.00,§ 38 InsO,festgestellt (gekürzt),Insolvenzverwalter (Zinsen teilw.),Restbuchwert-Streit beigelegt; AGB-Zinsen reduziert,–
+28,IFAP-020,Stadtwerke Potsdam GmbH,Strom+Gas Jan-Apr 2026,2140.00,2140.00,0.00,§ 38 InsO,festgestellt,–,,–
+29,IFAP-021,Reinigungsservice Quick GmbH,Reinigungsleistungen Q1 2026,890.00,890.00,0.00,§ 38 InsO,festgestellt,–,,–
+30,IFAP-022,Techniker Krankenkasse,SV-Beiträge 3 Arbeitnehmer,8120.00,8120.00,0.00,§ 38 InsO,festgestellt,–,Anteilig April geprüft,–
+31,IFAP-023,Druckerei Licht & Wort GmbH,Werbematerial Feb. 2026,1460.00,1460.00,0.00,§ 38 InsO,festgestellt,–,,–
+32,IFAP-024,RA Dr. Schulze,Eigenantragsberatungskosten,3200.00,0.00,3200.00,–,Abgewiesen,Insolvenzverwalter,Masseverbindlichkeit (§ 54 InsO); nicht in Insolvenztabelle,–
+33,IFAP-025,Immobilien Bau AG,Anzahlung Grundstückskauf,45000.00,0.00,45000.00,strittig,Bestritten IV,Insolvenzverwalter,Aussonderungsrecht (§ 47 InsO) vs. InsO-Forderung; Rechtsnatur ungeklärt,17.09.2026
+34,IFAP-026,Photovoltaik-Technik AG,Lizenzgebühren Montagetechnik,12600.00,12600.00,0.00,§ 38 InsO,festgestellt,–,,–
+35,IFAP-027,Werkzeugbau Kern GmbH,Werkzeugmiete + Sonderverkauf,4700.00,4700.00,0.00,§ 38 InsO,festgestellt,–,Fax 04.06.2026 23:55 Uhr fristgerecht,–

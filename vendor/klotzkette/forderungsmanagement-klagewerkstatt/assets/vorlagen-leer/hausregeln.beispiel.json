@@ -1,0 +1,42 @@
+{
+  "kanzlei": {
+    "name": "<Kanzlei XY>",
+    "briefkopf_pfad": "assets/briefkopf.docx",
+    "bea_safe_id_eigene": "",
+    "anschrift": ""
+  },
+  "stil": {
+    "tonalitaet": "knapp-sachlich",
+    "anrede_gericht": "An das",
+    "nummerierung_antraege": "arabisch",
+    "anlagensigel": "K"
+  },
+  "zitierweise": {
+    "schema": "pinpoint_rn",
+    "reihenfolge": "juengere_bgh_zuerst",
+    "kommentartradition": "deutsch"
+  },
+  "standardklauseln": {
+    "zinsantrag_b2b": "9 Prozentpunkte über Basiszinssatz, § 288 Abs. 2 BGB",
+    "zinsantrag_b2c": "5 Prozentpunkte über Basiszinssatz, § 288 Abs. 1 BGB",
+    "verzugspauschale_b2b": "40 EUR, § 288 Abs. 5 BGB",
+    "nebenforderung_ra_kosten": "Geschäftsgebühr Nr. 2300 VV RVG abzgl. Anrechnung Vorbem. 3 Abs. 4 VV RVG"
+  },
+  "standardbeleg": {
+    "ra_kosten_als_verzugsschaden": "Rechtsprechung vor Ausgabe live pruefen: Gericht, Entscheidungsform, Datum, Aktenzeichen, freie/amtliche Quelle und tragende Aussage dokumentieren.",
+    "mahnung_anforderungen": "Rechtsprechung vor Ausgabe live pruefen: Gericht, Entscheidungsform, Datum, Aktenzeichen, freie/amtliche Quelle und tragende Aussage dokumentieren.",
+    "verzugspauschale_reichweite": "Rechtsprechung vor Ausgabe live pruefen: Gericht, Entscheidungsform, Datum, Aktenzeichen, freie/amtliche Quelle und tragende Aussage dokumentieren."
+  },
+  "anlagen_default": [
+    "Rechnung mit Fälligkeit",
+    "1. Mahnung",
+    "2. Mahnung mit Frist und Verzugsfolgenhinweis",
+    "Auftragsbestätigung / Vertrag",
+    "Lieferschein / Leistungsnachweis",
+    "AGB (sofern einbezogen)"
+  ],
+  "zustaendigkeit": {
+    "quelle_primaer": "https://www.justizadressen.nrw.de/de/justiz/suche",
+    "quelle_bundesweit": "https://www.justiz.de/onlinedienste/gerichtsverzeichnis_und_orga/index.php"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mandantenanfragen-assistent",
+  "version": "52.2.1",
+  "description": "Assistent für Anwaltskanzleien zur Erstantwort auf Mandantenanfragen per E-Mail: dankt foermlich übernimmt die Anrede aus der eingehenden E-Mail nennt die telefonische Terminvergabe bittet um Sachverhalt per E-Mail oder bietet eine Telefon-Transkription mit DSGVO-Einwilligungshinweis an.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "mandantenanfragen",
+    "erstantwort",
+    "anrede",
+    "telefontermin",
+    "transkription",
+    "dsgvo",
+    "einwilligung",
+    "kanzlei",
+    "sekretariat",
+    "konfliktcheck",
+    "dringlichkeit",
+    "spam-filter",
+    "mehrsprachig",
+    "mandatsverhaeltnis",
+    "berufsrecht"
+  ]
+}

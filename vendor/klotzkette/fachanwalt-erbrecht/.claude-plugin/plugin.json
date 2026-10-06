@@ -1,0 +1,21 @@
+{
+  "name": "fachanwalt-erbrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Erbrecht. BGB Erbrecht §§ 1922 ff. Pflichtteil Testament Erbschein Erbauseinandersetzung Erbschaftsteuer EU-ErbVO. Schnittstellen Plugin steuerrecht-anwalt-und-berater kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "erbrecht",
+    "fachanwalt",
+    "testament",
+    "erbschein",
+    "pflichtteil",
+    "erbauseinandersetzung",
+    "erbschaftsteuer",
+    "schenkung",
+    "eu-erbvo"
+  ]
+}

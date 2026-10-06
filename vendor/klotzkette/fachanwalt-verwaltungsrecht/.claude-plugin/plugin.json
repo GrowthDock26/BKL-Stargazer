@@ -1,0 +1,21 @@
+{
+  "name": "fachanwalt-verwaltungsrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Verwaltungsrecht. VwGO VwVfG. Anfechtungs- und Verpflichtungsklage Eilrechtsschutz § 80 Abs 5 VwGO einstweilige Anordnung Normenkontrolle Polizei- und Ordnungsrecht. Schnittstelle Plugin kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "verwaltungsrecht",
+    "fachanwalt",
+    "vwgo",
+    "vwvfg",
+    "anfechtungsklage",
+    "verpflichtungsklage",
+    "eilrechtsschutz",
+    "polizeirecht",
+    "ordnungsrecht"
+  ]
+}

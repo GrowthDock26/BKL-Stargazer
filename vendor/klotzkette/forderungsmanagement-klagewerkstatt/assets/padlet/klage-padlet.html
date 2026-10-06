@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Klagewerkstatt — Live-Padlet</title>
+<style>
+:root {
+  --bg: #F7F6F2;
+  --surface: #F9F8F5;
+  --border: #D4D1CA;
+  --text: #28251D;
+  --muted: #7A7974;
+  --primary: #01696F;
+  --primary-hover: #0C4E54;
+  --warning: #964219;
+  --success: #437A22;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+header {
+  padding: 16px 24px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+header h1 { font-size: 18px; margin: 0; }
+header .meta { color: var(--muted); font-size: 13px; margin-left: auto; }
+.layout {
+  display: grid;
+  grid-template-columns: minmax(340px, 1fr) minmax(420px, 1.4fr);
+  gap: 0;
+  min-height: calc(100vh - 60px);
+}
+.form, .vorschau {
+  padding: 20px 24px;
+  overflow-y: auto;
+  max-height: calc(100vh - 60px);
+}
+.form { background: var(--surface); border-right: 1px solid var(--border); }
+.vorschau { background: var(--bg); }
+.gruppe {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px 14px 14px;
+  margin-bottom: 14px;
+  background: #FBFBF9;
+}
+.gruppe > h2 {
+  margin: 0 0 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+}
+label { display: block; font-size: 12px; color: var(--muted); margin: 8px 0 4px; }
+input, textarea, select {
+  width: 100%;
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: white;
+  color: var(--text);
+}
+textarea { min-height: 70px; resize: vertical; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.aktionen {
+  position: sticky;
+  bottom: 0;
+  background: var(--surface);
+  padding: 10px 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  margin-top: 12px;
+}
+button {
+  font: inherit;
+  padding: 7px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: white;
+  cursor: pointer;
+}
+button.primary { background: var(--primary); color: white; border-color: var(--primary); }
+button.primary:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
+button.warn { color: var(--warning); }
+.vorschau-doc {
+  background: white;
+  padding: 28px 36px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+  font-size: 14.5px;
+  min-height: 80vh;
+}
+.vorschau-doc h1 { font-size: 22px; margin: 0 0 12px; text-align: center; }
+.vorschau-doc h2 { font-size: 16px; margin: 18px 0 6px; }
+.vorschau-doc .briefkopf, .vorschau-doc .ortdatum { color: var(--muted); white-space: pre-line; }
+.vorschau-doc .platzhalter { color: #BB653B; font-style: italic; }
+.vorschau-doc table { border-collapse: collapse; width: 100%; margin: 6px 0 10px; font-family: inherit; font-size: 13px; }
+.vorschau-doc th, .vorschau-doc td { border: 1px solid var(--border); padding: 4px 6px; text-align: left; vertical-align: top; }
+.hinweis {
+  background: #F3EDE3;
+  border-left: 4px solid var(--warning);
+  padding: 8px 12px;
+  margin: 10px 0 16px;
+  font-size: 13px;
+  color: var(--text);
+}
+.zust-ok { color: var(--success); }
+.zust-warn { color: var(--warning); }
+.online-link a { color: var(--primary); }
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; }
+  .form, .vorschau { max-height: none; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Klagewerkstatt — Live-Padlet</h1>
+  <span class="meta">Single-File, autark, speichert lokal im Browser (<code>localStorage</code>).
+    Pflichtschritt vor Versand: Zuständigkeit online prüfen.</span>
+</header>
+<div class="layout">
+  <section class="form" id="form">
+    <!-- generiert per JS -->
+  </section>
+  <section class="vorschau">
+    <div class="hinweis">
+      <strong>Hinweis:</strong> Vorschau dient der Pflege, nicht der Einreichung.
+      Vor Versand zwingend online prüfen:
+      <span class="online-link">
+        <a href="https://www.justizadressen.nrw.de/de/justiz/suche" target="_blank" rel="noopener">justizadressen.nrw.de</a> ·
+        <a href="https://www.justiz.de/onlinedienste/gerichtsverzeichnis_und_orga/index.php" target="_blank" rel="noopener">Justizportal</a>
+      </span>.
+    </div>
+    <div id="zust" class="hinweis"></div>
+    <article id="doc" class="vorschau-doc"></article>
+  </section>
+</div>
+
+<script>
+"use strict";
+
+const SCHEMA = [
+  { gruppe: "Kanzlei", felder: [
+    { id: "kanzlei_briefkopf", label: "Briefkopf (mehrzeilig)", type: "textarea" },
+    { id: "ort_datum",         label: "Ort, Datum",            type: "text", placeholder: "Berlin, 19.05.2026" },
+    { id: "unterschrift",      label: "Unterschriftsblock",    type: "textarea" }
+  ]},
+  { gruppe: "Rubrum", felder: [
+    { id: "klagepartei",   label: "Klagepartei (Name, Anschrift, ggf. Vertretung)", type: "textarea" },
+    { id: "bevollmaecht",  label: "Prozessbevollmächtigte",                          type: "textarea" },
+    { id: "beklagte",      label: "Beklagte(r) (Name, Anschrift, ggf. Vertretung)", type: "textarea" },
+    { id: "beklagte_plz",  label: "PLZ Beklagte (für Zuständigkeit)",                type: "text" },
+    { id: "beklagte_ort",  label: "Ort Beklagte",                                    type: "text" },
+    { id: "beklagte_b2c",  label: "Beklagte ist Verbraucher (§ 29c ZPO)",            type: "select", optionen: ["nein", "ja"] }
+  ]},
+  { gruppe: "Streit und Anträge", felder: [
+    { id: "anspruch_grund",  label: "Forderungsgrund (Kauf, Werk, Dienst, Darlehen, Miete, …)", type: "text" },
+    { id: "streitwert",      label: "Streitwert (EUR)",   type: "number" },
+    { id: "hauptforderung",  label: "Hauptforderung (EUR)", type: "number" },
+    { id: "zinsen",          label: "Zinsen (z. B. 9 Prozentpunkte über Basiszinssatz, § 288 Abs. 2 BGB)", type: "text" },
+    { id: "zinslauf_ab",     label: "Zinslauf seit",      type: "text", placeholder: "TT.MM.JJJJ" },
+    { id: "kosten",          label: "Vorgerichtliche RA-Kosten (EUR)", type: "number" }
+  ]},
+  { gruppe: "Sachverhalt und Würdigung", felder: [
+    { id: "sachverhalt",          label: "Sachverhalt", type: "textarea" },
+    { id: "rechtliche_wuerdigung",label: "Rechtliche Würdigung", type: "textarea" },
+    { id: "beweismittel",         label: "Beweismittel (Urkunden, Zeugen, …)", type: "textarea" }
+  ]},
+  { gruppe: "Zuständigkeit (online geprüft)", felder: [
+    { id: "gericht_bez",     label: "Gericht (z. B. Amtsgericht Köln)", type: "text" },
+    { id: "gericht_adr",     label: "Postanschrift Gericht", type: "textarea" },
+    { id: "gericht_safe",    label: "BeA-SAFE-ID (sofern bekannt)", type: "text" },
+    { id: "zust_sachlich",   label: "Sachliche Zuständigkeit (Norm)",  type: "text", placeholder: "§ 71 GVG" },
+    { id: "zust_oertlich",   label: "Örtliche Zuständigkeit (Norm)",   type: "text", placeholder: "§§ 12, 13 ZPO" },
+    { id: "zust_quelle",     label: "Online-Quelle", type: "text", placeholder: "justizadressen.nrw.de" },
+    { id: "zust_abrufdatum", label: "Abrufdatum",    type: "text", placeholder: "TT.MM.JJJJ" }
+  ]},
+  { gruppe: "Anlagen", felder: [
+    { id: "anlagen", label: "Anlagenliste (eine pro Zeile, z. B. K1 Rechnung)", type: "textarea" }
+  ]}
+];
+
+const KEY = "klagewerkstatt-padlet-v1";
+
+const STATE = Object.fromEntries(
+  SCHEMA.flatMap(g => g.felder).map(f => [f.id, f.type === "select" ? f.optionen[0] : ""])
+);
+
+function laden() {
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return;
+    Object.assign(STATE, JSON.parse(raw));
+  } catch (_) { /* ignore */ }
+}
+function speichern() {
+  try { localStorage.setItem(KEY, JSON.stringify(STATE)); } catch (_) { /* ignore */ }
+}
+
+function feld(f) {
+  const wrap = document.createElement("div");
+  const lbl = document.createElement("label");
+  lbl.textContent = f.label;
+  lbl.htmlFor = f.id;
+  wrap.appendChild(lbl);
+  let el;
+  if (f.type === "textarea") {
+    el = document.createElement("textarea");
+  } else if (f.type === "select") {
+    el = document.createElement("select");
+    for (const opt of f.optionen) {
+      const o = document.createElement("option");
+      o.value = o.textContent = opt;
+      el.appendChild(o);
+    }
+  } else {
+    el = document.createElement("input");
+    el.type = f.type;
+  }
+  el.id = f.id;
+  if (f.placeholder) el.placeholder = f.placeholder;
+  el.value = STATE[f.id] ?? "";
+  el.addEventListener("input", () => {
+    STATE[f.id] = el.value;
+    speichern();
+    rendern();
+  });
+  wrap.appendChild(el);
+  return wrap;
+}
+
+function aufbauen() {
+  const root = document.getElementById("form");
+  for (const g of SCHEMA) {
+    const sec = document.createElement("div");
+    sec.className = "gruppe";
+    const h = document.createElement("h2");
+    h.textContent = g.gruppe;
+    sec.appendChild(h);
+    for (const f of g.felder) sec.appendChild(feld(f));
+    root.appendChild(sec);
+  }
+  const akt = document.createElement("div");
+  akt.className = "aktionen";
+  akt.innerHTML = `
+    <button class="primary" id="btnMd">Markdown exportieren</button>
+    <button id="btnJson">JSON exportieren</button>
+    <label style="margin:0;display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);">
+      <input id="btnImport" type="file" accept="application/json" style="font-size:12px;" />
+      Import (JSON)
+    </label>
+    <button class="warn" id="btnReset">Zurücksetzen</button>`;
+  root.appendChild(akt);
+
+  document.getElementById("btnMd").onclick = () => download("klage.md", "text/markdown", asMarkdown());
+  document.getElementById("btnJson").onclick = () => download("klage.json", "application/json", JSON.stringify(STATE, null, 2));
+  document.getElementById("btnReset").onclick = () => {
+    if (!confirm("Alle Eingaben löschen?")) return;
+    localStorage.removeItem(KEY);
+    location.reload();
+  };
+  document.getElementById("btnImport").onchange = async (e) => {
+    const file = e.target.files?.[0]; if (!file) return;
+    try {
+      const data = JSON.parse(await file.text());
+      Object.assign(STATE, data);
+      speichern();
+      location.reload();
+    } catch (err) { alert("Import fehlgeschlagen: " + err.message); }
+  };
+}
+
+function download(name, mime, text) {
+  const blob = new Blob([text], { type: mime + ";charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = name; document.body.appendChild(a); a.click();
+  a.remove(); URL.revokeObjectURL(url);
+}
+
+function ph(v, hint) {
+  if (v && String(v).trim()) return escapeHtml(v);
+  return `<span class="platzhalter">{{${hint}}}</span>`;
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+}
+function nl2br(s) { return escapeHtml(s).replace(/\n/g, "<br>"); }
+
+function pruefeZust() {
+  const sw = parseFloat(STATE.streitwert || "0");
+  const zeilen = [];
+  if (sw > 0) {
+    if (sw <= 5000) zeilen.push(`Sachlich: Amtsgericht (§ 23 Nr. 1 GVG), Streitwert ${sw.toLocaleString("de-DE")} EUR.`);
+    else zeilen.push(`Sachlich: Landgericht (§ 71 GVG), Streitwert ${sw.toLocaleString("de-DE")} EUR.`);
+  }
+  if (STATE.beklagte_b2c === "ja") {
+    zeilen.push("Örtlich: § 29c ZPO — Wohnsitz des Verbrauchers, AGB-Gerichtsstand unwirksam (§ 38 Abs. 3 ZPO).");
+  } else if (STATE.beklagte_plz || STATE.beklagte_ort) {
+    zeilen.push("Örtlich: §§ 12, 13 ZPO am allgemeinen Gerichtsstand der Beklagten; § 29 ZPO Erfüllungsort prüfen.");
+  }
+  if (!STATE.gericht_bez || !STATE.zust_quelle || !STATE.zust_abrufdatum) {
+    zeilen.push("<span class=\"zust-warn\">Online-Adresscheck noch offen.</span>");
+  } else {
+    zeilen.push(`<span class="zust-ok">Adresscheck dokumentiert: ${escapeHtml(STATE.zust_quelle)} (${escapeHtml(STATE.zust_abrufdatum)}).</span>`);
+  }
+  return zeilen.join("<br>");
+}
+
+function asHtml() {
+  const anlagen = (STATE.anlagen || "")
+    .split(/\n+/)
+    .filter(z => z.trim())
+    .map(z => `<li>${escapeHtml(z)}</li>`).join("");
+  return `
+    <div class="briefkopf">${ph(STATE.kanzlei_briefkopf, "kanzlei.briefkopf")}</div>
+    <div class="ortdatum">${ph(STATE.ort_datum, "ort_datum")}</div>
+    <p>An das<br><strong>${ph(STATE.gericht_bez, "gericht.bezeichnung")}</strong><br>
+       ${ph(STATE.gericht_adr, "gericht.adresse")}<br>
+       ${STATE.gericht_safe ? "beA-EGVP, SAFE-ID: " + escapeHtml(STATE.gericht_safe) : ""}</p>
+    <h1>Klage</h1>
+    <p><strong>In dem Rechtsstreit</strong></p>
+    <p>${ph(STATE.klagepartei, "rubrum.klagepartei")}<br>— Klägerin/Kläger —</p>
+    <p>Prozessbevollmächtigte: ${ph(STATE.bevollmaecht, "rubrum.bevollmaechtigte")}</p>
+    <p><strong>gegen</strong></p>
+    <p>${ph(STATE.beklagte, "rubrum.beklagte")}<br>— Beklagte/Beklagter —</p>
+    <p><strong>wegen</strong> Forderung aus ${ph(STATE.anspruch_grund, "anspruch.grundsatz")}</p>
+    <p><strong>Streitwert:</strong> ${ph(STATE.streitwert, "streitwert.eur")} EUR</p>
+
+    <h2>Anträge</h2>
+    <p>Die Klägerin/der Kläger beantragt,</p>
+    <ol>
+      <li>die Beklagte/den Beklagten zu verurteilen, an die Klägerin/den Kläger
+          <strong>${ph(STATE.hauptforderung, "antrag.hauptforderung")} EUR</strong>
+          nebst Zinsen i. H. v. <strong>${ph(STATE.zinsen, "antrag.zinsen")}</strong>
+          seit ${ph(STATE.zinslauf_ab, "antrag.zinslauf_ab")} zu zahlen;</li>
+      <li>vorgerichtliche Rechtsanwaltskosten i. H. v.
+          <strong>${ph(STATE.kosten, "antrag.kosten")} EUR</strong>
+          nebst Zinsen i. H. v. 5 Prozentpunkten über Basiszinssatz seit Rechtshängigkeit zu zahlen;</li>
+      <li>die Kosten des Rechtsstreits der Beklagten aufzuerlegen.</li>
+    </ol>
+
+    <h2>Begründung</h2>
+    <h3>I. Sachverhalt</h3>
+    <p>${nl2br(STATE.sachverhalt || "")}</p>
+    <h3>II. Rechtliche Würdigung</h3>
+    <p>${nl2br(STATE.rechtliche_wuerdigung || "")}</p>
+    <h3>III. Zuständigkeit</h3>
+    <p>Sachlich: ${ph(STATE.zust_sachlich, "zustaendigkeit.sachlich")}.<br>
+       Örtlich: ${ph(STATE.zust_oertlich, "zustaendigkeit.oertlich")}.<br>
+       Adresse des Gerichts verifiziert am ${ph(STATE.zust_abrufdatum, "zustaendigkeit.abrufdatum")}
+       bei ${ph(STATE.zust_quelle, "zustaendigkeit.quelle")}.</p>
+    <h3>IV. Beweismittel</h3>
+    <p>${nl2br(STATE.beweismittel || "")}</p>
+
+    <h2>Anlagen</h2>
+    <ul>${anlagen || "<li><span class='platzhalter'>{{anlagen.liste}}</span></li>"}</ul>
+
+    <p>${nl2br(STATE.unterschrift || "")}</p>
+  `;
+}
+
+function asMarkdown() {
+  const anlagen = (STATE.anlagen || "")
+    .split(/\n+/).filter(z => z.trim())
+    .map(z => `- ${z}`).join("\n") || "{{anlagen.liste}}";
+  const safe = STATE.gericht_safe ? `beA-EGVP, SAFE-ID: ${STATE.gericht_safe}\n` : "";
+  return `${STATE.kanzlei_briefkopf || "{{kanzlei.briefkopf}}"}
+
+${STATE.ort_datum || "{{ort_datum}}"}
+
+An das
+**${STATE.gericht_bez || "{{gericht.bezeichnung}}"}**
+${STATE.gericht_adr || "{{gericht.adresse}}"}
+${safe}
+---
+
+# Klage
+
+**In dem Rechtsstreit**
+
+${STATE.klagepartei || "{{rubrum.klagepartei}}"}
+— Klägerin/Kläger —
+
+Prozessbevollmächtigte: ${STATE.bevollmaecht || "{{rubrum.bevollmaechtigte}}"}
+
+**gegen**
+
+${STATE.beklagte || "{{rubrum.beklagte}}"}
+— Beklagte/Beklagter —
+
+**wegen** Forderung aus ${STATE.anspruch_grund || "{{anspruch.grundsatz}}"}
+
+**Streitwert:** ${STATE.streitwert || "{{streitwert.eur}}"} EUR
+
+---
+
+## Anträge
+
+Die Klägerin/der Kläger beantragt,
+
+1. die Beklagte/den Beklagten zu verurteilen, an die Klägerin/den Kläger **${STATE.hauptforderung || "{{antrag.hauptforderung}}"} EUR** nebst Zinsen i. H. v. **${STATE.zinsen || "{{antrag.zinsen}}"}** seit ${STATE.zinslauf_ab || "{{antrag.zinslauf_ab}}"} zu zahlen;
+2. vorgerichtliche Rechtsanwaltskosten i. H. v. **${STATE.kosten || "{{antrag.kosten}}"} EUR** nebst Zinsen i. H. v. 5 Prozentpunkten über Basiszinssatz seit Rechtshängigkeit zu zahlen;
+3. die Kosten des Rechtsstreits der Beklagten aufzuerlegen.
+
+## Begründung
+
+### I. Sachverhalt
+
+${STATE.sachverhalt || "{{sachverhalt}}"}
+
+### II. Rechtliche Würdigung
+
+${STATE.rechtliche_wuerdigung || "{{rechtliche_wuerdigung}}"}
+
+### III. Zuständigkeit
+
+Sachlich: ${STATE.zust_sachlich || "{{zustaendigkeit.sachlich}}"}. Örtlich: ${STATE.zust_oertlich || "{{zustaendigkeit.oertlich}}"}. Adresse verifiziert am ${STATE.zust_abrufdatum || "{{zustaendigkeit.abrufdatum}}"} bei ${STATE.zust_quelle || "{{zustaendigkeit.quelle}}"}.
+
+### IV. Beweismittel
+
+${STATE.beweismittel || "{{beweismittel}}"}
+
+---
+
+## Anlagen
+
+${anlagen}
+
+---
+
+${STATE.unterschrift || "{{unterschrift}}"}
+`;
+}
+
+function rendern() {
+  document.getElementById("doc").innerHTML = asHtml();
+  document.getElementById("zust").innerHTML = pruefeZust() ||
+    "Streitwert, Beklagtenadresse und Online-Adresscheck eingeben — die Vorschau aktualisiert sich live.";
+}
+
+laden();
+aufbauen();
+rendern();
+</script>
+</body>
+</html>

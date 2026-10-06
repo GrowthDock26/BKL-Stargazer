@@ -1,0 +1,18 @@
+{
+  "gericht": "Landgericht Tübingen",
+  "aktenzeichen": "7 O 118/23",
+  "zeugin": "Sophia Berger",
+  "wohnort": "Barcelona, Spanien",
+  "entfernung_einfach_km": 1250,
+  "gesamt_km": 2500,
+  "km_satz_zeuge": 0.35,
+  "fahrtkosten_eur": 875,
+  "uebernachtungen": 2,
+  "uebernachtung_geschaetzt_eur": 200,
+  "gerichtlicher_hinweis_cap_pro_nacht_eur": 80,
+  "verdienstausfall_stundenlohn_eur": 22,
+  "verdienstausfall_stunden": 24,
+  "verdienstausfall_beantragt_eur": 528,
+  "gerichtsschreiben": "27.01.2026",
+  "anwaltlicher_schriftsatz": "23.02.2026"
+}

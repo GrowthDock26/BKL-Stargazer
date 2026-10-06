@@ -1,0 +1,5 @@
+ID,Route,Gruppe oder Klasse,Rechtsstellung,Wirtschaftliches Interesse,Forderungen,Sicherheitenwert,Stimmrecht,Planwirkung,Kriterium der Abgrenzung,Risiko
+G-01,InsO,Nicht nachrangige Insolvenzgläubiger,,,,,,,,
+G-02,InsO,Absonderungsberechtigte,,,,,,,,
+K-01,StaRUG,Finanzgläubiger,,,,,,,,
+K-02,StaRUG,Lieferanten mit Fortsetzungsinteresse,,,,,,,,

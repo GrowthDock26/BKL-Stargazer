@@ -1,0 +1,22 @@
+{
+  "name": "fachanwalt-gewerblicher-rechtsschutz",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für gewerblichen Rechtsschutz nach FAO § 14k. MarkenG. DesignG. UWG. PatG GebrMG. UrhG-Bezuege. Markenanmeldung DPMA EUIPO. UWG-Abmahnung §§ 8 ff. UWG. Designverletzung. Einstweilige Verfuegung Verletzungsklage Lizenzanaloger Schadensersatz.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "gewerblicher-rechtsschutz",
+    "fachanwalt",
+    "markenrecht",
+    "designrecht",
+    "uwg",
+    "wettbewerbsrecht",
+    "markenanmeldung",
+    "abmahnung",
+    "patent",
+    "fao-paragraf-14k"
+  ]
+}

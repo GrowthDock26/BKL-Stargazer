@@ -1,0 +1,29 @@
+{
+  "name": "fortbestehensprognose",
+  "version": "52.2.1",
+  "description": "Fortbestehensprognose § 19 Abs. 2 InsO als Geschäftsführer-Selbstdokumentation. Bilanzstatus Annahmen Plausibilisierung Zwoelf-Monats-Liquiditaet. Sanierungsbausteine Patronatserklärung Comfortletter Rangrücktritt Stundung Forderungsverzicht. IDW S 11 StaRUG. Eskalation bei negativer Prognose.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "fortbestehensprognose",
+    "fortfuehrungsprognose",
+    "ueberschuldung",
+    "paragraph-19-inso",
+    "idw-s-11",
+    "idw-s-6",
+    "staerug",
+    "sanierung",
+    "patronatserklaerung",
+    "comfortletter",
+    "gesellschafterdarlehen",
+    "rangruecktritt",
+    "stundung",
+    "forderungsverzicht",
+    "geschaeftsfuehrer-haftung",
+    "paragraph-15a-inso",
+    "paragraph-15b-inso"
+  ]
+}

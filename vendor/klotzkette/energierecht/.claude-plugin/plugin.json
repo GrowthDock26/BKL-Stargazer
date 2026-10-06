@@ -1,0 +1,38 @@
+{
+  "name": "energierecht",
+  "version": "52.2.1",
+  "description": "Freistehendes Energierecht-Plugin für Stadtwerke, Versorger, Wärme, Netze, Vertrieb, Industrie, EEG, KWKG, Verfahren, Transaktionen und Projektfinanzierung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "energierecht",
+    "enwg",
+    "eeg",
+    "kwkg",
+    "stadtwerke",
+    "netzregulierung",
+    "netzzugang",
+    "speicherzugang",
+    "waerme",
+    "fernwaerme",
+    "nahwaerme",
+    "quartier",
+    "energievertrag",
+    "energievertrieb",
+    "messregulierung",
+    "redispatch",
+    "emobility",
+    "wasserstoff",
+    "power-to-gas",
+    "energieintensive-industrie",
+    "stromkostenkompensation",
+    "sondernetzentgelt",
+    "transaktionen",
+    "ppa",
+    "projektfinanzierung",
+    "freistehend"
+  ]
+}

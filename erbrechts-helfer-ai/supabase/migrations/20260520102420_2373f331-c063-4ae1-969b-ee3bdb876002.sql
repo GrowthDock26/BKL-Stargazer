@@ -1,0 +1,2 @@
+REVOKE EXECUTE ON FUNCTION public.record_precedent_question(TEXT, TEXT, TEXT, TEXT) FROM PUBLIC, anon, authenticated;
+GRANT EXECUTE ON FUNCTION public.record_precedent_question(TEXT, TEXT, TEXT, TEXT) TO service_role;

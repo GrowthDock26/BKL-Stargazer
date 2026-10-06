@@ -1,0 +1,29 @@
+{
+  "name": "gesellschaftsrecht-legal-english",
+  "version": "52.2.1",
+  "description": "Didaktisches Gesellschaftsrecht — English Business Terms: Corporate Legal English fuer Big-Law-Anfaenger. Dealroom: Cap Table vs Gesellschafterliste; Term Sheet; SHA; Vesting; Drag/Tag; Liquidation Preference; Anti-Dilution; SPA; DD; Notar/HR; Multi-Format-Auswertung; Frankfurt-Startup-Akte.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "gesellschaftsrecht",
+    "corporate-legal-english",
+    "ma",
+    "venture-capital",
+    "startup",
+    "cap-table",
+    "term-sheet",
+    "shareholders-agreement",
+    "liquidation-preference",
+    "anti-dilution",
+    "vesting",
+    "drag-along",
+    "tag-along",
+    "due-diligence",
+    "spa",
+    "grosskanzlei",
+    "didaktik"
+  ]
+}

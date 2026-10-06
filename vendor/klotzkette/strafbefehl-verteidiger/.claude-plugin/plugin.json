@@ -1,0 +1,25 @@
+{
+  "name": "strafbefehl-verteidiger",
+  "version": "52.2.1",
+  "description": "Freistehendes Strafbefehls-Plugin für Verteidigung gegen Strafbefehl, Einspruch, Akteneinsicht, Tagessätze, Nebenfolgen, Pflichtverteidigung, Wiedereinsetzung, Einstellung, Zeugenstrategie und Hauptverhandlung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "strafbefehl",
+    "stpo",
+    "einspruch",
+    "strafverteidigung",
+    "akteneinsicht",
+    "hauptverhandlung",
+    "tagessaetze",
+    "geldstrafe",
+    "pflichtverteidiger",
+    "wiedereinsetzung",
+    "zeugenstrategie",
+    "einstellung",
+    "freistehend"
+  ]
+}

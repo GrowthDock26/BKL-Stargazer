@@ -1,0 +1,22 @@
+{
+  "name": "selbstvertreter-amtsgericht",
+  "version": "52.2.1",
+  "description": "Selbstvertretung vor dem Amtsgericht ohne Anwalt: Anfänger-Workflow, Fristen, Zuständigkeit, §23 GVG/§511 ZPO-Grenzen, Klage/Erwiderung/Replik, Beweise, PKH, Termin, Sanity-Check, Rechtsprechungschat, Berufung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "selbstvertreter",
+    "amtsgericht",
+    "zpo",
+    "klageschrift",
+    "klageerwiderung",
+    "pkh",
+    "fristen",
+    "buergerprozess",
+    "ohne-anwalt",
+    "mjp"
+  ]
+}

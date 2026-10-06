@@ -1,0 +1,16 @@
+project_id = "fdmxwmeqcomhxiynwdkq"
+
+[functions.legal-chat]
+verify_jwt = false
+
+[functions.legal-chat-logicc]
+verify_jwt = false
+
+[functions.knowledge-management]
+verify_jwt = true
+
+[functions.send-contact-email]
+verify_jwt = false
+
+[functions.document-analysis]
+verify_jwt = false

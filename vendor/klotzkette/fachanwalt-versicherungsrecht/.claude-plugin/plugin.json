@@ -1,0 +1,21 @@
+{
+  "name": "fachanwalt-versicherungsrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Versicherungsrecht. VVG VAG Berufsunfähigkeit private Krankenversicherung Lebens- und Rentenversicherung Sachversicherung Haftpflicht D-und-O. Schnittstelle Plugin kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "versicherungsrecht",
+    "fachanwalt",
+    "vvg",
+    "vag",
+    "berufsunfaehigkeit",
+    "krankenversicherung",
+    "lebensversicherung",
+    "haftpflicht",
+    "d-und-o"
+  ]
+}

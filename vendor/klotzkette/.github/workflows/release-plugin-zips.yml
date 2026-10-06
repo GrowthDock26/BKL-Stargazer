@@ -1,0 +1,149 @@
+name: Release Plugin ZIPs
+
+# Baut bei jedem Tag oder bei manueller Ausloesung pro Plugin eine ZIP-Datei
+# und haengt sie an den GitHub Release. Damit ergeben sich stabile Download-URLs:
+#   https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/<plugin>.zip
+# Direkt einzeln in Claude Code (Customize Plugins) installierbar.
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release-Tag (z. B. v1.1.0). Leer = nur ZIPs bauen, keinen Release anlegen.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Validator
+        run: node scripts/validate-plugin-structure.mjs
+
+      - name: Gesamt-PDFs der Testakten validieren
+        run: python3 scripts/validate-testakten-gesamt-pdf.py
+
+      - name: Liste aller Plugins aus marketplace.json lesen
+        id: plugins
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          m = json.loads(pathlib.Path('.claude-plugin/marketplace.json').read_text())
+          names = [p['name'] for p in m['plugins']]
+          print('names=' + ' '.join(names))
+          PY
+
+      - name: ZIPs bauen
+        run: |
+          mkdir -p dist
+          for plugin in ${{ steps.plugins.outputs.names }}; do
+            echo "Baue $plugin.zip"
+            (cd "$plugin" && zip -rq "../dist/${plugin}.zip" . -x '*.DS_Store' '__pycache__/*' '*.pyc' 'CLAUDE.md')
+            ls -la "dist/${plugin}.zip"
+          done
+          # Manifest fuer Marketplace-Komfort
+          cp .claude-plugin/marketplace.json dist/marketplace.json
+
+      - name: Release-ZIPs validieren
+        run: python3 scripts/validate-release-zips.py dist .claude-plugin/marketplace.json
+
+      - name: Beispielakten separat verpacken (kein Teil der Plugins, testakte-Prefix)
+        run: |
+          # Beispielakten werden mit testakte-Prefix gepackt, damit sie sich im
+          # Namespace klar von Plugin-ZIPs unterscheiden und niemals versehentlich
+          # über 'Install from .zip' als Plugin geladen werden können.
+          if [ -d testakten ]; then
+            for d in testakten/*/; do
+              name=$(basename "$d")
+              zipname="testakte-${name}.zip"
+              echo "Baue ${zipname} aus $d"
+              (cd testakten && zip -rq "../dist/${zipname}" "$name" -x '*.DS_Store')
+              ls -la "dist/${zipname}"
+            done
+          fi
+
+      - name: Sammel-ZIPs bauen
+        run: |
+          # alle-plugins-megazip.zip enthaelt die installierbaren Einzel-ZIPs
+          # plus marketplace.json, nicht die Rohordner.
+          mkdir -p dist/mega-plugins
+          cp dist/marketplace.json dist/mega-plugins/marketplace.json
+          for plugin in ${{ steps.plugins.outputs.names }}; do
+            cp "dist/${plugin}.zip" "dist/mega-plugins/${plugin}.zip"
+          done
+          (cd dist/mega-plugins && zip -rq "../alle-plugins-megazip.zip" . -x '*.DS_Store')
+          rm -rf dist/mega-plugins
+
+          # alle-testakten.zip enthaelt die Aktenordner in Originalstruktur.
+          if [ -d testakten ]; then
+            (cd testakten && zip -rq "../dist/alle-testakten.zip" README.md */ -x '*.DS_Store')
+          fi
+
+          # alles-komplettpaket.zip enthaelt die Einzel-ZIPs, Sammel-ZIPs,
+          # Marketplace und zentrale Uebersichten. Ein Download fuer alles,
+          # ohne die installierbaren Plugin-ZIPs mit Rohordnern zu vermischen.
+          mkdir -p dist/komplettpaket/plugins dist/komplettpaket/testakten dist/komplettpaket/uebersichten
+          cp dist/marketplace.json dist/komplettpaket/marketplace.json
+          cp dist/alle-plugins-megazip.zip dist/komplettpaket/alle-plugins-megazip.zip
+          cp dist/alle-testakten.zip dist/komplettpaket/alle-testakten.zip
+          for plugin in ${{ steps.plugins.outputs.names }}; do
+            cp "dist/${plugin}.zip" "dist/komplettpaket/plugins/${plugin}.zip"
+          done
+          if [ -d testakten ]; then
+            for z in dist/testakte-*.zip; do
+              [ -e "$z" ] || continue
+              cp "$z" "dist/komplettpaket/testakten/$(basename "$z")"
+            done
+          fi
+          cp README.md SKILLS.md ASSET_INDEX.md CHANGELOG.md dist/komplettpaket/uebersichten/
+          # skills-index/ enthaelt die pro-Plugin-Detailseiten, auf die SKILLS.md
+          # mit relativen Links zeigt. Ohne diesen Ordner waeren die Links im
+          # ZIP-Download ins Leere gerichtet.
+          if [ -d skills-index ]; then
+            cp -R skills-index dist/komplettpaket/uebersichten/skills-index
+          fi
+          (cd dist/komplettpaket && zip -rq "../alles-komplettpaket.zip" . -x '*.DS_Store')
+          rm -rf dist/komplettpaket
+
+          test -s dist/alle-plugins-megazip.zip
+          test -s dist/alle-testakten.zip
+          test -s dist/alles-komplettpaket.zip
+          ls -lh dist/alle-plugins-megazip.zip dist/alle-testakten.zip dist/alles-komplettpaket.zip
+
+      - name: Tag bestimmen
+        id: tagref
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Release veroeffentlichen (mit ZIP-Anhaengen)
+        if: steps.tagref.outputs.tag != ''
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ steps.tagref.outputs.tag }}
+          name: ${{ steps.tagref.outputs.tag }}
+          generate_release_notes: true
+          files: |
+            dist/*.zip
+            dist/marketplace.json
+
+      - name: Artefakte hochladen (immer)
+        uses: actions/upload-artifact@v7
+        with:
+          name: plugin-zips
+          path: dist/*.zip
+          retention-days: 30

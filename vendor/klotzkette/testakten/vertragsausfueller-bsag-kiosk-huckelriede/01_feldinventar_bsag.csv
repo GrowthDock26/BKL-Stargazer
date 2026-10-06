@@ -1,0 +1,7 @@
+Feld,Quelle,Wert,Einfügeort,Pflichtfeld,Vertrauensgrad,Rückfrage,Freigabe
+Mieter Name,Term Sheet,Scherflein GmbH,Parteienrubrum,ja,hoch,,offen
+Mietobjekt Adresse,Term Sheet,Huckelriede / Niedersachsendamm 28201 Bremen,§ 1.1,ja,hoch,,offen
+Nebenkosten,Term Sheet,"230,00 EUR",§ 3.2,ja,hoch,,offen
+Kaution,Term Sheet,"2.475,00 EUR",§ 3.5,ja,hoch,Kaution gegen Kaltmiete prüfen,offen
+Mietbeginn,Term Sheet,01.10.2026,§ 2.1,ja,hoch,,offen
+Laufzeit,Term Sheet,5 Jahre bis 30.09.2031,§ 2.1,ja,hoch,,offen

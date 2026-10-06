@@ -1,0 +1,35 @@
+{
+  "case_name": "ModeFuchs GmbH ./. Gottlieb von Altenhausen",
+  "original_creditor": {
+    "name": "ModeFuchs GmbH",
+    "address": "Kaiserplatz 12, 10002 Musterstadt",
+    "register": "HRB 012345 AG Musterstadt",
+    "representative": "Friedrich-Heinrich von Streithofen"
+  },
+  "assignee": {
+    "name": "InkassoZentrale GmbH",
+    "address": "Friedrich-Krause-Ufer 42, 13353 Berlin"
+  },
+  "debtor": {
+    "name": "Gottlieb von Altenhausen",
+    "old_address": "Kaiserstraße 47, 90403 Nürnberg",
+    "new_address": "Lorenzer Straße 3, 90402 Nürnberg",
+    "consumer": true
+  },
+  "invoice": {
+    "number": "R-20250406-3098",
+    "date": "2025-04-06",
+    "due_date": "2025-04-17",
+    "gross_amount": "698.00",
+    "net_amount": "586.55",
+    "vat": "111.45"
+  },
+  "payment": {
+    "date": "2025-06-26",
+    "amount": "698.00",
+    "recipient": "ModeFuchs GmbH",
+    "known_to_collection": "2025-07-01"
+  },
+  "claimed_lawsuit_amount": "797.84",
+  "side_claims_after_payment": "99.84"
+}

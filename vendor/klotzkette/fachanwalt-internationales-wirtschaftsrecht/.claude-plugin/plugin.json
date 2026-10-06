@@ -1,0 +1,23 @@
+{
+  "name": "fachanwalt-internationales-wirtschaftsrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Internationales Wirtschaftsrecht. CISG Bruessel Ia Rom I Rom II Schiedsverfahren ICC UNCITRAL Investitionsschutz ICSID WTO EU-Aussenhandel LkSG. Schnittstelle Plugin kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "internationales-wirtschaftsrecht",
+    "fachanwalt",
+    "cisg",
+    "bruessel-ia",
+    "rom-i",
+    "rom-ii",
+    "schiedsverfahren",
+    "icc",
+    "icsid",
+    "wto",
+    "lksg"
+  ]
+}

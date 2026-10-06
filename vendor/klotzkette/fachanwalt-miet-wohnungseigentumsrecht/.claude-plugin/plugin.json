@@ -1,0 +1,22 @@
+{
+  "name": "fachanwalt-miet-wohnungseigentumsrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Miet- und Wohnungseigentumsrecht nach FAO § 14e. BGB §§ 535 ff. Wohnraummiete und Gewerberaummiete. Mieterhoehung §§ 558 ff. Kündigung §§ 543 569 573 BGB. WEG-Beschlussanfechtung § 44 WEG. BetrKV. Schnittstellen kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "mietrecht",
+    "wohnungseigentumsrecht",
+    "fachanwalt",
+    "wohnraummiete",
+    "gewerberaummiete",
+    "weg",
+    "betriebskosten",
+    "mieterhoehung",
+    "kuendigung",
+    "fao-paragraf-14e"
+  ]
+}

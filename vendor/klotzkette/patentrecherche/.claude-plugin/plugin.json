@@ -1,0 +1,32 @@
+{
+  "name": "patentrecherche",
+  "version": "52.2.1",
+  "description": "Patentrecherche für Patentanwaelte agentisch in Espacenet Google Patents DPMAregister DEPATISnet EPO Register WIPO USPTO. Stand der Technik Neuheit § 3 PatG Art. 54 EPUe erfinderische Tätigkeit § 4 PatG Art. 56 EPUe Problem-Solution-Approach FTO CPC IPC INPADOC Recherchebericht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "patentrecherche",
+    "patentanwalt",
+    "stand-der-technik",
+    "neuheit",
+    "erfinderische-taetigkeit",
+    "freedom-to-operate",
+    "espacenet",
+    "google-patents",
+    "dpmaregister",
+    "depatisnet",
+    "epo-register",
+    "wipo-patentscope",
+    "uspto",
+    "cpc-klassifikation",
+    "ipc-klassifikation",
+    "inpadoc",
+    "patg",
+    "epue",
+    "gebrmg",
+    "bpatg"
+  ]
+}

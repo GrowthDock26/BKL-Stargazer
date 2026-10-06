@@ -1,0 +1,26 @@
+{
+  "name": "fachanwalt-strafrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Strafrecht. Orientierung StPO StGB Nebenstrafrecht. Strafverteidigung Ermittlungsverfahren Hauptverhandlung Revision. Nebenklage Opfervertretung Zeugenbeistand Adhaesion Insolvenzantrag StA. Ergaenzt aktenaufbereiter-strafrecht und kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "strafrecht",
+    "fachanwalt",
+    "strafverteidigung",
+    "stpo",
+    "stgb",
+    "ermittlungsverfahren",
+    "hauptverhandlung",
+    "revision",
+    "akteneinsicht-strafakte",
+    "nebenklage",
+    "opfervertretung",
+    "zeugenbeistand",
+    "adhaesion",
+    "insolvenzantrag-sta"
+  ]
+}

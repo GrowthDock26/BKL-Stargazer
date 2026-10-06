@@ -1,0 +1,29 @@
+glaeubiger_id,name,anschrift,vertreter,konto_schuldner,opos_betrag,rang,sicherheit,bemerkung
+G001,Solarteile Nord GmbH,"Hafenweg 12, 20457 Hamburg",RA Henning Beispiel,70010,28450.20,§ 38 InsO,Eigentumsvorbehalt (einfach),Lieferant Module; Dublette lfd.Nr.8; Schuldnerwiderspruch
+G002,Havelbank AG,"Berliner Straße 4, 14467 Potsdam",RAin Sandra Kühn,16000,150000.00,§ 38 InsO (Ausfall),Sicherungsübereignung Fahrzeuge+Lager,Ausfall nach Verwertung 103.624 EUR; Zinsstreit
+G003,Finanzamt Potsdam,"Steinstraße 104, 14480 Potsdam",,37000,38400.00,§ 38 InsO,keine,USt 02/2026 + LSt 03/2026 + Vorsteuerberichtigung; besonderer Rechtsgrund bestritten
+G004,BKK Handwerk Mitte,"Hegelallee 38, 14467 Potsdam",,37400,21862.35,§ 38 InsO,keine,SV-Beiträge Feb-Apr 2026; April anteilig korrigiert
+G005,Lena Vogt,"Pappelallee 31, 14469 Potsdam",,60020,6200.00,§ 38 InsO,keine,Lohn März+April; Schmerzensgeld bestritten; vbuH unsubstanziiert
+G006,Gründerkreis Phoenix GbR,"Kantstraße 5, 14471 Potsdam",RA Thomas Limmer,29000,85000.00,§ 39 Abs.1 Nr.5 InsO,keine,Gesellschafterdarlehen; Nachrang; bankähnlicher Zins-Argument abgelehnt
+G007,Gewerbepark Babelsberg GmbH,"Karl-Marx-Straße 44, 14482 Potsdam",RAin Nicole Berger,62100,4640.00,§ 38 InsO,keine,Miete April anteilig; Mai+Juni Masse; Schadensersatz bestritten
+G008,Elektro Schaffner GmbH,"Industrieweg 3, 14480 Potsdam",,70020,8340.00,§ 38 InsO,keine,Reparatur Solaranlage Dach Feb. 2026; belegt
+G009,Zollingerwerke GmbH & Co. KG,"Wrangelstraße 41, 10997 Berlin",RA Peter Dressler,70030,14900.00,§ 38 InsO,keine,Kabelmaterial + Installationszubehör; belegt
+G010,Transporte Haase GmbH,"Gewerbestraße 11, 14480 Potsdam",,70040,3290.00,§ 38 InsO,keine,Speditionsleistungen Jan-März 2026
+G011,Hans Köhler,"Birkenweg 8, 14469 Potsdam",,60030,2800.00,§ 38 InsO,keine,Lohn März+April 2026; Insolvenzgeld-Zeitraum
+G012,Carmen Dietrich,"Gartenstraße 22, 14471 Potsdam",,60040,3100.00,§ 38 InsO,keine,Lohn März+April 2026; Insolvenzgeld-Zeitraum
+G013,Klaus-Peter Müller,"Kastanienallee 14, 14478 Potsdam",,60050,4600.00,§ 38 InsO,keine,Lohn + Provision März 2026
+G014,Alexandra Wolff,"Schillerstraße 7, 14467 Potsdam",RAin Beate Sonntag,60060,3100.00,§ 38 InsO,keine,Lohn festgestellt; Überstunden bestritten; vbuH offen
+G015,Finanzamt Cottbus,"Präsidentenstraße 6, 03046 Cottbus",,37010,0.00,–,keine,Anmeldung abgewiesen; Rechtsgrundlage unklar
+G016,Dachdecker Meier & Söhne GbR,"Dachdeckerweg 2, 14482 Potsdam",,70050,6800.00,§ 38 InsO,keine,Reparaturleistungen Betriebsgelände; belegt
+G017,GreenTech Leasing GmbH,"Leopoldstraße 4, 80802 München",RA Moritz Faber,80010,18500.00,§ 38 InsO,kein Absonderungsrecht (Leasingrückgabe),Leasingrückstände Hebebühnen 2024-2026; Restbuchwert-Streit
+G018,Stadtwerke Potsdam GmbH,"Steinstraße 104a, 14480 Potsdam",,70060,2140.00,§ 38 InsO,keine,Strom+Gas Betriebsgelände Jan-Apr 2026
+G019,Reinigungsservice Quick GmbH,"Berliner Straße 99, 14467 Potsdam",,70070,890.00,§ 38 InsO,keine,Reinigungsleistungen Q1 2026
+G020,Techniker Krankenkasse,"Bramfelder Straße 140, 22305 Hamburg",RA Rainer Palm,37410,8120.00,§ 38 InsO,keine,SV-Beiträge 3 Arbeitnehmer Feb-Apr 2026
+G021,Druckerei Licht & Wort GmbH,"Medienstraße 5, 14469 Potsdam",,70080,1460.00,§ 38 InsO,keine,Werbematerial + Prospekte Feb. 2026
+G022,RA Dr. Schulze,"Hegelallee 1, 14467 Potsdam",,99010,0.00,–,keine,Kosten Eigenantragsberatung; Masseverbindlichkeit; nicht in Tabelle
+G023,Immobilien Bau AG,"Taunusanlage 1, 60329 Frankfurt",RA Franz Lindner,29010,0.00,strittig (Aussonderung?),keine,45.000 EUR Anzahlung; Rechtsnatur strittig; bestritten
+G024,Photovoltaik-Technik AG,"Schillerplatz 4, 01067 Dresden",RAin Susanne Kowalski,70090,12600.00,§ 38 InsO,keine,Lizenzgebühren Montagetechnik 2025-2026; belegt
+G025,Werkzeugbau Kern GmbH,"Industriepark 18, 14542 Werder",,70100,4700.00,§ 38 InsO,keine,Werkzeugmiete + Sonderverkauf; Fax fristgerecht
+G026,Sonnenkollektoren Direkt eK,"Solarstraße 3, 09212 Limbach-Oberfrohna",,70110,7800.00,§ 38 InsO,keine,VERSPÄTET; Eingang 10.06.2026; gesonderter Prüftermin erforderlich
+G027,Bundesagentur für Arbeit,"Regensburger Straße 104, 90478 Nürnberg",,37500,0.00,§ 38 InsO,keine,Insolvenzgeld-Regressforderung; noch nicht angemeldet; erwartet
+G028,GKV-Spitzenverband (Umlage),"Reinhardtstraße 28, 10117 Berlin",,37420,1840.00,§ 38 InsO,keine,Insolvenzgeldumlage U1/U2 Rückstände Q1 2026

@@ -1,0 +1,7 @@
+Datum,Valuta,Betrag,Waehrung,Auftraggeber_Empfaenger,Verwendungszweck,Typ
+2026-05-20,2026-05-20,595.00,EUR,Alpha UG,"Teilzahlung Rechnung 0005",Eingang
+2026-05-21,2026-05-21,892.50,EUR,P Schneider,"Honorar April",Eingang
+2026-05-21,2026-05-21,418.88,EUR,C Meyer,"Meyer",Eingang
+2026-05-22,2026-05-22,321.30,EUR,Aylin Demir,"R-2026-0006",Eingang
+2026-05-22,2026-05-22,228.00,EUR,Unbekannt,"Kostenerstattung",Eingang
+2026-05-23,2026-05-23,-1428.00,EUR,Musterhaus GmbH,"Miete Juni Kanzlei",Ausgang

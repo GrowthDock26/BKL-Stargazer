@@ -1,0 +1,185 @@
+{
+  "case": {
+    "name": "Betreuung Schmalfeld",
+    "person": "Herbert Wilhelm Schmalfeld",
+    "period": "2023-01-01 bis 2025-12-31",
+    "account": "DE89 1005 0000 0800 4523 19"
+  },
+  "transactions": [
+    {
+      "date": "2023-03-20",
+      "counterparty": "Europol Sicherheitsdienst",
+      "amount_eur": 6386.59,
+      "category": "fake-authority",
+      "risk_factors": ["telefonische Anweisung", "Autoritätskulisse"],
+      "contract_missing": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2024-02-07",
+      "counterparty": "Europol Sicherheitsdienst",
+      "amount_eur": 3909.82,
+      "category": "fake-authority",
+      "risk_factors": ["telefonische Anweisung", "zweite Sicherheitskaution"],
+      "contract_missing": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2025-01-05",
+      "counterparty": "Europol Sicherheitsdienst",
+      "amount_eur": 6802.41,
+      "category": "fake-authority",
+      "risk_factors": ["telefonische Anweisung", "dritte Sicherheitskaution"],
+      "contract_missing": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2023-10-07",
+      "counterparty": "Helvetica Vermögensverwaltung AG",
+      "amount_eur": 7841.99,
+      "category": "foreign-investment",
+      "risk_factors": ["Schweizer Depot", "Kapitalverlustrisiko"],
+      "foreign_iban": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2024-06-23",
+      "counterparty": "Helvetica Vermögensverwaltung AG",
+      "amount_eur": 5120.64,
+      "category": "foreign-investment",
+      "risk_factors": ["weitere Auslandsüberweisung", "Gebührenmodell"],
+      "foreign_iban": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2025-12-09",
+      "counterparty": "Helvetica Vermögensverwaltung AG",
+      "amount_eur": 6356.48,
+      "category": "foreign-investment",
+      "risk_factors": ["späte weitere Auslandsüberweisung", "unklare Depotentwicklung"],
+      "foreign_iban": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2024-08-11",
+      "counterparty": "Horizon Property Development S.L.",
+      "amount_eur": 12522.54,
+      "category": "foreign-property",
+      "risk_factors": ["spanische Immobilienreservierung", "weitere Raten angekündigt"],
+      "foreign_iban": true
+    },
+    {
+      "date": "2024-08-17",
+      "counterparty": "Windpark Nordsee Beteiligungs-GmbH & Co. KG",
+      "amount_eur": 8778.05,
+      "category": "high-risk-investment",
+      "risk_factors": ["Kommanditbeteiligung", "lange Bindung", "Totalverlustrisiko"]
+    },
+    {
+      "date": "2024-04-23",
+      "counterparty": "PC-Doktor Fernwartung GmbH",
+      "amount_eur": 119.90,
+      "category": "remote-access",
+      "risk_factors": ["Fernwartungssoftware", "Zugang zum Rechner"],
+      "remote_access_related": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2025-10-19",
+      "counterparty": "PC-Doktor Fernwartung GmbH",
+      "amount_eur": 113.87,
+      "category": "remote-access",
+      "risk_factors": ["wiederkehrende Serviceflatrate"],
+      "remote_access_related": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2023-08-18",
+      "counterparty": "Digital-Schutz24 GmbH",
+      "amount_eur": 121.80,
+      "category": "remote-access",
+      "risk_factors": ["Sicherheitssoftware", "Installation über PC-Doktor"],
+      "remote_access_related": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2025-11-14",
+      "counterparty": "Digital-Schutz24 GmbH",
+      "amount_eur": 143.96,
+      "category": "remote-access",
+      "risk_factors": ["wiederkehrende Sicherheitssoftware"],
+      "remote_access_related": true,
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2023-02-22",
+      "counterparty": "VitalPlus Gesundheitsprodukte GmbH",
+      "amount_eur": 2231.05,
+      "category": "senior-pressure-sale",
+      "risk_factors": ["hochpreisiges Seniorenprodukt"]
+    },
+    {
+      "date": "2024-10-10",
+      "counterparty": "ThermoVital Wärmesysteme GmbH",
+      "amount_eur": 3684.61,
+      "category": "senior-pressure-sale",
+      "risk_factors": ["Infrarotkabine", "Bedarf unklar"]
+    },
+    {
+      "date": "2023-04-22",
+      "counterparty": "Diamanten Kontor Hamburg GmbH",
+      "amount_eur": 5368.79,
+      "category": "precious-assets",
+      "risk_factors": ["Diamant als Anlage", "Verwahrung unklar"]
+    },
+    {
+      "date": "2025-02-10",
+      "counterparty": "SafeGold Edelmetallhandel GmbH",
+      "amount_eur": 3169.65,
+      "category": "precious-assets",
+      "risk_factors": ["Goldkauf", "Verwahrung unklar"]
+    },
+    {
+      "date": "2024-12-16",
+      "counterparty": "Premium-Kontakte AG",
+      "amount_eur": 67.77,
+      "category": "subscription",
+      "risk_factors": ["Kontaktportal", "automatische Verlängerung"],
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2025-02-08",
+      "counterparty": "Premium-Kontakte AG",
+      "amount_eur": 78.91,
+      "category": "subscription",
+      "risk_factors": ["Kontaktportal", "wiederkehrende Lastschrift"],
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2023-02-04",
+      "counterparty": "NKL Nordwestdeutsche Klassenlotterie",
+      "amount_eur": 218.74,
+      "category": "lottery",
+      "risk_factors": ["Lotterie", "fortlaufender Spielvertrag"],
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2025-09-06",
+      "counterparty": "NKL Nordwestdeutsche Klassenlotterie",
+      "amount_eur": 210.52,
+      "category": "lottery",
+      "risk_factors": ["Lotterie", "wiederkehrende Lastschrift"],
+      "repeat_counterparty": true
+    },
+    {
+      "date": "2025-07-05",
+      "counterparty": "Svetlana Petrova",
+      "amount_eur": 500.00,
+      "category": "private-care",
+      "risk_factors": ["private Pflegehilfe", "Leistungsnachweis fehlt"],
+      "contract_missing": true,
+      "repeat_counterparty": true
+    }
+  ]
+}
+

@@ -10,10 +10,9 @@ node_modules/
 .next/
 __pycache__/
 
-# Eingebettete Fremd-Repos (eigene Git-Historie)
-/erbrechts-helfer-ai/
-/mike/
-/vendor/klotzkette/
 
 # Lokale Tool-Einstellungen
 .claude/settings.local.json
+
+# Eingebettete Repos: Git-Metadaten
+.git_hold/

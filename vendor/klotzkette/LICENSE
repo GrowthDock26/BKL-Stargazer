@@ -1,0 +1,16 @@
+Klotzkette German Legal Skills sind doppellizenziert unter
+
+  Apache License, Version 2.0     (siehe LICENSE-APACHE)
+                ODER
+  MIT License                     (siehe LICENSE-MIT)
+
+nach Wahl der Nutzerin / des Nutzers.
+
+SPDX-License-Identifier: Apache-2.0 OR MIT
+
+Die ursprüngliche Vorlage `anthropics/claude-for-legal` steht unter der
+MIT-Lizenz. Diese Adaption erweitert, ersetzt und ergänzt die ursprünglichen
+Inhalte; sie wird unter dem oben genannten Doppellizenz-Modell veröffentlicht.
+
+Beiträge zu diesem Projekt werden unter denselben Bedingungen lizenziert
+(Apache-2.0 OR MIT), sofern in der Beitragsdatei nichts anderes angegeben ist.

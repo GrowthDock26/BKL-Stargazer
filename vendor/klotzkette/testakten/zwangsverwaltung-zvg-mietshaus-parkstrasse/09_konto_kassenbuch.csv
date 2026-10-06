@@ -1,0 +1,70 @@
+datum,buchung,kategorie,einnahme,ausgabe,einheit,beleg,saldo,anmerkung
+2026-05-08,Anfangsbestand Vorschuss Gläubigerin,Vorschuss,5000.00,0.00,,B001,5000.00,Sachsen Kreditbank AG
+2026-05-10,Miete WE01 Mai 2026,Miete,930.00,0.00,WE01,K001,5930.00,Ingrid Berger
+2026-05-10,Miete WE04 Mai 2026,Miete,880.00,0.00,WE04,K002,6810.00,Claudia Ohrend
+2026-05-10,Miete GE02 Mai 2026,Miete,1240.00,0.00,GE02,K003,8050.00,Kosmetikstudio Luma
+2026-05-10,Miete WE07 Mai 2026,Miete,945.00,0.00,WE07,K004,8995.00,Annette Baumgärtner
+2026-05-10,Grundsteuer Q1/2026 Rückstand,Betriebskosten,0.00,1940.00,,R-GrSt-Q1,7055.00,Ausgleich Rückstand
+2026-05-10,Miete WE05 Mai 2026,Miete,1090.00,0.00,WE05,K005,8145.00,Ehepaar Stöckel
+2026-05-10,Miete WE06 Mai 2026,Miete,835.00,0.00,WE06,K006,8980.00,Denis Farber
+2026-05-10,Miete WE10 Mai 2026,Miete,785.00,0.00,WE10,K007,9765.00,Petra Voss
+2026-05-12,Gebäudeversicherung LFK H1/2026 Rückstand,Versicherung,0.00,2480.00,,R001,7285.00,Lpz. Feuerkasse
+2026-05-14,Leckortung FixRohr GmbH,Instandhaltung,0.00,1200.00,,R002,6085.00,Keller Steigleitung
+2026-05-07,Dachrinne Notfall Kessler & Sohn,Instandhaltung,0.00,480.00,,R003,5605.00,Verkehrssicherung
+2026-05-14,Hausmeisterin Lehmann Mai,Betriebskosten,0.00,600.00,,R004,5005.00,Pauschale
+2026-05-14,FixRohr Muffenabdichtung,Instandhaltung,0.00,1840.00,,R005,3165.00,Warmwasserstrang
+2026-05-14,Allgemeinstrom eins energie,Betriebskosten,0.00,390.00,,R006,2775.00,Mai 2026
+2026-05-08,Miete WE08 Mai 2026 (halb),Miete,430.00,0.00,WE08,K008,3205.00,Möller halbe Zahlung
+2026-05-08,Miete WE09 Mai 2026 (gemindert),Miete,544.00,0.00,WE09,K009,3749.00,Kreller 80%
+2026-05-08,Leuchtmittel Treppenhaus,Instandhaltung,0.00,18.00,,K010,3731.00,Kleinreparatur
+2026-05-14,Grundsteuer Q2/2026,Betriebskosten,0.00,1940.00,,R-GrSt-Q2,1791.00,laufend fällig
+2026-06-10,Vorschuss Gläubigerin Aufstockung,Vorschuss,7500.00,0.00,,B002,9291.00,Aufstockung gem. AG-Beschluss
+2026-06-05,Miete WE01 Jun 2026,Miete,930.00,0.00,WE01,K011,10221.00,
+2026-06-05,Miete WE04 Jun 2026,Miete,880.00,0.00,WE04,K012,11101.00,
+2026-06-05,Miete WE05 Jun 2026,Miete,1090.00,0.00,WE05,K013,12191.00,
+2026-06-05,Miete WE06 Jun 2026,Miete,835.00,0.00,WE06,K014,13026.00,
+2026-06-05,Miete WE07 Jun 2026,Miete,945.00,0.00,WE07,K015,13971.00,
+2026-06-05,Miete WE08 Jun 2026,Miete,860.00,0.00,WE08,K016,14831.00,nach Klärung voll
+2026-06-05,Miete WE09 Jun 2026 (gemindert),Miete,544.00,0.00,WE09,K017,15375.00,
+2026-06-05,Miete WE10 Jun 2026,Miete,785.00,0.00,WE10,K018,16160.00,
+2026-06-10,Miete WE02 Jun 2026 (nachgezahlt),Miete,895.00,0.00,WE02,K019,17055.00,ab Jun Treuhandkonto
+2026-06-10,Miete GE02 Jun 2026,Miete,1240.00,0.00,GE02,K020,18295.00,
+2026-06-15,Gas Stadtwerke Leipzig Jun,Betriebskosten,0.00,2800.00,,R010,15495.00,
+2026-06-15,Hausmeisterin Lehmann Jun,Betriebskosten,0.00,600.00,,R011,14895.00,
+2026-06-15,Allgemeinstrom Jun,Betriebskosten,0.00,390.00,,R012,14505.00,
+2026-06-20,Dachrinne dauerhaft Kessler & Sohn,Instandhaltung,0.00,2200.00,,R013,12305.00,nach Genehmigung AG
+2026-06-20,Balkon WE04 Geländer Metallbau Wagner,Instandhaltung,0.00,900.00,,R014,11405.00,nach Genehmigung AG
+2026-07-05,Miete WE01 Jul 2026,Miete,930.00,0.00,WE01,K021,12335.00,
+2026-07-05,Miete WE02 Jul 2026,Miete,895.00,0.00,WE02,K022,13230.00,
+2026-07-05,Miete WE04 Jul 2026,Miete,880.00,0.00,WE04,K023,14110.00,
+2026-07-05,Miete WE05 Jul 2026,Miete,1090.00,0.00,WE05,K024,15200.00,
+2026-07-05,Miete WE06 Jul 2026,Miete,835.00,0.00,WE06,K025,16035.00,
+2026-07-05,Miete WE07 Jul 2026,Miete,945.00,0.00,WE07,K026,16980.00,
+2026-07-05,Miete WE08 Jul 2026,Miete,860.00,0.00,WE08,K027,17840.00,
+2026-07-05,Miete WE09 Jul 2026,Miete,680.00,0.00,WE09,K028,18520.00,Minderung entfällt
+2026-07-05,Miete WE10 Jul 2026,Miete,785.00,0.00,WE10,K029,19305.00,
+2026-07-05,Miete GE01 Jul 2026 (Teilzahlung),Miete,1500.00,0.00,GE01,K030,20805.00,Bäckerei Kranz Einigung
+2026-07-05,Miete GE02 Jul 2026,Miete,1240.00,0.00,GE02,K031,22045.00,
+2026-07-10,Kellertrocknung FixRohr Phase 1,Instandhaltung,0.00,1800.00,,R015,20245.00,4 Wochen Trocknungsgeräte
+2026-07-15,Gas Stadtwerke Leipzig Jul,Betriebskosten,0.00,2800.00,,R016,17445.00,
+2026-07-15,Hausmeisterin Lehmann Jul,Betriebskosten,0.00,600.00,,R017,16845.00,
+2026-07-15,Grundsteuer Q3/2026,Betriebskosten,0.00,1940.00,,R-GrSt-Q3,14905.00,
+2026-07-15,Allgemeinstrom Jul,Betriebskosten,0.00,390.00,,R018,14515.00,
+2026-08-05,Miete WE01-WE10 Aug 2026 (Pauschalposten),Miete,8360.00,0.00,alle WE,K040,22875.00,Sammelposition
+2026-08-05,Miete GE01 Aug 2026 + Rate 1 Rückstand,Miete,3650.33,0.00,GE01,K041,26525.33,2097+1553.33
+2026-08-05,Miete GE02 Aug 2026,Miete,1240.00,0.00,GE02,K042,27765.33,
+2026-08-10,Kellertrocknung FixRohr Phase 2 + Abschluss,Instandhaltung,0.00,1600.00,,R020,26165.33,
+2026-08-15,Gas Stadtwerke Leipzig Aug,Betriebskosten,0.00,2800.00,,R021,23365.33,
+2026-08-15,Hausmeisterin Lehmann Aug,Betriebskosten,0.00,600.00,,R022,22765.33,
+2026-08-15,Allgemeinstrom Aug,Betriebskosten,0.00,390.00,,R023,22375.33,
+2026-09-05,Miete alle Einheiten Sep 2026,Miete,11470.00,0.00,alle,K050,33845.33,Soll vollständig
+2026-09-15,Gas Stadtwerke Leipzig Sep,Betriebskosten,0.00,2800.00,,R030,31045.33,
+2026-09-15,Hausmeisterin Lehmann Sep,Betriebskosten,0.00,600.00,,R031,30445.33,
+2026-09-15,Grundsteuer Q4/2026,Betriebskosten,0.00,1940.00,,R-GrSt-Q4,28505.33,
+2026-09-15,Allgemeinstrom Sep,Betriebskosten,0.00,390.00,,R032,28115.33,
+2026-09-30,Fensterabdichtung WE09 Glaserei Brandt,Instandhaltung,0.00,640.00,,R033,27475.33,
+2026-09-30,Vergütung Zwangsverwalterin Q2/3 2026 brutto,Vergütung,0.00,3289.33,,VV-01,24186.00,inkl. USt 19%
+2026-10-01,Erste Auskehr an Sachsen Kreditbank AG,Auskehr,0.00,2438.67,,AK-01,21747.33,nach Gerichtsgenehmigung
+2026-12-31,Zweite Auskehr an Sachsen Kreditbank AG,Auskehr,0.00,3541.22,,AK-02,18206.11,nach Gerichtsgenehmigung
+2027-02-28,Schlussauskehr Sachsen Kreditbank AG,Auskehr,0.00,13743.39,,AK-03,4462.72,inkl. Kautionen separat
+2027-03-01,Kautionen an Erwerber weitergeleitet,Kaution,0.00,18160.00,,KAU-AUS,0.00,alle 11 Kautionen

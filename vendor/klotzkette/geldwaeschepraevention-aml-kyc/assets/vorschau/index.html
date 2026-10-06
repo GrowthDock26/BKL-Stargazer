@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geldwäscheprävention, AML und KYC</title>
+<style>
+:root { --ink:#0f1724; --muted:#526071; --line:#d9e1ea; --blue:#183f63; --silver:#eef3f7; --orange:#d67822; --paper:#ffffff; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:linear-gradient(180deg,#fafcff 0%,#eef4f8 54%,#ffffff 100%); }
+header { min-height:72vh; padding:48px min(7vw,88px); display:grid; align-content:center; border-bottom:1px solid var(--line); }
+.kicker { color:var(--orange); font-weight:800; font-size:12px; text-transform:uppercase; }
+h1 { max-width:1050px; margin:14px 0 18px; font-size:clamp(40px,6vw,80px); line-height:.98; letter-spacing:0; }
+.lead { max-width:900px; color:var(--muted); font-size:clamp(18px,2vw,24px); line-height:1.35; }
+.actions { margin-top:30px; display:flex; flex-wrap:wrap; gap:12px; }
+a.btn { text-decoration:none; color:white; background:var(--blue); border:1px solid #12314e; padding:12px 16px; border-radius:8px; font-weight:750; }
+a.btn.secondary { color:var(--blue); background:rgba(255,255,255,.84); border-color:var(--line); }
+main { padding:34px min(7vw,88px) 70px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; }
+article { background:rgba(255,255,255,.92); border:1px solid var(--line); border-radius:8px; padding:18px; min-height:196px; box-shadow:0 16px 38px rgba(24,63,99,.08); }
+article span { color:var(--orange); font-weight:850; font-size:12px; }
+article h3 { margin:10px 0 8px; font-size:18px; line-height:1.2; }
+article p { margin:0; color:var(--muted); line-height:1.45; }
+.footer { margin-top:30px; color:var(--muted); max-width:930px; line-height:1.5; }
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">Freistehendes Claude-Plugin</div>
+  <h1>Geldwäscheprävention, AML und KYC</h1>
+  <p class="lead">Risikobasierte Geldwäscheprävention: KYC, UBO, PEP, Sanktionen, Monitoring, Verdachtsmeldungen, Schulung, Audit, Behördenverfahren und Remediation in einem geführten Workflow.</p>
+  <nav class="actions" aria-label="Downloads">
+    <a class="btn" href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/geldwaeschepraevention-aml-kyc.zip">Plugin-ZIP laden</a>
+    <a class="btn secondary" href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-geldwaesche-aml-kyc-musterholding.zip">Akte laden</a>
+  </nav>
+</header>
+<main>
+  <section class="grid" aria-label="Kern-Workflows">
+        <article><span>01</span><h3>AML/KYC-Kommandocenter</h3><p>Führt Geldwäsche-, KYC-, Sanktions- und Behördenfälle vom Intake bis zum prüffähigen Maßnahmenplan.</p></article>
+        <article><span>02</span><h3>Verpflichtetenstatus nach GwG</h3><p>Prüft, ob und in welcher Rolle ein Unternehmen oder Berufsträger Verpflichteter nach GwG ist und welche Pflichten daraus folgen.</p></article>
+        <article><span>03</span><h3>Unternehmensweite Risikoanalyse</h3><p>Erstellt eine risikobasierte AML/CFT-Risikoanalyse mit Produkten, Kunden, Ländern, Vertriebskanälen, Transaktionen und Kontrollen.</p></article>
+        <article><span>04</span><h3>Interne Sicherungsmaßnahmen und ICP</h3><p>Baut praxistaugliche interne Sicherungsmaßnahmen, Richtlinien, Kontrollen, Eskalationen, Schulungen und Audit-Trail.</p></article>
+        <article><span>05</span><h3>KYC-Onboarding und Kundenprüfung</h3><p>Führt Identifizierung, Zweck der Geschäftsbeziehung, Mittelherkunft, Eigentümerstruktur, Risikoeinstufung und Freigabe.</p></article>
+        <article><span>06</span><h3>Wirtschaftlich Berechtigte und UBO</h3><p>Ermittelt wirtschaftlich Berechtigte, Kontrollketten, Trust-/Stiftungsstrukturen, Nominees und Transparenzregisterdaten.</p></article>
+        <article><span>07</span><h3>PEP, Hochrisikoland und verstärkte Sorgfalt</h3><p>Prüft PEP, Familienangehörige, nahestehende Personen, Hochrisikoländer, komplexe Strukturen und Enhanced Due Diligence.</p></article>
+        <article><span>08</span><h3>Sanktionslistenprüfung und Embargoabgleich</h3><p>Führt Namens-, Alias-, Eigentums-, Kontroll- und Embargo-Screening mit Trefferlog und False-Positive-Bewertung.</p></article>
+        <article><span>09</span><h3>Transaktionsmonitoring und Red Flags</h3><p>Erkennt auffällige Transaktionsmuster, Barzahlungen, Split Payments, Offshore-Strukturen, Durchlaufkonten und ungewöhnliche Geschäftslogik.</p></article>
+        <article><span>10</span><h3>Verdachtsmeldung an FIU/goAML</h3><p>Bereitet Verdachtsmeldungen, Sachverhaltskerne, Anlagen, goAML-Felder, Nachfragen und Dokumentationsentscheidungen vor.</p></article>
+  </section>
+  <p class="footer">Ruhiger Silber-/Blau-Look mit orangefarbenen Eskalationssignalen. Das Plugin bleibt freundlich, aber hart bei Quellenstand, Trefferlog, Mittelherkunft, Verdachtsprüfung und Freigaben.</p>
+</main>
+</body>
+</html>

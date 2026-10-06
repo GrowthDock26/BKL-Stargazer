@@ -1,0 +1,33 @@
+{
+  "name": "insolvenzverwaltung",
+  "version": "52.2.1",
+  "description": "Freistehendes Insolvenzverwaltungs-Plugin aus Sicht von Insolvenzverwalter, Sachwalter und vorläufiger Verwaltung: Regelverfahren, Eigenverwaltung, Schutzschirm, Anfechtung, § 15b InsO, Masse, Forderungsprüfung, Insolvenzplan, StaRUG-Planwerkstatt, Gutachten, Berichte und Schlussrechnung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "insolvenzverwaltung",
+    "inso",
+    "insolvenzverwalter",
+    "sachwalter",
+    "eigenverwaltung",
+    "schutzschirm",
+    "anfechtung",
+    "15b",
+    "masse",
+    "forderungen",
+    "tabelle",
+    "eroeffnungsgutachten",
+    "masseunzulaenglichkeit",
+    "schlussrechnung",
+    "freistehend",
+    "insolvenzplan",
+    "starug",
+    "restrukturierungsplan",
+    "vergleichsrechnung",
+    "planwerkstatt",
+    "cramdown"
+  ]
+}

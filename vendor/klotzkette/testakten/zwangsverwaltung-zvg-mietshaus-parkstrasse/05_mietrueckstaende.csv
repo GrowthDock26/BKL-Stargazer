@@ -1,0 +1,19 @@
+datum,einheit,mieter,soll,ist,differenz,kumuliert,notiz
+2026-05-05,WE02,Bogdan Matuschek,895.00,0.00,895.00,895.00,zahlt angeblich an Schuldner
+2026-05-05,GE01,Bäckerei Kranz GmbH,2330.00,0.00,2330.00,6990.00,Minderung wegen Feuchtigkeit; Zahlungsstopp
+2026-05-05,WE08,Franz Möller,860.00,430.00,430.00,430.00,halbe Miete; Heizungsmangel behauptet
+2026-05-05,WE09,Simon Kreller,680.00,544.00,136.00,136.00,20% Minderung Dachfenster angezeigt
+2026-06-05,GE01,Bäckerei Kranz GmbH,2330.00,0.00,2330.00,9320.00,weiterhin keine Zahlung; Schreiben Zwangsverwalterin 12.06.
+2026-06-05,WE08,Franz Möller,860.00,860.00,0.00,430.00,Zahlung vollständig nach Klärung 28.05.
+2026-06-05,WE09,Simon Kreller,680.00,544.00,136.00,272.00,Minderung weiter; Abdichtungsauftrag vergeben
+2026-07-05,GE01,Bäckerei Kranz GmbH,2330.00,1500.00,830.00,10150.00,Teilzahlung 1500 EUR; Einigung in Verhandlung
+2026-07-05,WE09,Simon Kreller,680.00,680.00,0.00,272.00,Minderung nicht mehr geltend gemacht (Abdichtung beauftragt)
+2026-08-05,GE01,Bäckerei Kranz GmbH,2330.00,2097.00,233.00,8386.00,Vergleich 28.07.26: 10% Minderung Mai/Jun; Rate 1 GE01-Rückstand 1553.33
+2026-08-05,WE08,Franz Möller,860.00,860.00,0.00,430.00,regulär
+2026-09-05,GE01,Bäckerei Kranz GmbH,2330.00,2330.00,0.00,6833.00,regulär + Rate 2 Rückstand 1553.33
+2026-10-05,GE01,Bäckerei Kranz GmbH,2330.00,2330.00,0.00,5280.00,regulär + Rate 3 Rückstand 1553.34 (Ausgleich)
+2026-11-05,GE01,Bäckerei Kranz GmbH,2330.00,2330.00,0.00,2950.00,regulär
+2026-12-05,GE01,Bäckerei Kranz GmbH,2330.00,2330.00,0.00,620.00,regulär; Restsaldo Vorperiode (vor ZVw) offen
+2026-10-05,WE02,Bogdan Matuschek,895.00,895.00,0.00,0.00,Rückstand vollständig beglichen
+2026-11-05,WE08,Franz Möller,860.00,860.00,0.00,0.00,regulär
+2026-12-05,WE09,Simon Kreller,680.00,680.00,0.00,0.00,regulär seit Okt 26

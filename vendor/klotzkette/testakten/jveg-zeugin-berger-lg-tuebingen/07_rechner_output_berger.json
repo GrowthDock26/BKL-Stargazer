@@ -1,0 +1,29 @@
+{
+  "assumptions": {
+    "role": "zeuge",
+    "km_total": 2500,
+    "km_rate": 0.35,
+    "overnight_nights": 2,
+    "overnight_claimed_total": 200,
+    "overnight_cap_per_night": 80,
+    "days": 3,
+    "hours": 24,
+    "claim_type": "verdienstausfall",
+    "verdienstausfall_hourly": 22,
+    "other_allowed": 0
+  },
+  "components": {
+    "fahrtkosten": "875.00",
+    "uebernachtung_allowed": "160.00",
+    "verdienstausfall": "528.00",
+    "haushaltsfuehrung": "0.00",
+    "zeitversaeumnis": "0.00",
+    "sonstige": "0.00"
+  },
+  "total": "1563.00",
+  "warnings": [
+    "Gesetzesstand und Belege vor produktiver Verwendung prüfen.",
+    "Verdienstausfall nach § 22 JVEG verlangt belastbare Unterlagen und ist auf 25 EUR/h begrenzt.",
+    "Stundenbezogene Zeugenentschädigung grundsätzlich höchstens 10 Stunden je Tag."
+  ]
+}

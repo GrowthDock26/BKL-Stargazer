@@ -1,0 +1,68 @@
+{
+  "case_name": "ModeFuchs GmbH ./. Gottlieb von Altenhausen",
+  "filing_date": "2025-07-25",
+  "court_check": {
+    "lawsuit_court_candidate": "Amtsgericht Nürnberg",
+    "dunning_court_candidate": "Amtsgericht Coburg",
+    "online_check_required": true
+  },
+  "summary": {
+    "GRÜN": "0.00",
+    "GELB": "99.84",
+    "ROT": "698.00"
+  },
+  "claims": [
+    {
+      "id": "HF-001",
+      "label": "Hauptforderung Rechnung R-20250406-3098",
+      "kind": "main",
+      "amount": "698.00",
+      "status": "ROT",
+      "recommendation": "Nicht einklagen; allenfalls Kosten- und Zinsfolgen prüfen.",
+      "reasons": [
+        "Hauptforderung war vor Klageeinreichung vollständig erfüllt.",
+        "Zahlung war vor Klageeinreichung aktenkundig."
+      ]
+    },
+    {
+      "id": "NF-001",
+      "label": "Mahnkosten",
+      "kind": "dunning_cost",
+      "amount": "5.50",
+      "status": "GELB",
+      "recommendation": "Nur nach anwaltlicher Freigabe oder Vergleichsvorschlag.",
+      "reasons": [
+        "Zugang der Mahnung oder Zahlungsaufforderung ist streitig oder ungeklärt.",
+        "Schuldner bestreitet Verschulden oder rechtzeitige Kenntnis.",
+        "Eigenständige Klage über Nebenforderungen kann wirtschaftlich/prozessual unverhältnismäßig sein."
+      ]
+    },
+    {
+      "id": "NF-002",
+      "label": "Verzugszinsen bis Zahlung",
+      "kind": "interest",
+      "amount": "10.80",
+      "status": "GELB",
+      "recommendation": "Nur nach anwaltlicher Freigabe oder Vergleichsvorschlag.",
+      "reasons": [
+        "Zugang der Mahnung oder Zahlungsaufforderung ist streitig oder ungeklärt.",
+        "Schuldner bestreitet Verschulden oder rechtzeitige Kenntnis.",
+        "Eigenständige Klage über Nebenforderungen kann wirtschaftlich/prozessual unverhältnismäßig sein."
+      ]
+    },
+    {
+      "id": "NF-003",
+      "label": "Inkassokosten",
+      "kind": "collection_cost",
+      "amount": "83.54",
+      "status": "GELB",
+      "recommendation": "Nur nach anwaltlicher Freigabe oder Vergleichsvorschlag.",
+      "reasons": [
+        "Zugang der Mahnung oder Zahlungsaufforderung ist streitig oder ungeklärt.",
+        "Schuldner bestreitet Verschulden oder rechtzeitige Kenntnis.",
+        "Eigenständige Klage über Nebenforderungen kann wirtschaftlich/prozessual unverhältnismäßig sein."
+      ]
+    }
+  ],
+  "global_recommendation": "Keine Klage über rote Positionen. Gelbe Nebenforderungen nur nach Freigabe; Vergleich/Nichtklage prüfen."
+}

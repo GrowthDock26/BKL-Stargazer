@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Liquiditäts-Padlet — 3-Wochen-Vorschau nach § 17 InsO</title>
+<style>
+  :root {
+    --bg:#F7F6F2; --surf:#F9F8F5; --surf2:#FBFBF9; --border:#D4D1CA;
+    --text:#28251D; --muted:#7A7974; --faint:#BAB9B4;
+    --primary:#01696F; --primaryH:#0C4E54;
+    --ok:#437A22; --warn:#964219; --err:#A12C7B;
+    --okBg:#E1EFD3; --warnBg:#FCE7CF; --errBg:#F6D5E6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#171614; --surf:#1C1B19; --surf2:#201F1D; --border:#393836;
+            --text:#CDCCCA; --muted:#797876; --faint:#5A5957;
+            --primary:#4F98A3; --primaryH:#227F8B;
+            --ok:#6DAA45; --warn:#BB653B; --err:#D163A7;
+            --okBg:#1F2A18; --warnBg:#2E1F14; --errBg:#2B1721; }
+  }
+  * { box-sizing:border-box }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Calibri, Arial, sans-serif;
+         background:var(--bg); color:var(--text); font-size:15px; line-height:1.45; }
+  header { padding:18px 24px; border-bottom:1px solid var(--border); background:var(--surf); position:sticky; top:0; z-index:2; }
+  header h1 { margin:0 0 4px; font-size:20px; font-weight:700; color:var(--primary); }
+  header p { margin:0; color:var(--muted); font-size:13px; }
+  .wrap { padding:20px 24px 60px; max-width:1280px; margin:0 auto; }
+  .grid { display:grid; grid-template-columns: 1fr; gap:20px; }
+  @media (min-width: 980px) { .grid { grid-template-columns: 1fr 1fr; } }
+  .card { background:var(--surf); border:1px solid var(--border); border-radius:10px; padding:16px 18px; }
+  .card h2 { margin:0 0 12px; font-size:15px; font-weight:700; color:var(--primary); letter-spacing:.02em; text-transform:uppercase; }
+  .row { display:grid; grid-template-columns: 1fr 110px; gap:10px; align-items:center; margin:6px 0; }
+  .row.full { grid-template-columns: 1fr; }
+  label { color:var(--muted); font-size:13px; }
+  input[type="text"], input[type="number"], input[type="date"], textarea, select {
+    font: inherit; padding:6px 8px; border:1px solid var(--border); border-radius:6px;
+    background:var(--surf2); color:var(--text); width:100%;
+  }
+  input[type="number"] { text-align:right; font-variant-numeric: tabular-nums; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th, td { border-bottom:1px solid var(--border); padding:6px 8px; text-align:right; font-variant-numeric: tabular-nums; }
+  th:first-child, td:first-child { text-align:left; }
+  th { background:var(--surf2); color:var(--muted); font-weight:600; }
+  .ampel { display:inline-flex; gap:8px; align-items:center; padding:10px 14px; border-radius:8px; font-weight:700; }
+  .ampel.ok   { background:var(--okBg);   color:var(--ok); }
+  .ampel.warn { background:var(--warnBg); color:var(--warn); }
+  .ampel.err  { background:var(--errBg);  color:var(--err); }
+  .dot { width:14px; height:14px; border-radius:50%; display:inline-block; }
+  .dot.ok { background:var(--ok); } .dot.warn { background:var(--warn); } .dot.err { background:var(--err); }
+  .kpi { display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; margin:8px 0 4px; }
+  .kpi .v { font-size:22px; font-weight:700; }
+  .kpi .l { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+  .kpi .b { background:var(--surf2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; }
+  .help { color:var(--muted); font-size:12px; margin-top:4px; }
+  .toolbar { display:flex; flex-wrap:wrap; gap:8px; padding:10px 0 4px; }
+  button { font:inherit; padding:8px 12px; border:1px solid var(--border); border-radius:6px;
+           background:var(--surf2); color:var(--text); cursor:pointer; }
+  button.primary { background:var(--primary); color:#fff; border-color:var(--primary); }
+  button.primary:hover { background:var(--primaryH); border-color:var(--primaryH); }
+  button:hover { border-color:var(--primary); color:var(--primary); }
+  details { background:var(--surf2); border:1px solid var(--border); border-radius:8px; padding:8px 12px; margin:8px 0; }
+  details summary { cursor:pointer; font-weight:600; }
+  .quelle { font-size:12px; color:var(--muted); }
+  .quelle a { color:var(--primary); text-decoration:none; }
+  .badge { display:inline-block; padding:2px 8px; border-radius:99px; font-size:11px; font-weight:700;
+           background:var(--primary); color:#fff; letter-spacing:.04em; }
+  textarea { min-height:60px; resize:vertical; }
+  hr { border:none; border-top:1px solid var(--border); margin:16px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Liquiditäts-Padlet — Drei-Wochen-Vorschau nach § 17 InsO</h1>
+  <p>Wochenraster KW <strong>t</strong>, <strong>t+1</strong>, <strong>t+2</strong>. Liquiditätslücke und Ampel rechnen live. Maßstab: BGH BGHZ 217, 129 (Passiva II) und BGHZ 163, 134 (10-%-Schwelle).</p>
+</header>
+
+<div class="wrap">
+  <div class="toolbar">
+    <button id="addRowEin" type="button">+ Einnahmen-Zeile</button>
+    <button id="addRowAus" type="button">+ Ausgaben-Zeile</button>
+    <button id="exportJson" type="button">Stand sichern (.json)</button>
+    <button id="loadJson" type="button">Stand laden</button>
+    <input id="fileJson" type="file" accept="application/json" hidden />
+    <button id="resetAll" type="button">Zurücksetzen</button>
+    <button id="print" class="primary" type="button">Drucken / PDF</button>
+  </div>
+
+  <div class="grid">
+    <section class="card" id="stammCard">
+      <h2>Stammdaten</h2>
+      <div class="row"><label>Unternehmen</label><input id="firma" type="text" placeholder="z. B. Edelholz Manufaktur Berlin GmbH" /></div>
+      <div class="row"><label>Stichtag (Montag KW t)</label><input id="stichtag" type="date" /></div>
+      <div class="row"><label>KW t (Nummer)</label><input id="kw" type="number" min="1" max="53" /></div>
+      <div class="row"><label>Bankguthaben (verfügbar)</label><input id="bank" type="number" step="0.01" /></div>
+      <div class="row"><label>Kassenbestand</label><input id="kasse" type="number" step="0.01" /></div>
+      <div class="row"><label>Freier Kontokorrent (ungenutzt, zugesagt)</label><input id="kkfrei" type="number" step="0.01" /></div>
+      <p class="help">Nur ungenutzte und zugesagte Kreditlinien zählen als Aktiva I. Gekündigte Linien und voll ausgeschöpfte Kontokorrents nicht ansetzen.</p>
+    </section>
+
+    <section class="card" id="ampelCard">
+      <h2>Status</h2>
+      <div id="ampel" class="ampel ok"><span class="dot ok"></span><span id="ampelText">Noch keine Daten</span></div>
+      <div class="kpi">
+        <div class="b"><div class="l">Aktiva I</div><div class="v" id="kAI">0,00 €</div></div>
+        <div class="b"><div class="l">Aktiva II (3 W.)</div><div class="v" id="kAII">0,00 €</div></div>
+        <div class="b"><div class="l">Σ Liquide</div><div class="v" id="kAS">0,00 €</div></div>
+        <div class="b"><div class="l">Passiva I</div><div class="v" id="kPI">0,00 €</div></div>
+        <div class="b"><div class="l">Passiva II (3 W.)</div><div class="v" id="kPII">0,00 €</div></div>
+        <div class="b"><div class="l">Σ Fällig</div><div class="v" id="kPS">0,00 €</div></div>
+      </div>
+      <div class="kpi" style="grid-template-columns: repeat(2,1fr);">
+        <div class="b"><div class="l">Liquiditätslücke (absolut)</div><div class="v" id="kLA">0,00 €</div></div>
+        <div class="b"><div class="l">Lücke in % (BGH-Volumeneffekt)</div><div class="v" id="kLP">0,0 %</div></div>
+      </div>
+      <p class="help" id="ampelHelp">Maßstab: BGH BGHZ 163, 134 (10-%-Schwelle); BGHZ 217, 129 (Passiva II einbezogen); II ZR 112/21 (alternative Darlegung).</p>
+    </section>
+
+    <section class="card" style="grid-column:1/-1;">
+      <h2>Liquiditätsplan — Wochen KW t, t+1, t+2</h2>
+      <table id="planTab">
+        <thead>
+          <tr><th>Position</th><th id="hKW0">KW t</th><th id="hKW1">KW t+1</th><th id="hKW2">KW t+2</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Liquidität Wochenanfang</td><td id="liqA0">—</td><td id="liqA1">—</td><td id="liqA2">—</td></tr>
+        </tbody>
+        <tbody id="einBody">
+          <tr><th colspan="4" style="text-align:left;background:var(--surf2);">Einnahmen</th></tr>
+        </tbody>
+        <tbody>
+          <tr><td><strong>Σ Einnahmen</strong></td>
+              <td id="sumE0"><strong>0,00 €</strong></td>
+              <td id="sumE1"><strong>0,00 €</strong></td>
+              <td id="sumE2"><strong>0,00 €</strong></td></tr>
+        </tbody>
+        <tbody id="ausBody">
+          <tr><th colspan="4" style="text-align:left;background:var(--surf2);">Ausgaben</th></tr>
+        </tbody>
+        <tbody>
+          <tr><td><strong>Σ Ausgaben</strong></td>
+              <td id="sumA0"><strong>0,00 €</strong></td>
+              <td id="sumA1"><strong>0,00 €</strong></td>
+              <td id="sumA2"><strong>0,00 €</strong></td></tr>
+          <tr><td><strong>Cashflow Woche</strong></td>
+              <td id="cf0"><strong>0,00 €</strong></td>
+              <td id="cf1"><strong>0,00 €</strong></td>
+              <td id="cf2"><strong>0,00 €</strong></td></tr>
+          <tr><td><strong>Liquidität Wochenende</strong></td>
+              <td id="liqE0"><strong>0,00 €</strong></td>
+              <td id="liqE1"><strong>0,00 €</strong></td>
+              <td id="liqE2"><strong>0,00 €</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="help">Die Einnahmen sind Aktiva II (binnen 3 Wochen flüssig), die Ausgaben sind Passiva II (binnen 3 Wochen fällig). Stundungen, die echt vereinbart und dokumentiert sind, gehören nicht in Passiva I/II; faktische Duldung dagegen schon — BGH, Urt. v. 12.10.2006 – IX ZR 228/03, NZI 2007, 36.</p>
+    </section>
+
+    <section class="card">
+      <h2>Offene Forderungen — Verhältnis zur Lücke</h2>
+      <div class="row"><label>Offene Forderungen gesamt (Nominal)</label><input id="ofGesamt" type="number" step="0.01" /></div>
+      <div class="row"><label>davon binnen 3 Wochen erwartet</label><input id="ofErwartet" type="number" step="0.01" /></div>
+      <div class="row"><label>davon tituliert (Vollstreckung läuft)</label><input id="ofTituliert" type="number" step="0.01" /></div>
+      <div class="row"><label>davon zweifelhaft / wertberichtigt</label><input id="ofZweifel" type="number" step="0.01" /></div>
+      <div class="kpi">
+        <div class="b"><div class="l">Deckungsgrad Forderungen vs. Lücke</div><div class="v" id="kDeck">—</div></div>
+      </div>
+      <p class="help">Titulierte Forderungen sind bei laufender Vollstreckung in Höhe des Nennwerts zu berücksichtigen — BGH, Urt. v. 23.01.2025 – IX ZR 229/22.</p>
+    </section>
+
+    <section class="card">
+      <h2>Indizien § 17 Abs. 2 S. 2 InsO</h2>
+      <div id="indizien"></div>
+      <p class="help">Indizienkatalog BGH, Urt. v. 19.07.2007 – IX ZR 81/06. Ab zwei aktiv gesetzten Indizien wird automatisch auf 🔴 eskaliert, auch wenn die Quote rechnerisch unter 10 % liegt.</p>
+    </section>
+
+    <section class="card" style="grid-column:1/-1;">
+      <h2>Notizen / Annahmen</h2>
+      <textarea id="notes" placeholder="Welche Annahmen wurden getroffen? Welche Beträge sind geschätzt? Welche Stundungen sind belegt?"></textarea>
+    </section>
+
+    <section class="card" style="grid-column:1/-1;">
+      <h2>Rechtsprechung (BGH, letzte zehn Jahre)</h2>
+      <details><summary>BGH, Urt. v. 19.12.2017 – II ZR 88/16, BGHZ 217, 129</summary>
+        <p>In die Liquiditätsbilanz sind <strong>auch die binnen 3 Wochen fällig werdenden und eingeforderten Verbindlichkeiten (Passiva II)</strong> einzubeziehen; Absage an die Bugwellentheorie.</p>
+      </details>
+      <details><summary>BGH, Urt. v. 28.04.2022 – IX ZR 48/21</summary>
+        <p>Die <strong>10-%-Schwelle</strong> bleibt; die Zahlungsunfähigkeit verlangt eine geordnete Gegenüberstellung der fälligen Verbindlichkeiten und liquiden Mittel.</p>
+      </details>
+      <details><summary>BGH, Urt. v. 28.06.2022 – II ZR 112/21</summary>
+        <p>Darlegung der Zahlungsunfähigkeit auch durch <strong>tagesgenaue Liquiditätsstatus in aussagekräftiger Anzahl</strong> möglich; Liquiditätsbilanz keine Pflicht (sog. Bugwellenrechtsprechung).</p>
+      </details>
+      <details><summary>BGH, Urt. v. 23.01.2025 – IX ZR 229/22</summary>
+        <p>Ein vorläufig vollstreckbarer Titel ist bei laufender Vollstreckung <strong>in Höhe des Nennwerts</strong> in der Liquiditätsbilanz zu berücksichtigen.</p>
+      </details>
+      <details><summary>BGH, Urt. v. 11.03.2025 – II ZR 139/23</summary>
+        <p>Die Beurteilung erfolgt <strong>allein anhand objektiver Umstände</strong>; auf die innere Vorstellung der Geschäftsleitung kommt es nicht an.</p>
+      </details>
+      <p class="quelle">Hinweis: Dieses Padlet ist ein Arbeitswerkzeug, keine anwaltliche Beratung. Bei roter Ampel ist die Antragspflicht § 15a InsO und die Hinweispflicht § 102 StaRUG zu prüfen.</p>
+    </section>
+  </div>
+</div>
+
+<script>
+'use strict';
+const fmt = new Intl.NumberFormat('de-DE', { style:'currency', currency:'EUR', minimumFractionDigits:2 });
+const pct = new Intl.NumberFormat('de-DE', { style:'percent', minimumFractionDigits:1, maximumFractionDigits:1 });
+const $ = (id) => document.getElementById(id);
+
+const DEFAULT_EIN = ['Umsatzerlöse / Debitoren','Erhaltene Anzahlungen','Sonstige Einnahmen'];
+const DEFAULT_AUS = ['Löhne und Gehälter inkl. LSt','Sozialversicherung','Waren / Material','Miete / Leasing','Energie / Wasser','Verwaltung','Werbung / Marketing','Fahrzeug','Versicherungen','Beratungskosten','Betriebliche Steuern','Sonstige Ausgaben','Investitionen','Darlehenstilgung','Zinsen'];
+const INDIZIEN = [
+  'Lohnsteuer-Rückstände',
+  'Sozialversicherungs-Rückstände',
+  'Lastschriftrückläufer',
+  'Stundungsanfragen / -bitten',
+  'Eingestellte Zahlungen Finanzamt',
+  'Eingestellte Zahlungen Krankenkasse',
+  'Pfändung / Vollstreckung',
+  'Eigene oder fremde Insolvenzanträge',
+  'Wechselproteste',
+];
+
+const state = {
+  firma:'', stichtag:'', kw:'',
+  bank:0, kasse:0, kkfrei:0,
+  ein: DEFAULT_EIN.map(l => ({label:l, w:[0,0,0]})),
+  aus: DEFAULT_AUS.map(l => ({label:l, w:[0,0,0]})),
+  ofGesamt:0, ofErwartet:0, ofTituliert:0, ofZweifel:0,
+  indizien: INDIZIEN.map(() => false),
+  notes:''
+};
+
+function num(el){ return parseFloat(el.value.replace(',', '.')) || 0; }
+
+function renderEinAus(){
+  const ebody = $('einBody'); const abody = $('ausBody');
+  ebody.innerHTML = '<tr><th colspan="4" style="text-align:left;background:var(--surf2);">Einnahmen (Aktiva II)</th></tr>';
+  abody.innerHTML = '<tr><th colspan="4" style="text-align:left;background:var(--surf2);">Ausgaben (Passiva II)</th></tr>';
+  state.ein.forEach((r, idx) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td><input data-kind="ein" data-idx="${idx}" data-field="label" type="text" value="${r.label.replace(/"/g,'&quot;')}"/></td>` +
+      [0,1,2].map(w => `<td><input data-kind="ein" data-idx="${idx}" data-w="${w}" type="number" step="0.01" value="${r.w[w]||''}"/></td>`).join('');
+    ebody.appendChild(tr);
+  });
+  state.aus.forEach((r, idx) => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td><input data-kind="aus" data-idx="${idx}" data-field="label" type="text" value="${r.label.replace(/"/g,'&quot;')}"/></td>` +
+      [0,1,2].map(w => `<td><input data-kind="aus" data-idx="${idx}" data-w="${w}" type="number" step="0.01" value="${r.w[w]||''}"/></td>`).join('');
+    abody.appendChild(tr);
+  });
+}
+
+function renderIndizien(){
+  const box = $('indizien');
+  box.innerHTML = '';
+  INDIZIEN.forEach((label, i) => {
+    const row = document.createElement('label');
+    row.style.display='flex'; row.style.gap='8px'; row.style.margin='4px 0';
+    row.innerHTML = `<input type="checkbox" data-ind="${i}" ${state.indizien[i]?'checked':''}/> <span>${label}</span>`;
+    box.appendChild(row);
+  });
+}
+
+function computeAndRender(){
+  const aI = state.bank + state.kasse + state.kkfrei;
+  const sumE = [0,0,0]; state.ein.forEach(r => r.w.forEach((v,i)=>sumE[i]+=(+v||0)));
+  const sumA = [0,0,0]; state.aus.forEach(r => r.w.forEach((v,i)=>sumA[i]+=(+v||0)));
+  const cf = sumE.map((e,i)=>e-sumA[i]);
+  const aII = sumE.reduce((a,b)=>a+b,0);
+  const pII = sumA.reduce((a,b)=>a+b,0);
+  // Passiva I = sumA[0]: am Stichtag fällige Verbindlichkeiten der KW t (vereinfachte Annahme; KW t enthält die Stichtagsfälligkeiten)
+  const pI = sumA[0];
+  // Liquiditätsverlauf
+  const liqA = [aI, 0, 0]; const liqE = [0,0,0];
+  for (let i=0;i<3;i++){ if (i>0) liqA[i] = liqE[i-1]; liqE[i] = liqA[i] + cf[i]; }
+
+  // Lücke nach BGH-Schema: Σ(P I + P II) - Σ(A I + A II), Bezugsgröße Σ(P I + P II)
+  const sumP = pI + (sumA[1] + sumA[2]); // P I aus KW t, P II aus KW t+1..t+2
+  const sumAk = aI + (sumE[1] + sumE[2]);
+  const luecke = Math.max(0, sumP - sumAk);
+  const quote = sumP > 0 ? luecke / sumP : 0;
+
+  // Render KPIs
+  $('kAI').textContent = fmt.format(aI);
+  $('kAII').textContent = fmt.format(sumE[1]+sumE[2]);
+  $('kAS').textContent = fmt.format(sumAk);
+  $('kPI').textContent = fmt.format(pI);
+  $('kPII').textContent = fmt.format(sumA[1]+sumA[2]);
+  $('kPS').textContent = fmt.format(sumP);
+  $('kLA').textContent = fmt.format(luecke);
+  $('kLP').textContent = pct.format(quote);
+
+  // Plan-Zeilen
+  for (let i=0;i<3;i++){
+    $(`liqA${i}`).textContent = fmt.format(liqA[i]);
+    $(`sumE${i}`).innerHTML = `<strong>${fmt.format(sumE[i])}</strong>`;
+    $(`sumA${i}`).innerHTML = `<strong>${fmt.format(sumA[i])}</strong>`;
+    $(`cf${i}`).innerHTML  = `<strong>${fmt.format(cf[i])}</strong>`;
+    $(`liqE${i}`).innerHTML = `<strong>${fmt.format(liqE[i])}</strong>`;
+  }
+
+  // KW-Header dynamisch
+  const kw = parseInt(state.kw,10);
+  if (!isNaN(kw)) {
+    $('hKW0').textContent = `KW ${kw}`;
+    $('hKW1').textContent = `KW ${kw+1}`;
+    $('hKW2').textContent = `KW ${kw+2}`;
+  } else {
+    $('hKW0').textContent = 'KW t';
+    $('hKW1').textContent = 'KW t+1';
+    $('hKW2').textContent = 'KW t+2';
+  }
+
+  // Deckungsgrad
+  const deck = (luecke>0) ? state.ofGesamt/luecke : null;
+  $('kDeck').textContent = deck===null ? 'keine Lücke' : pct.format(deck);
+
+  // Ampel
+  const indSet = state.indizien.filter(Boolean).length;
+  const ampEl = $('ampel'); const dotEl = ampEl.querySelector('.dot'); const txt = $('ampelText');
+  ampEl.classList.remove('ok','warn','err'); dotEl.classList.remove('ok','warn','err');
+  let result;
+  if (quote < 0.1 && indSet < 2) {
+    result = ['ok', '🟢 GRÜN — § 17 InsO nicht indiziert'];
+  } else if (quote >= 0.1 && liqE[2] >= 0 && indSet < 2) {
+    result = ['warn', '🟡 GELB — Zahlungsstockung, binnen 3 Wochen schließbar'];
+  } else {
+    result = ['err', '🔴 ROT — Zahlungsunfähigkeit § 17 InsO indiziert'];
+  }
+  ampEl.classList.add(result[0]); dotEl.classList.add(result[0]); txt.textContent = result[1];
+  // Speichern
+  localStorage.setItem('liqPadlet', JSON.stringify(state));
+}
+
+function bind(){
+  // Stamm
+  for (const k of ['firma','stichtag','kw','bank','kasse','kkfrei','ofGesamt','ofErwartet','ofTituliert','ofZweifel','notes']) {
+    const el = $(k);
+    el.addEventListener('input', () => {
+      state[k] = (el.type==='number') ? num(el) : el.value;
+      computeAndRender();
+    });
+  }
+  // Plan-Inputs (delegated)
+  document.addEventListener('input', (e) => {
+    const t = e.target;
+    if (!(t instanceof HTMLInputElement)) return;
+    const kind = t.dataset.kind; const idx = +t.dataset.idx;
+    if (!kind || isNaN(idx)) return;
+    if (t.dataset.field==='label') {
+      state[kind][idx].label = t.value;
+    } else if (t.dataset.w !== undefined) {
+      state[kind][idx].w[+t.dataset.w] = num(t);
+    }
+    computeAndRender();
+  });
+  // Indizien
+  document.addEventListener('change', (e) => {
+    const t = e.target;
+    if (t instanceof HTMLInputElement && t.dataset.ind !== undefined) {
+      state.indizien[+t.dataset.ind] = t.checked;
+      computeAndRender();
+    }
+  });
+  $('addRowEin').onclick = () => { state.ein.push({label:'Neue Einnahme', w:[0,0,0]}); renderEinAus(); computeAndRender(); };
+  $('addRowAus').onclick = () => { state.aus.push({label:'Neue Ausgabe', w:[0,0,0]}); renderEinAus(); computeAndRender(); };
+  $('exportJson').onclick = () => {
+    const blob = new Blob([JSON.stringify(state, null, 2)], {type:'application/json'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+    a.download = `liquiditaets-padlet_${state.firma || 'export'}_${(state.stichtag||'').replace(/-/g,'')}.json`;
+    a.click();
+  };
+  $('loadJson').onclick = () => $('fileJson').click();
+  $('fileJson').onchange = (e) => {
+    const f = e.target.files[0]; if (!f) return;
+    const r = new FileReader();
+    r.onload = () => { try { Object.assign(state, JSON.parse(r.result)); applyState(); } catch(_){} };
+    r.readAsText(f);
+  };
+  $('resetAll').onclick = () => { if (confirm('Alle Daten zurücksetzen?')) { localStorage.removeItem('liqPadlet'); location.reload(); } };
+  $('print').onclick = () => window.print();
+}
+
+function applyState(){
+  for (const k of ['firma','stichtag','kw','bank','kasse','kkfrei','ofGesamt','ofErwartet','ofTituliert','ofZweifel','notes']) {
+    if ($(k)) $(k).value = state[k] ?? '';
+  }
+  renderEinAus(); renderIndizien(); computeAndRender();
+}
+
+function init(){
+  const saved = localStorage.getItem('liqPadlet');
+  if (saved) { try { Object.assign(state, JSON.parse(saved)); } catch(_){} }
+  bind(); applyState();
+}
+init();
+</script>
+</body>
+</html>

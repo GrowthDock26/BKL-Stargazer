@@ -1,0 +1,27 @@
+{
+  "name": "immobilienrechtspraxis",
+  "version": "52.2.1",
+  "description": "Werkzeuge fuer immobilienrechtliche Rechtsabteilungen: musterbasierte Vertragserstellung mit Klauselschutz, Vertragspruefung gegen Playbook, Grundbuchanalyse, Sachverhaltsermittlung, Mieteranfragen, Case Management und AVV-Pruefung. Rechtsprechung nur nach Live-Verifikation.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "immobilienrecht",
+    "mietrecht",
+    "wohnungseigentumsrecht",
+    "grundbuch",
+    "vertragserstellung",
+    "vertragspruefung",
+    "playbook",
+    "sachverhaltsermittlung",
+    "mietmaengel",
+    "kuendigung",
+    "case-management",
+    "avv",
+    "rechtsabteilung",
+    "musterschreiben",
+    "klauselschutz"
+  ]
+}

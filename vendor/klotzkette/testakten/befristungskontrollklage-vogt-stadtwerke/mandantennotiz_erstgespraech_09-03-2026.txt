@@ -1,0 +1,81 @@
+KANZLEINOTIZ – ERSTGESPRÄCH
+Datum: 09. März 2026, 14:30 Uhr
+Mandantin: Lena Vogt (anwesend)
+Bearbeiter: [Kürzel unleserlich, vermutl. SR oder TS]
+Dauer: ca. 55 Min.
+
+---
+
+SACHVERHALT laut Mandantin:
+
+Lena Vogt, 32 J., Sachbearbeiterin Kundenservice/Vertragsmanagement bei den
+Stadtwerken Neukölln GmbH. Beschäftigt seit 01.03.2024, befristet bis
+28.02.2026. Arbeitsverhältnis formal zum 28.02. beendet.
+
+Sie kam auf Empfehlung einer Bekannten (Name nicht genannt) zu uns.
+"Ich hab irgendwo gelesen, dass Befristungen manchmal nicht wirksam sind,
+wenn das mit dem Vertrag nicht stimmt."
+
+Vogt schildert Vertragsschluss:
+- Schönfeld (Personalref.) hat ihr den Vertrag am 14.02.2024 per Email als PDF
+  geschickt. Kein Brief, kein Original in der Post.
+- Sie hat den Vertrag zu Hause ausgedruckt, unterschrieben, eingescannt,
+  als PDF per Email zurückgeschickt (16.02.2024).
+- "Ein Original habe ich nie bekommen, irgendwann hat Frau Schönfeld gesagt,
+  ich kriege das am ersten Tag, aber dann war da nur ein Ordner mit
+  Einführungsunterlagen, und der Vertrag war nicht drin."
+- Vogt hat keine Original-Ausfertigung mit Originalunterschrift des AG.
+  Sie hat nur den Scan des von ihr unterschriebenen Dokuments und die Emails.
+
+Auf Frage ob sie den Ferienaushilfen-Vertrag von 2021 noch hat:
+- "Ach das, ja, irgendwo hab ich das noch. War nur 3 Monate Pakete schleppen
+  im Sommer, ganz woanders, ich hab damit nicht gerechnet dass das relevant ist."
+- Scan liegt bei (Auszug, Seite 2 fehlt).
+
+§ 17 TzBfG-Frist:
+- Befristungsende: 28.02.2026
+- Heutiges Datum: 09.03.2026
+- Fristablauf: rechnerisch 21.03.2026, wegen Samstag nach § 193 BGB 23.03.2026
+- FRIST LÄUFT NOCH, aber kaum noch Zeit → Klage muss diese Woche raus!
+
+Wunsch der Mandantin:
+Weiterbeschäftigung, mindestens aber Abfindung "wenn es geht".
+"Ich will nicht unbedingt da zurück, aber wenn die mir einfach so zeigen
+können dass das alles rechtens war, das wäre mir unfair."
+Versteht nicht vollständig was Schriftformverstoß bedeutet, kurz erklärt.
+Reagierte überrascht aber interessiert. "Das hätte ich nicht gedacht."
+
+---
+
+Vorläufige Bewertung (Bearbeiter):
+
+1. Schriftformverstoß § 14 Abs. 4 TzBfG:
+   Sehr wahrscheinlich gegeben. Voraussetzung: Befristungsabrede muss
+   schriftlich vereinbart sein (§ 126 BGB). Email + Scan = elektronische
+   Übermittlung, erfüllt § 126 BGB nicht. Folge: § 16 TzBfG → Vertrag
+   gilt als auf unbestimmte Zeit geschlossen. AG hat dann faktisch
+   ohne Kündigung "entlassen" → starke Position.
+
+2. Vorbeschäftigung 2021:
+   Abstand 2 J. 5 M., anderer Bereich, anderer Ort. Nach BVerfG 2018
+   und BAG-Rspr. kein zwingender Missbrauch. Kein eigenständiges
+   Hauptargument, aber als zusätzliches Argument möglich.
+
+3. Nächste Schritte:
+   - Befristungskontrollklage unverzüglich einreichen (Frist 20.03.!)
+   - ArbG Berlin zuständig (Wohnort + Arbeitsort Berlin)
+   - Klageantrag: Feststellung dass Arbeitsverhältnis nicht durch Befristung
+     geendet hat + Weiterbeschäftigung
+   - Email-Kette und Vertragsscans als Anlage beifügen
+   - Vorsorglich: Vollmacht heute unterzeichnen lassen ✓
+
+---
+
+HINWEISE / Offen:
+- Vollmacht heute unterzeichnet (liegt bei)
+- PKH-Antrag prüfen (Vogt ist aktuell ohne Beschäftigung, Einkommen = 0)
+- Kostenvoranschlag besprechen → Mandantin bittet um Kosteneinschätzung per Email
+- Gegenseite noch nicht kontaktiert
+- Schönfeld: kein direkter Kontakt empfohlen ("die ist schon komisch geworden")
+
+Nächster Termin: Nach Klageeinreichung, Besprechung Klageschrift-Entwurf

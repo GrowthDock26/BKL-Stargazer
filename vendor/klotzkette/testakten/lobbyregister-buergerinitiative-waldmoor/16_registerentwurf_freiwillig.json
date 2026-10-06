@@ -1,0 +1,64 @@
+{
+  "$schema": "https://www.lobbyregister.bundestag.de/json-schemas/current/Lobbyregistersuche-Registereintrag-schema.json",
+  "interneFreigabe": {
+    "intern_freigegeben_von": "Julia Stern",
+    "freigabedatum": "2026-05-22",
+    "noch_offene_punkte": [
+      "Mandantenbeschluss Plenum 25.05.2026",
+      "Pflegeplan und Rollenmodell finalisieren",
+      "Windpark-Spende ausschluss bestaetigen",
+      "Gutachten-Upload entscheiden (Q2/2026)"
+    ]
+  },
+  "organisation": {
+    "name": "Buergerinitiative Waldmoor 2030",
+    "rechtsform": "sonstige Organisation ohne eigene Rechtspersoenlichkeit",
+    "anschrift": "c/o Luise Barmbek, Erlenweg 22, 27243 Waldmoor",
+    "internet": "https://waldmoor2030.example",
+    "kontaktE": "kontakt@waldmoor2030.example"
+  },
+  "sprechbefugnis": {
+    "personen": [
+      {"name": "Luise Barmbek", "funktion": "Sprecherin Kernteam"},
+      {"name": "Navid Sahin", "funktion": "Sprecher Kernteam"}
+    ],
+    "vertretungsbefugnis_rechtsgeschaefte": "intern beschraenkt auf Geschaefte bis 500 EUR; nicht oeffentlich kommuniziert"
+  },
+  "taetigkeit": {
+    "kurzbeschreibung": "Interessenvertretung fuer ein Moratorium der Bundesfernstrassen-Trasse B 449n und eine moorschutzfachliche Alternativenpruefung.",
+    "themenfelder": ["Verkehrsinfrastruktur", "Moorschutz", "Klimaschutz"],
+    "regelungsvorhaben": [
+      {"name": "Bundesverkehrswegeplan-Umsetzung B 449n", "art": "Verwaltungsvorhaben"}
+    ]
+  },
+  "stellungnahmen": [
+    {
+      "titel": "Moorschutzfachliche Bewertung Trassenkorridor B 449n (Kurzfassung)",
+      "autor": "Planungsbuero Moor und Wege PartG",
+      "versanddatum_an_bundesadressaten": "2026-05-12",
+      "upload_quartal": "Q2/2026",
+      "status": "entscheidung_offen"
+    }
+  ],
+  "finanzierung": {
+    "art": ["Spenden Privatpersonen", "Spenden Vereine und Stiftungen"],
+    "schwellenangabe_2025": null,
+    "schwellenangabe_2026": "nicht erreicht; Schaetzwert bisher unter 20000 EUR",
+    "drittmittel_ueber_10000_eur": [],
+    "hinweise": [
+      "Angebotene Spende der Windpark Waldmoor GmbH (6000 EUR) wurde nicht angenommen.",
+      "Anonyme Sammelspenden werden in Summe ausgewiesen.",
+      "Veroeffentlichungseinwilligung von Vereins-/Stiftungsspenden teilweise noch offen."
+    ]
+  },
+  "kodex": {
+    "leitfaden_intern": true,
+    "schulung_geplant": "2026-05-24",
+    "eigene_kodex_pdf": false
+  },
+  "risikohinweise": [
+    "Ehrenamtsstruktur ohne Geschaeftsstelle; Aktualisierungspflicht (3 Monate) ist Belastung.",
+    "Mehrere Spender haben Veroeffentlichungseinwilligung 'offen'.",
+    "Pressestueck Moorbote in Bearbeitung."
+  ]
+}

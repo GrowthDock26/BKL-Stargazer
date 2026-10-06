@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fachanwaltschafts-Plugins — claude-fuer-deutsches-recht</title>
+  <style>
+    :root {
+      --bg: #fafaf7;
+      --fg: #1a1a1a;
+      --muted: #5a5a5a;
+      --accent: #7a2c2c;
+      --card: #ffffff;
+      --border: #e3e0d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    header {
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--border);
+    }
+    header h1 {
+      font-size: 2rem;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .meta {
+      margin-top: 16px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .meta a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    .meta a:hover {
+      border-bottom-color: var(--accent);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 18px 20px;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+    .card h2 {
+      font-size: 1.05rem;
+      margin: 0 0 6px;
+      font-weight: 600;
+    }
+    .card a {
+      color: var(--fg);
+      text-decoration: none;
+    }
+    .card a:hover h2 {
+      color: var(--accent);
+    }
+    .card .slug {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.78rem;
+      color: var(--muted);
+      word-break: break-all;
+    }
+    .card .links {
+      margin-top: 10px;
+      display: flex;
+      gap: 12px;
+      font-size: 0.82rem;
+    }
+    .card .links a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    .card .links a:hover {
+      border-bottom-color: var(--accent);
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Fachanwaltschafts-Plugins</h1>
+      <p>24 Fachanwaltschafts-Plugins für das Marketplace <strong>claude-fuer-deutsches-recht</strong>. Jedes Plugin enthält ein Orientierungs-Skill und drei spezifische Workflow-Skills mit Kaltstart-Rückfragen, §§-Zitaten mit BGH-Pinpoint, Beweislast, Fristen, Schreibvorlagen und Übergabe-Hinweisen.</p>
+      <div class="meta">
+        Release: <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest">latest</a> ·
+        Repo: <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht">Klotzkette/claude-fuer-deutsches-recht</a>
+      </div>
+    </header>
+
+    <div class="grid">
+
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht">
+          <h2>Fachanwalt für Agrarrecht</h2>
+          <div class="slug">fachanwalt-agrarrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-agrarrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-arbeitsrecht">
+          <h2>Fachanwalt für Arbeitsrecht</h2>
+          <div class="slug">fachanwalt-arbeitsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-arbeitsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-arbeitsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht">
+          <h2>Fachanwalt für Bank- und Kapitalmarktrecht</h2>
+          <div class="slug">fachanwalt-bank-kapitalmarktrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-bank-kapitalmarktrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bau-architektenrecht">
+          <h2>Fachanwalt für Bau- und Architektenrecht</h2>
+          <div class="slug">fachanwalt-bau-architektenrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bau-architektenrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-bau-architektenrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-erbrecht">
+          <h2>Fachanwalt für Erbrecht</h2>
+          <div class="slug">fachanwalt-erbrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-erbrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-erbrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-familienrecht">
+          <h2>Fachanwalt für Familienrecht</h2>
+          <div class="slug">fachanwalt-familienrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-familienrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-familienrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz">
+          <h2>Fachanwalt für gewerblichen Rechtsschutz</h2>
+          <div class="slug">fachanwalt-gewerblicher-rechtsschutz</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-gewerblicher-rechtsschutz.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht">
+          <h2>Fachanwalt für Handels- und Gesellschaftsrecht</h2>
+          <div class="slug">fachanwalt-handels-gesellschaftsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-handels-gesellschaftsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht">
+          <h2>Fachanwalt für Insolvenz- und Sanierungsrecht</h2>
+          <div class="slug">fachanwalt-insolvenz-sanierungsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-insolvenz-sanierungsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht">
+          <h2>Fachanwalt für Internationales Wirtschaftsrecht</h2>
+          <div class="slug">fachanwalt-internationales-wirtschaftsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-internationales-wirtschaftsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht">
+          <h2>Fachanwalt für Informationstechnologierecht (IT-Recht)</h2>
+          <div class="slug">fachanwalt-it-recht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-it-recht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht">
+          <h2>Fachanwalt für Medizinrecht</h2>
+          <div class="slug">fachanwalt-medizinrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-medizinrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-miet-wohnungseigentumsrecht">
+          <h2>Fachanwalt für Miet- und Wohnungseigentumsrecht</h2>
+          <div class="slug">fachanwalt-miet-wohnungseigentumsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-miet-wohnungseigentumsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-miet-wohnungseigentumsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht">
+          <h2>Fachanwalt für Migrationsrecht</h2>
+          <div class="slug">fachanwalt-migrationsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-migrationsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht">
+          <h2>Fachanwalt für Sozialrecht</h2>
+          <div class="slug">fachanwalt-sozialrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-sozialrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht">
+          <h2>Fachanwalt für Sportrecht</h2>
+          <div class="slug">fachanwalt-sportrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-sportrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-steuerrecht">
+          <h2>Fachanwalt für Steuerrecht</h2>
+          <div class="slug">fachanwalt-steuerrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-steuerrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-steuerrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-strafrecht">
+          <h2>Fachanwalt für Strafrecht</h2>
+          <div class="slug">fachanwalt-strafrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-strafrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-strafrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-transport-speditionsrecht">
+          <h2>Fachanwalt für Transport- und Speditionsrecht</h2>
+          <div class="slug">fachanwalt-transport-speditionsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-transport-speditionsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-transport-speditionsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht">
+          <h2>Fachanwalt für Urheber- und Medienrecht</h2>
+          <div class="slug">fachanwalt-urheber-medienrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-urheber-medienrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht">
+          <h2>Fachanwalt für Vergaberecht</h2>
+          <div class="slug">fachanwalt-vergaberecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-vergaberecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht">
+          <h2>Fachanwalt für Verkehrsrecht</h2>
+          <div class="slug">fachanwalt-verkehrsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-verkehrsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht">
+          <h2>Fachanwalt für Versicherungsrecht</h2>
+          <div class="slug">fachanwalt-versicherungsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-versicherungsrecht.zip">ZIP</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht">
+          <h2>Fachanwalt für Verwaltungsrecht</h2>
+          <div class="slug">fachanwalt-verwaltungsrecht</div>
+        </a>
+        <div class="links">
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills">Skills</a>
+          <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/fachanwalt-verwaltungsrecht.zip">ZIP</a>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      Alle 24 anerkannten Fachanwaltschaften der BRAO sind im Marketplace abgebildet (Stand v2.2.4).
+      Quelle: <a href="https://github.com/Klotzkette/claude-fuer-deutsches-recht">claude-fuer-deutsches-recht auf GitHub</a>.
+    </footer>
+  </div>
+</body>
+</html>

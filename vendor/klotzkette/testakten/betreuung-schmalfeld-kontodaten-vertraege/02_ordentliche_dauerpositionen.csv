@@ -1,0 +1,13 @@
+Kategorie,Empfänger,Betrag_EUR,Turnus,Beleg,Kommentar
+Rente,Deutsche Rentenversicherung,2849.00,monatlich,Kontoauszug,regelmäßige Haupteinnahme
+Betriebsrente,Siemens Betriebsrente,1242.00,monatlich,Kontoauszug,regelmäßige Zusatzeinnahme
+Mieteinnahme,Stefan und Julia Bergmann,780.00,monatlich,Mietvertrag Prenzlauer Allee,plausible Vermietungseinnahme
+Wohnungsmiete,WBM Wohnungsbaugesellschaft Berlin-Mitte,987.50,monatlich,Mietvertrag,notwendige Lebensführung
+Krankenversicherung,BARMER,ca. 471.00,monatlich,Versicherungsunterlagen,KV und PV
+Hausgeld,Primus Hausverwaltung,ca. 320.00,monatlich,Hausverwaltung,für vermietete Eigentumswohnung prüfen
+Gas,GASAG,ca. 128.00,monatlich,Vertrag,notwendige Versorgung
+Strom,Vattenfall,ca. 188.00,quartalsweise,Vertrag,notwendige Versorgung
+Telekommunikation,Telekom Deutschland,ca. 54.00,monatlich,Vertrag,notwendige Kommunikation
+Haftpflicht,Allianz,klein,jährlich,Police,plausible Absicherung
+Hausrat,HUK,klein,jährlich,Police,plausible Absicherung
+Wohngebäude,Provinzial,klein,jährlich,Police,für Immobilie plausibel

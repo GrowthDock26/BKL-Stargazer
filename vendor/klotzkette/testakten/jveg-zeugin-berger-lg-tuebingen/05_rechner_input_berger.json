@@ -1,0 +1,13 @@
+{
+  "role": "zeuge",
+  "km_total": 2500,
+  "km_rate": 0.35,
+  "overnight_nights": 2,
+  "overnight_claimed_total": 200,
+  "overnight_cap_per_night": 80,
+  "days": 3,
+  "hours": 24,
+  "claim_type": "verdienstausfall",
+  "verdienstausfall_hourly": 22,
+  "other_allowed": 0
+}

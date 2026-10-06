@@ -1,0 +1,23 @@
+{
+  "name": "betreuungsrecht",
+  "version": "52.2.1",
+  "description": "Betreuungsrechtliche Skills für Jahresbericht, Vermögensverzeichnis, Genehmigungspflichten, Kontoanalyse und Verdachtsverträge nach BtOG und BGB.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "betreuungsrecht",
+    "btog",
+    "berufsbetreuer",
+    "jahresbericht",
+    "betreuungsgericht",
+    "vermoegensverzeichnis",
+    "genehmigungspflicht",
+    "kontodaten",
+    "verdaechtige-vertraege",
+    "vermoegenssorge",
+    "bgb-reform-2023"
+  ]
+}

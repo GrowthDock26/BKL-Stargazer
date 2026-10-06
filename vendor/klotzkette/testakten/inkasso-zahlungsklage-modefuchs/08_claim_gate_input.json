@@ -1,0 +1,71 @@
+{
+  "case_name": "ModeFuchs GmbH ./. Gottlieb von Altenhausen",
+  "filing_date": "2025-07-25",
+  "court_check": {
+    "lawsuit_court_candidate": "Amtsgericht Nürnberg",
+    "dunning_court_candidate": "Amtsgericht Coburg",
+    "online_check_required": true
+  },
+  "claims": [
+    {
+      "id": "HF-001",
+      "label": "Hauptforderung Rechnung R-20250406-3098",
+      "kind": "main",
+      "amount": "698.00",
+      "basis": "§ 433 Abs. 2 BGB",
+      "due_date": "2025-04-17",
+      "paid_amount": "698.00",
+      "paid_date": "2025-06-26",
+      "payment_known_date": "2025-07-01",
+      "evidence": [
+        "04_Rechnung_R-20250406-3098.pdf",
+        "19_Kontoauszug_Altenhausen_26-06-2025.pdf",
+        "15_Zahlungsnotiz_Inkasso_01-07-2025.pdf"
+      ],
+      "default_basis": "kalendermäßige Fälligkeit und Mahnungen"
+    },
+    {
+      "id": "NF-001",
+      "label": "Mahnkosten",
+      "kind": "dunning_cost",
+      "amount": "5.50",
+      "basis": "§§ 280 Abs. 1 und 2; 286 BGB",
+      "evidence": [
+        "06_Zweite_Mahnung_E-Mail_04-05-2025.pdf"
+      ],
+      "default_basis": "Mahnverzug behauptet",
+      "access_proven": false,
+      "fault_dispute": true,
+      "proportionality_risk": true
+    },
+    {
+      "id": "NF-002",
+      "label": "Verzugszinsen bis Zahlung",
+      "kind": "interest",
+      "amount": "10.80",
+      "basis": "§ 288 Abs. 1 BGB",
+      "evidence": [
+        "08_Zweite_Mahnung_Post_22-05-2025.pdf"
+      ],
+      "default_basis": "Verzug behauptet",
+      "access_proven": false,
+      "fault_dispute": true,
+      "proportionality_risk": true
+    },
+    {
+      "id": "NF-003",
+      "label": "Inkassokosten",
+      "kind": "collection_cost",
+      "amount": "83.54",
+      "basis": "§§ 280 Abs. 1 und 2; 286 BGB",
+      "evidence": [
+        "10_Inkassoschreiben_10-06-2025.pdf",
+        "12_Gebuehrenrechnung_Inkasso_10-06-2025.pdf"
+      ],
+      "default_basis": "Verzug vor Inkassoauftrag behauptet",
+      "access_proven": false,
+      "fault_dispute": true,
+      "proportionality_risk": true
+    }
+  ]
+}

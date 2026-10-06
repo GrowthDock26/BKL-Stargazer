@@ -1,0 +1,16 @@
+export const DOC_TYPE_LABELS: Record<string, string> = {
+    ONBOARDING_ANSCHREIBEN: "Anschreiben",
+    ONBOARDING_HONORARVEREINBARUNG: "Mandats-/Honorarvereinbarung",
+    ONBOARDING_VOLLMACHT: "Vollmacht (außergerichtlich)",
+    ONBOARDING_PROZESSVOLLMACHT: "Prozessvollmacht (gerichtlich, § 80 ZPO)",
+    ONBOARDING_WIDERRUFSBELEHRUNG: "Widerrufsbelehrung",
+    ANFRAGE_UPLOAD: "Unterlage (Aktenanlage)",
+    INTAKE_UPLOAD: "Aufnahme-Dokument",
+    GWG_PERSONALAUSWEIS: "Personalausweis (GwG)",
+    RUECKLAUF_VOLLMACHT: "Rücklauf: unterzeichnete Vollmacht",
+    RUECKLAUF_HONORARVEREINBARUNG: "Rücklauf: unterzeichnete Honorarvereinbarung",
+    ANSPRUCH_SCHREIBEN: "Anspruchsschreiben",
+    KLAGE_SCHRIFT: "Klageschrift",
+    KLAGE_ANLAGE: "Klage-Anlage",
+    SONSTIGES: "Sonstiges",
+};

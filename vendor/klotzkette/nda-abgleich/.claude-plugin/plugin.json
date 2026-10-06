@@ -1,0 +1,27 @@
+{
+  "name": "nda-abgleich",
+  "version": "52.2.1",
+  "description": "Gleicht NDA-Entwurf der Gegenseite gegen eigenen Standard ab und setzt Haltelinien chirurgisch im Word-Aenderungsmodus durch. Ampelmatrix ROT/GELB/GRUEN. Ausgabe .docx mit echten Tracked Changes. Keine Absatzlöschungen, keine Klausel-Neufassungen.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "nda",
+    "geheimhaltungsvereinbarung",
+    "redlining",
+    "tracked-changes",
+    "ampelmatrix",
+    "haltelinien",
+    "standardabgleich",
+    "vertragsverhandlung",
+    "receiving-party",
+    "disclosing-party",
+    "geschGehG",
+    "kanzleistandard",
+    "wirtschaftsanwalt",
+    "vertragsverhandlung-docx",
+    "minimalinvasiv"
+  ]
+}

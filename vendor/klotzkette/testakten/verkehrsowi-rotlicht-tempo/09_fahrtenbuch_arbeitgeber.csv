@@ -1,0 +1,35 @@
+datum,uhrzeit_start,uhrzeit_ende,fahrzeug,kennzeichen,nutzer,fahrtzweck,startort,zielort,km_start,km_ende,km_gesamt,auftrags_nr
+2026-03-02,07:15,09:30,VW Transporter T6.1,K-JM 426,Jonas Mertens,Heizungswartung Stammkunde,Kölner Str. 84 Ehrenfeld,Sülzgürtel 22 Sülz,48220,48235,15,AO-2026-0201
+2026-03-02,09:45,12:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Sanitärinstallation Badumbau,Sülzgürtel 22 Sülz,Luxemburger Str. 88 Klettenberg,48235,48248,13,AO-2026-0202
+2026-03-03,08:00,10:30,VW Transporter T6.1,K-JM 426,Emir Özkan,Materialabholung Großhandel,Kölner Str. 84 Ehrenfeld,Industriestr. 14 Ossendorf,48248,48261,13,MAT-2026-0301
+2026-03-03,11:00,14:45,VW Transporter T6.1,K-JM 426,Jonas Mertens,Gasinstallation Neubau,Kölner Str. 84 Ehrenfeld,Dürener Str. 412 Braunsfeld,48261,48279,18,AO-2026-0203
+2026-03-04,07:30,09:00,VW Transporter T6.1,K-JM 426,Emir Özkan,Wartung Therme,Kölner Str. 84 Ehrenfeld,Konrad-Adenauer-Ufer 55 Neustadt-Nord,48279,48289,10,AO-2026-0204
+2026-03-04,09:15,11:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Heizungsnotfall,Konrad-Adenauer-Ufer 55 Neustadt-Nord,Eigelsteiner Str. 102 Innenstadt,48289,48296,7,NOT-2026-0304
+2026-03-05,08:00,10:00,VW Transporter T6.1,K-JM 426,Lars Riemer,Materialrückgabe,Kölner Str. 84 Ehrenfeld,Industriestr. 14 Ossendorf,48296,48308,12,MAT-2026-0302
+2026-03-06,07:45,13:30,VW Transporter T6.1,K-JM 426,Jonas Mertens,Jahreswartung Wohnanlage,Kölner Str. 84 Ehrenfeld,Aachener Str. 556–560 Weiden,48308,48335,27,AO-2026-0205
+2026-03-09,08:30,11:00,VW Transporter T6.1,K-JM 426,Emir Özkan,Rohranschluss Gewerbe,Kölner Str. 84 Ehrenfeld,Subbelrather Str. 304 Bickendorf,48335,48347,12,AO-2026-0206
+2026-03-09,11:30,14:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Druckprüfung Gasleitung,Subbelrather Str. 304 Bickendorf,Münchener Str. 19 Rodenkirchen,48347,48368,21,AO-2026-0207
+2026-03-10,07:00,08:30,VW Transporter T6.1,K-JM 426,Jonas Mertens,Notfall Thermendefekt,Kölner Str. 84 Ehrenfeld,Severinswall 45 Altstadt-Süd,48368,48378,10,NOT-2026-0310
+2026-03-10,09:00,12:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Thermentausch,Severinswall 45 Altstadt-Süd,Severinswall 45 Altstadt-Süd,48378,48378,0,AO-2026-0208
+2026-03-11,08:00,10:30,VW Transporter T6.1,K-JM 426,Lars Riemer,Materialabholung Kupferleitungen,Kölner Str. 84 Ehrenfeld,Industriestr. 14 Ossendorf,48378,48390,12,MAT-2026-0303
+2026-03-12,07:30,12:45,VW Transporter T6.1,K-JM 426,Jonas Mertens,Sanitärsanierung Altbau,Kölner Str. 84 Ehrenfeld,Niehler Str. 77 Nippes,48390,48407,17,AO-2026-0209
+2026-03-13,09:00,11:30,VW Transporter T6.1,K-JM 426,Emir Özkan,Ventilwartung Mehrfamilienhaus,Kölner Str. 84 Ehrenfeld,Vitalisstr. 78 Longerich,48407,48420,13,AO-2026-0210
+2026-03-16,07:15,08:30,VW Transporter T6.1,K-JM 426,Jonas Mertens,Behördengespräch Bauamt,Kölner Str. 84 Ehrenfeld,Willy-Brandt-Platz 2 Deutz,48420,48432,12,INT-2026-0316
+2026-03-16,09:00,13:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Heizungsinstallation Neubau,Willy-Brandt-Platz 2 Deutz,Marsdorfer Str. 33 Marsdorf,48432,48456,24,AO-2026-0211
+2026-03-17,08:00,10:00,VW Transporter T6.1,K-JM 426,Emir Özkan,Wartung Dachheizung,Kölner Str. 84 Ehrenfeld,Hansaring 97 Neustadt-Nord,48456,48466,10,AO-2026-0212
+2026-03-17,10:30,14:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Gasabnahme GAS-Inst.,Hansaring 97 Neustadt-Nord,Venloer Str. 125 Ehrenfeld,48466,48479,13,AO-2026-0213
+2026-03-18,06:45,07:30,VW Transporter T6.1,K-JM 426,Jonas Mertens,Materialabholung Notfall,Kölner Str. 84 Ehrenfeld,Industriestr. 14 Ossendorf,48479,48487,8,MAT-2026-0318
+2026-03-18,07:45,09:30,VW Transporter T6.1,K-JM 426,Jonas Mertens,Wartung Therme Stammkunde,Industriestr. 14 Ossendorf,Salierring 42 Altstadt-Süd,48487,48499,12,AO-2026-0214
+2026-03-18,10:00,11:45,VW Transporter T6.1,K-JM 426,Jonas Mertens,Sanitärprüfung Neubau,Salierring 42 Altstadt-Süd,Neumarkt 12 Innenstadt,48499,48508,9,AO-2026-0215
+2026-03-18,12:30,13:15,VW Transporter T6.1,K-JM 426,Jonas Mertens,Mittagspause / Rückfahrt Depot,Neumarkt 12 Innenstadt,Kölner Str. 84 Ehrenfeld,48508,48516,8,INT-2026-0318b
+2026-03-18,14:50,16:30,VW Transporter T6.1,K-JM 426,Jonas Mertens,Heizungsnotfall Eigelsteiner Str.,Kölner Str. 84 Ehrenfeld,Eigelsteiner Str. 59 Innenstadt,48516,48530,14,NOT-2026-0318
+2026-03-18,17:15,18:00,VW Transporter T6.1,K-JM 426,Emir Özkan,Materialabholung Ehrenfeld,Eigelsteiner Str. 59 Innenstadt,Moltkestr. 5 Ehrenfeld,48530,48537,7,MAT-2026-0319
+2026-03-19,08:00,11:30,VW Transporter T6.1,K-JM 426,Lars Riemer,Wartung Lindenthal Heizanlage,Kölner Str. 84 Ehrenfeld,Gleueler Str. 303 Lindenthal,48537,48551,14,AO-2026-0216
+2026-03-19,12:00,14:45,VW Transporter T6.1,K-JM 426,Jonas Mertens,Rohrsanierung,Gleueler Str. 303 Lindenthal,Militärring 60 Junkersdorf,48551,48566,15,AO-2026-0217
+2026-03-20,07:30,09:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Rückfahrt Material,Kölner Str. 84 Ehrenfeld,Industriestr. 14 Ossendorf,48566,48576,10,MAT-2026-0320
+2026-03-20,09:30,13:30,VW Transporter T6.1,K-JM 426,Emir Özkan,Heizungsprüfung Rheinauhafen,Industriestr. 14 Ossendorf,Agrippinawerft 30 Rheinauhafen,48576,48589,13,AO-2026-0218
+2026-03-23,07:00,10:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Jahreswartung Block,Kölner Str. 84 Ehrenfeld,Bonner Str. 500 Poll,48589,48611,22,AO-2026-0219
+2026-03-23,10:30,12:30,VW Transporter T6.1,K-JM 426,Lars Riemer,Materialrückgabe + Abholung,Bonner Str. 500 Poll,Industriestr. 14 Ossendorf,48611,48623,12,MAT-2026-0321
+2026-03-24,08:00,15:00,VW Transporter T6.1,K-JM 426,Jonas Mertens,Gasinstallation Neubau (Abnahme),Kölner Str. 84 Ehrenfeld,Pulheimer Str. 88 Bocklemünd,48623,48649,26,AO-2026-0220
+2026-03-25,07:30,10:00,VW Transporter T6.1,K-JM 426,Emir Özkan,Sanitär-Endmontage,Kölner Str. 84 Ehrenfeld,Dürener Str. 412 Braunsfeld,48649,48661,12,AO-2026-0221
+2026-03-26,08:00,13:45,VW Transporter T6.1,K-JM 426,Jonas Mertens,Heizungsanlage Komplett Tausch,Kölner Str. 84 Ehrenfeld,Venloer Str. 350 Bickendorf,48661,48685,24,AO-2026-0222

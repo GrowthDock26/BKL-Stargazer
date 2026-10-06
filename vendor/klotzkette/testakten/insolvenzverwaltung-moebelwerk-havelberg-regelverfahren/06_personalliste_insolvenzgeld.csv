@@ -1,0 +1,39 @@
+nr,name,funktion,abteilung,einstellungsdatum,brutto_monat,rueckstand_maerz,rueckstand_april,fortfuehrung_kritisch,kuendigung_datum,insolvenzgeld_beantragt,bemerkung
+1,Lea Kruse,Produktionsleitung,Produktion,2014-03-01,5200.00,5200.00,5200.00,ja,2026-05-31,ja,Schlüsselperson; bis 30.06.2026 weiterbeschäftigt
+2,Martin Ortner,CNC-Bediener,Produktion,2017-07-15,3900.00,3900.00,3900.00,ja,2026-05-31,ja,Schlüsselperson; bis 30.06.2026 weiterbeschäftigt
+3,Sana Yildiz,Buchhaltung / Rechnungswesen,Verwaltung,2019-01-01,3400.00,3400.00,3400.00,ja,2026-06-30,ja,Unterstützt IV bis Verfahrensabschluss
+4,Klaus Bremer,Schreiner,Produktion,2011-05-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+5,Jana Tietze,Schreinergesellin,Produktion,2020-09-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,
+6,Andreas Hofmann,Lackierer,Produktion,2013-02-01,3300.00,3300.00,3300.00,ja,2026-05-31,ja,Fortführung Lackierarbeiten Hotel Speicherstadt
+7,Bettina Reinhold,Einkauf / Disposition,Verwaltung,2016-08-01,3500.00,3500.00,3500.00,ja,2026-05-31,ja,Koordiniert Vorkasselieferung Furnier
+8,Frank Wollmann,Schreiner,Produktion,2015-03-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+9,Sandra Meissner,Schreinergesellin,Produktion,2021-04-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,
+10,Dietmar Lutz,Lagerleiter,Lager,2010-11-01,3800.00,3800.00,3800.00,ja,2026-05-31,ja,Warenlager; kritisch für EV-Klärung
+11,Hanna Schulz,Vertriebsinnenddienst,Vertrieb,2018-03-01,3400.00,3400.00,3400.00,nein,2026-05-31,ja,
+12,René Körber,Schreiner,Produktion,2012-06-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+13,Monika Braun,Sekretariat / Assistenz,Verwaltung,2009-07-01,2900.00,2900.00,2900.00,nein,2026-05-31,ja,
+14,Tobias Kluge,CNC-Bediener,Produktion,2019-05-01,3700.00,3700.00,3700.00,ja,2026-06-30,ja,Fertigstellung Klinikverbund-Halbfabrikate
+15,Petra Naumann,Schreinergesellin,Produktion,2022-01-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,
+16,Werner Stüber,Haustechnik / Instandhaltung,Technik,2008-01-01,3500.00,3500.00,3500.00,nein,2026-05-31,ja,
+17,Inga Vogt,Konstruktion / CAD,Planung,2017-09-01,4200.00,4200.00,4200.00,nein,2026-05-31,ja,
+18,Carsten Held,Schreiner,Produktion,2016-04-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+19,Luisa Beckmann,Schreinergesellin,Produktion,2023-02-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,Noch in Probezeit – Sonderkündigung möglich
+20,Steffen Grothe,Staplerfahrer / Lager,Lager,2013-11-01,3200.00,3200.00,3200.00,nein,2026-05-31,ja,
+21,Miriam Henkel,Schreinergesellin,Produktion,2020-06-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,
+22,Olaf Prange,Schreiner,Produktion,2011-08-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+23,Kerstin Weiss,Buchhaltung Hilfskraft,Verwaltung,2021-10-01,2600.00,2600.00,2600.00,nein,2026-05-31,ja,
+24,Thorsten Mast,Fahrer / Logistik,Logistik,2015-05-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,
+25,Anke Ziemann,Schreinergesellin,Produktion,2019-07-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,
+26,Georg Beier,Schreiner,Produktion,2010-03-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+27,Nina Küster,Konstruktion / CAD,Planung,2020-03-01,4000.00,4000.00,4000.00,nein,2026-05-31,ja,
+28,Thomas Haase,Schreiner,Produktion,2014-09-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+29,Katharina Wolff,Vertrieb Außendienst,Vertrieb,2016-01-01,4500.00,4500.00,4500.00,nein,2026-05-31,ja,Provisionsansprüche zu prüfen
+30,Lars Ritter,Lackierer,Produktion,2018-06-01,3300.00,3300.00,3300.00,nein,2026-05-31,ja,
+31,Claudia Stern,Schreinergesellin / Auszubildende,Produktion,2024-09-01,800.00,800.00,800.00,nein,2026-05-31,nein,Ausbildungsverhältnis; BfA zahlt InsGeld nicht
+32,Patrick Lange,Schreiner,Produktion,2013-04-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,Elternzeit (zurückgekehrt April 2026)
+33,Ute Müller,Assistenz Geschäftsführung,Verwaltung,2011-01-01,3200.00,3200.00,3200.00,nein,2026-05-31,ja,
+34,Simon Franke,IT-Systemadministration,IT,2020-01-01,3800.00,3800.00,3800.00,nein,2026-05-31,ja,
+35,Isabel Gruber,Einkauf,Verwaltung,2017-02-01,3300.00,3300.00,3300.00,nein,2026-05-31,ja,
+36,Jens Kroll,Schreiner,Produktion,2009-05-01,3600.00,3600.00,3600.00,nein,2026-05-31,ja,
+37,Eva Lühr,Buchhalterin,Verwaltung,2015-09-01,3500.00,0.00,3500.00,nein,2026-05-31,ja,März bereits ausgezahlt vor Eintritt ZU
+38,Michael Dorn,Kraftfahrer / Kurier,Logistik,2016-07-01,3100.00,3100.00,3100.00,nein,2026-05-31,ja,

@@ -1,0 +1,42 @@
+{
+  "name": "umweltrecht",
+  "version": "52.2.1",
+  "description": "Freistehendes Umweltrecht-Plugin für BImSchG, TEHG, Abfall, Wasser, Boden, Naturschutz, UIG, Verfahren, Bußgeld, Umwelt-Due-Diligence, Klimaklagen UmwRG, Lieferkettensorgfalt LkSG/CSDDD und ESG-Greenwashing/CSRD.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "umweltrecht",
+    "bimschg",
+    "tehg",
+    "emissionshandel",
+    "dehst",
+    "abfallrecht",
+    "circular-economy",
+    "krwg",
+    "wasserrecht",
+    "bodenschutz",
+    "naturschutz",
+    "artenschutz",
+    "uig",
+    "ifg",
+    "uvpg",
+    "stoerfall",
+    "bussgeld",
+    "verwaltungsverfahren",
+    "umwelt-due-diligence",
+    "klimaklagen",
+    "klimaklage",
+    "umwrg",
+    "lksg",
+    "lieferkettensorgfalt",
+    "csddd",
+    "esg",
+    "greenwashing",
+    "csrd",
+    "esrs",
+    "freistehend"
+  ]
+}

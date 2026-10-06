@@ -1,0 +1,83 @@
+{
+  "$schema": "https://www.lobbyregister.bundestag.de/json-schemas/current/Lobbyregistersuche-Registereintrag-schema.json",
+  "interne_freigabe": {
+    "freigegeben_von": "Dr. Annegret Beimer (RAin), Mara Wendt (CEO Spreebogen)",
+    "freigabedatum": "2026-05-26",
+    "offene_punkte": [
+      "Antwort der Registerstelle auf RFS-Anfrage abwarten",
+      "Mandantenfreigabe HansaH2 zur korrigierten Eintragsfassung nachweisen",
+      "Konsortialfreigabe Nordsee Elektrolyse aktualisieren"
+    ]
+  },
+  "organisation": {
+    "name": "Spreebogen Regulatory GmbH",
+    "rechtsform": "GmbH",
+    "anschrift": "Reinhardtstr. 47, 10117 Berlin",
+    "handelsregister": "HRB 234 781 AG Berlin-Charlottenburg",
+    "internet": "https://www.spreebogen-reg.example",
+    "geschaeftsfuehrung": ["Mara Wendt (CEO)", "Lea Sommer (COO)"],
+    "mitarbeitende_im_lobbyingbereich": 6
+  },
+  "taetigkeit": {
+    "kurzbeschreibung": "Interessenvertretung im Auftrag Dritter zu Energie- und Infrastrukturvorhaben, hier Wasserstoffbeschleunigungsgesetz (WBG).",
+    "themenfelder": ["Energie", "Wasserstoff", "Speicher", "Elektrolyse", "Planungsbeschleunigung"],
+    "ausschluss": "Spreebogen vertritt keine Branchen, keine Verbaende und keine Konsortien jenseits der ausdruecklich genannten Auftraggeber. Eine Aussenkommunikation 'im Namen der deutschen Wasserstoffindustrie' ist ausdruecklich ausgeschlossen."
+  },
+  "auftraggeber": [
+    {
+      "name": "HansaH2 Storage AG",
+      "anschrift": "Versmannstr. 33, 20457 Hamburg",
+      "vertretung": "Christine Luehrs (CFO)",
+      "mandatsbeginn": "2026-02-01",
+      "vorhaben": "Wasserstoffbeschleunigungsgesetz (WBG)",
+      "interesse": "Speicherprivilegierung, Planungsbeschleunigung, Klarstellung Duldungspflichten, Uebergangsfristen fuer bestehende Speicherprojekte"
+    },
+    {
+      "name": "Nordsee Elektrolyse Konsortium GbR",
+      "anschrift": "Brueckenstr. 4, 27568 Bremerhaven",
+      "vertretung": "Tarek Abadi (managing partner)",
+      "mandatsbeginn": "2026-03-15",
+      "vorhaben": "Wasserstoffbeschleunigungsgesetz (WBG)",
+      "interesse": "Netzentgeltprivileg fuer Elektrolyseure mit Volllaststundenrahmen, Flaechenzugang an Offshore-Anbindungspunkten, technologieoffene Foerderung, Pilotprojekte ohne uneinheitliche Laenderpraxis"
+    }
+  ],
+  "unterauftragnehmer": [
+    {
+      "name": "OpenGrid Events UG (haftungsbeschraenkt)",
+      "anschrift": "Kantstr. 144, 10623 Berlin",
+      "auftrag": "Veranstaltungslogistik fuer parlamentarisches Fachgespraech 12.06.2026 (Raum, Catering, Technik, Einladungsmanagement); Stakeholder-Mapping und Argumentationsbausteine wurden ohne formellen Zusatzauftrag erbracht.",
+      "compliance_hinweis": "Nach Vorfall 21.05.2026 (Branchenanmassung in Einladungsfassung 1) Vertragsergaenzung 25.05.2026: Beschraenkung auf Logistik. Inhaltliche Mitwirkung wird kuenftig durch Spreebogen-Mitarbeitende selbst geleistet."
+    }
+  ],
+  "stellungnahmen": [
+    {
+      "titel": "Stellungnahme HansaH2 Storage AG zur Speicherprivilegierung",
+      "auftraggeber": "HansaH2 Storage AG",
+      "versanddatum_an_bundesadressaten": "2026-05-20",
+      "upload_quartal": "Q2/2026",
+      "veroeffentlichungs_url": "https://www.hansah2.example/positionen",
+      "status": "vorbereitung_upload"
+    },
+    {
+      "titel": "Stellungnahme Nordsee Elektrolyse Konsortium GbR zum Netzentgeltprivileg",
+      "auftraggeber": "Nordsee Elektrolyse Konsortium GbR",
+      "versanddatum_an_bundesadressaten": "2026-05-24",
+      "upload_quartal": "Q2/2026",
+      "veroeffentlichungs_url": "https://www.spreebogen-reg.example/clients",
+      "status": "vorbereitung_upload"
+    }
+  ],
+  "finanzdaten_jahr_2026_bisher": {
+    "auftraggeberumsatz_brutto_eur": 121095,
+    "darin_offen_eur": 29750,
+    "unterauftrag_brutto_eur": 7376.50,
+    "sachkosten_brutto_eur": 2810
+  },
+  "risiken_intern": [
+    "OpenGrid-Mehrleistung als Lobbyinginhalt klassifiziert; muss vertraglich geheilt werden.",
+    "Gemischter Kontakt MdB Reimers 12.05.2026 mit unsauberer Offenlegung; korrigiert im Kontaktlog.",
+    "Honorarrueckstand Nordsee Elektrolyse 12.500 EUR seit 30.04.2026; Mahnstand 1 versandt.",
+    "Doppelrolle Tarek Abadi (Auftraggebervertreter und Spreebogen-Berater) im Compliance-Register dokumentiert.",
+    "Branchenformulierung in Fassung 1 OpenGrid hat Vertragsverletzung beruehrt; Wiederholung waere echte Vertragsverletzung."
+  ]
+}

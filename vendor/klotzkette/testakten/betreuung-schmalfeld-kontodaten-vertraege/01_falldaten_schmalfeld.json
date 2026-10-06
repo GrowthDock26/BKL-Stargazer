@@ -1,0 +1,29 @@
+{
+  "fall": "Betreuung Schmalfeld - Kontodaten und verdächtige Verträge",
+  "plugin": "betreuungsrecht",
+  "skill": "kontodaten-vertragsverdacht-pruefung",
+  "betroffener": {
+    "name": "Herbert Wilhelm Schmalfeld",
+    "geburtsdatum": "1941-03-14",
+    "anschrift": "Lindenstraße 47, 10969 Berlin"
+  },
+  "konto": {
+    "institut": "Stadtsparkasse Berlin",
+    "iban": "DE89 1005 0000 0800 4523 19",
+    "bic": "BELADEBEXXX",
+    "zeitraum": "2023-01-01 bis 2025-12-31"
+  },
+  "betreuungskontext": {
+    "aufgabenkreis": [
+      "Vermögenssorge",
+      "Post- und Behördenangelegenheiten",
+      "Wohnungsangelegenheiten"
+    ],
+    "offene_pruefung": [
+      "Wünsche und Gewohnheiten des Betroffenen ermitteln",
+      "Geschäftsfähigkeit nicht unterstellen, sondern medizinisch und rechtlich klären",
+      "Einwilligungsvorbehalt nur bei tragfähiger erheblicher Vermögensgefährdung anregen"
+    ]
+  }
+}
+

@@ -1,0 +1,27 @@
+{
+  "name": "aktenaufbereiter-strafrecht",
+  "version": "52.2.1",
+  "description": "Aktenaufbereiter für die Strafverteidigung. Sechs Excel-fähige Übersichten — Aktenvorblatt; Personenverzeichnis; Tatkomplexe; Beziehungen; Chronologie; Fristen. Fortlaufend ergaenzbar. Erkennt Luecken und Widersprueche. Kein Ersatz für Aktenlektuere.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "strafrecht",
+    "strafverteidigung",
+    "aktenaufbereitung",
+    "wirtschaftsstrafrecht",
+    "btm-verfahren",
+    "personenverzeichnis",
+    "chronologie",
+    "tatkomplex",
+    "beziehungsverzeichnis",
+    "fristen",
+    "blattangaben",
+    "ocr",
+    "anwaltsgeheimnis",
+    "quod-non-est-in-actis",
+    "hauptverhandlung"
+  ]
+}

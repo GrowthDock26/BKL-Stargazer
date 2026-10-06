@@ -1,0 +1,27 @@
+{
+  "name": "common-law-kompass",
+  "version": "52.2.1",
+  "description": "Freistehendes Common-Law-Plugin für deutsche Wirtschaftsjuristen: UK/US-False-Friends, Vertragsbegriffe, Consideration, Suretyship, Indemnity, UCC, Precedent, Discovery und bilinguale Drafting-Reviews.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "common-law",
+    "english-law",
+    "us-law",
+    "uk-law",
+    "false-friends",
+    "wirtschaftsrecht",
+    "vertragsrecht",
+    "consideration",
+    "suretyship",
+    "guarantee",
+    "indemnity",
+    "ucc",
+    "discovery",
+    "bilingual-drafting",
+    "freistehend"
+  ]
+}

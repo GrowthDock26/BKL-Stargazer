@@ -1,0 +1,21 @@
+{
+  "name": "fachanwalt-medizinrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Medizinrecht. Arzthaftung §§ 630a ff. BGB Patientenrechte Vertragsarztrecht Berufsrecht Aerzte SGB V Krankenversicherung MPDG Apothekenrecht. Schnittstellen Plugin fachanwalt-sozialrecht und kanzlei-allgemein.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "medizinrecht",
+    "fachanwalt",
+    "arzthaftung",
+    "patientenrecht",
+    "vertragsarztrecht",
+    "sgb-v",
+    "berufsrecht-aerzte",
+    "mpdg",
+    "apothekenrecht"
+  ]
+}

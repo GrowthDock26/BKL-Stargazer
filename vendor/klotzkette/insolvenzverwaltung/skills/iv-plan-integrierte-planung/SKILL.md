@@ -1,0 +1,73 @@
+---
+name: iv-plan-integrierte-planung
+description: "Integrierte Planrechnung aus GuV Liquiditaet und Bilanz für Insolvenzplan oder StaRUG erstellen. §§ 220 229 InsO Finanzplanung § 14 StaRUG. Prüfraster: Ist-Zahlen Planannahmen Base-Case Stressszenarien Brückenrechnung Annahmenregister. Output: Planungsmodell als CSV-Struktur Szenariovergleich. Abgrenzung: nicht für Vergleichsrechnung (iv-plan-vergleichsrechnung) oder Sanierungskonzept."
+---
+
+# IV-integrierte Integrierte Planrechnung
+
+## Aufgabe
+
+Zahlen konsistent, nachvollziehbar und gerichtsfähig machen. Der Skill ist vollständig in das Insolvenzverwaltungs-Plugin integriert, arbeitet innerhalb dieses ZIPs freistehend und setzt keine weiteren Plugins voraus. Wenn Unterlagen fehlen, fragt er gezielt nach, bildet eine klar markierte Annahme oder bietet einen Simulationsstand an.
+
+## Startet bei
+
+- neuem Planmandat oder Sanierungsprojekt
+- unvollständiger Datenlage
+- Vorbereitung von Insolvenzplan, Eigenverwaltung, Schutzschirm oder StaRUG
+- Prüfung eines vorhandenen Planentwurfs
+
+## Geführter Workflow
+
+1. Ist-Zahlen importieren und auf Stichtage normalisieren.
+2. Planannahmen für Umsatz, Rohertrag, Personal, Fixkosten, Working Capital, Investitionen und Finanzierung erfassen.
+3. Base Case, Plan Case, Fortführung ohne Plan, Liquidation und Stress Case anlegen.
+4. Bilanzielle und liquiditätsseitige Brücken erklären, statt nur Tabellen zu liefern.
+
+## Ausgabe
+
+- Planungsmodell als CSV-Struktur
+- Annahmenregister
+- Szenariovergleich
+- Sensitivitätenliste
+
+## Qualitätsgates
+
+- Keine Rechtswirkung ohne genaue Betroffenengruppe, Betrag, Zeitpunkt und Beleg.
+- Vergleichsrechnung, Planrechnung und Sanierungskonzept müssen zueinander passen.
+- Annahmen, Schätzungen und fehlende Quellen werden sichtbar markiert.
+- Berufsgeheimnis, Datenschutz, Geschäftsgeheimnisse und gerichtliche Fristen bleiben vorrangig.
+
+## Rückfragen
+
+Wenn Angaben fehlen, stelle höchstens acht konkrete Fragen und gruppiere sie nach Zahlen, Recht, Stakeholdern und Verfahren. Bei Eilfällen liefere zuerst eine Minimalroute mit Stoppern.
+
+## Arbeitsstil
+
+Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum eine Information wichtig ist, und macht aus unsortiertem Material einen belastbaren nächsten Arbeitsschritt.
+
+## IV-Einordnung
+
+Diese integrierte Fassung ist für Insolvenzverwalter, Sachwalter und vorläufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfähigkeit gegenüber Gericht und Gläubigerausschuss, Rollenreinheit, Dokumentation von Belegen und spätere Planvollzugsfähigkeit.
+
+## Rechtliche Grundlagen und BGH-Leitentscheidungen
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Paragrafenkette (IV-Insolvenzplan)
+
+§ 217 InsO (Plan-Option) → § 218 InsO (Vorlage durch IV) → §§ 220-221 InsO (Plan-Inhalte) → § 222 InsO (Gruppenbildung) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Bestaetigung) → § 254 InsO (Wirkung) → §§ 49-51 InsO (Absonderungsrechte in Plan)
+
+## Triage — IV-Plan
+
+Bevor losgelegt wird, klaere:
+1. **Plan sinnvoller als Liquidation?** Vergleichsrechnung: Plan-Quote vs. Liquidationsquote.
+2. **Gruppenbildung konsistent?** § 222 InsO: gesicherte, nicht gesicherte, Kleinglaeubieger, Arbeitnehmer.
+3. **Mehrheiten realistisch?** Simulation Kopf- + Summenmehrheit je Gruppe.
+4. **Cramdown-Szenario?** § 245 InsO: ablehnende Gruppe ueberstimmbar wenn Best-Interest-Test bestanden.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## IV-Einordnung
+
+Diese integrierte Fassung ist fuer Insolvenzverwalter, Sachwalter und voraeufige Verwaltung zugeschnitten. Sie priorisiert Masseinteresse, Berichtsfaehigkeit gegenueber Gericht und Glaeubigerausschuss sowie Planvollzugsfaehigkeit.

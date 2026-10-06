@@ -1,0 +1,30 @@
+{
+  "name": "zwangsvollstreckung",
+  "version": "52.2.1",
+  "description": "Plugin Zwangsvollstreckung §§ 704 ff. ZPO: Mahn-/Vollstreckungsbescheid, PfÜB Bank/Arbeit, § 802l Kontensuche, Vermögensauskunft, Räumung, § 800 ZPO Notar, § 201 InsO, ZVG, EU-Kontenpfändung VO 655/2014, § 765a Härtefall, Schuldnerschutz.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "zwangsvollstreckung",
+    "zpo",
+    "pfueb",
+    "kontopfaendung",
+    "mahnbescheid",
+    "vollstreckungsbescheid",
+    "vermoegensauskunft",
+    "grundschuld",
+    "notarielle-urkunde",
+    "insolvenztabelle",
+    "p-konto",
+    "pfaendungstabelle",
+    "zvollstrdigitg",
+    "eu-kontenpfaendung",
+    "eu-vo-655-2014",
+    "haertefall-765a",
+    "vollstreckungsschutz",
+    "freistehend"
+  ]
+}

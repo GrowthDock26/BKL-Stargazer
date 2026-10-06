@@ -1,0 +1,33 @@
+{
+  "name": "verfassungsrecht",
+  "version": "52.2.1",
+  "description": "Deutsches Verfassungsrecht unter dem Grundgesetz aus Sicht einer Spezialkanzlei. Rechtsprechungsgetrieben mit Live-Recherche auf bundesverfassungsgericht.de. Acht Skills für Gesetzgebungskompetenz formelle und materielle Verfassungsmäßigkeit Grundrechte und Verfassungsbeschwerde.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "verfassungsrecht",
+    "grundgesetz",
+    "bundesverfassungsgericht",
+    "bverfg",
+    "bverfge",
+    "grundrechte",
+    "verfassungsbeschwerde",
+    "gesetzgebungskompetenz",
+    "wesentlichkeitstheorie",
+    "verhältnismäßigkeit",
+    "schutzbereich",
+    "eingriff",
+    "rechtfertigung",
+    "drei-stufen-theorie",
+    "apothekenurteil",
+    "lüth",
+    "volkszählung",
+    "kalkar",
+    "zitiergebot",
+    "bestimmtheitsgebot",
+    "parlamentsvorbehalt"
+  ]
+}

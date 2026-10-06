@@ -1,0 +1,37 @@
+{
+  "name": "gesellschaftsgruender",
+  "version": "52.2.1",
+  "description": "Gründungsassistent deutsche Gesellschaften (GmbH UG GbR OHG KG GmbH und Co KG PartG mbB gGmbH). Von Rechtsformwahl über Gesellschaftsvertrag und Geschäftsführervertrag bis Notar Handelsregister Gewerbeamt Finanzamt Transparenzregister. MoPeG DiRUG GwG. Kein Ersatz für Anwaltsberatung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "keywords": [
+    "gesellschaftsgruendung",
+    "gmbh-gruendung",
+    "ug-gruendung",
+    "egbr",
+    "mopeg",
+    "dirug",
+    "handelsregister",
+    "notar",
+    "gesellschaftsvertrag",
+    "satzung",
+    "geschaeftsfuehrer",
+    "stammkapital",
+    "transparenzregister",
+    "gewerbeanmeldung",
+    "finanzamt-erfassung",
+    "ihk",
+    "gwg",
+    "kg",
+    "gmbh-co-kg",
+    "partg",
+    "ggmbh",
+    "ek",
+    "startup",
+    "boutique",
+    "freiberufler"
+  ],
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "fachanwalt-sozialrecht",
+  "version": "52.2.1",
+  "description": "Plugin Fachanwalt für Sozialrecht nach FAO § 11. SGB I-XII und Sozialgerichtsbarkeit SGG. Widerspruch § 84 SGG Klage § 87 SGG Eilantrag § 86b SGG. Buergergeld Erwerbsminderung GdB Pflegegrad Hilfsmittel Eingliederungshilfe. Bescheidanalyse Akteneinsicht PKH Fristenbuch.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "sozialrecht",
+    "fachanwalt",
+    "widerspruch",
+    "sgg",
+    "sgb-ii",
+    "sgb-ix",
+    "sgb-xii",
+    "buergergeld",
+    "erwerbsminderungsrente",
+    "schwerbehinderung",
+    "fao-paragraf-11",
+    "sozialgericht",
+    "sgb",
+    "pflegeversicherung",
+    "hilfsmittel",
+    "eingliederungshilfe",
+    "schulbegleitung",
+    "eilantrag",
+    "akteneinsicht",
+    "prozesskostenhilfe",
+    "fristenbuch",
+    "bescheidanalyse",
+    "klage",
+    "pflegegrad"
+  ]
+}

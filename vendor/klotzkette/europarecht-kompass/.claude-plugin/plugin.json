@@ -1,0 +1,26 @@
+{
+  "name": "europarecht-kompass",
+  "version": "52.2.1",
+  "description": "Freistehendes Europarecht-Plugin gegen deutsche Denkfehler: Vorrang, unmittelbare Wirkung, Richtlinien, Verordnungen, Charta, Grundfreiheiten, Beihilfen, Vorlageverfahren und EU-Drafting.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "europarecht",
+    "eu-law",
+    "eur-lex",
+    "eugh",
+    "cjeu",
+    "vorrang",
+    "unmittelbare-wirkung",
+    "richtlinie",
+    "verordnung",
+    "charta",
+    "grundfreiheiten",
+    "beihilfen",
+    "vorlageverfahren",
+    "freistehend"
+  ]
+}

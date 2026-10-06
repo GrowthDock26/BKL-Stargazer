@@ -1,0 +1,59 @@
+{
+  "_kommentar": "FRAGMENT - interne Recherche, ob im Kollegenkreis aehnliche Gutachten von Pfaffenberger bekannt sind. Datenbasis sehr klein, nicht repraesentativ. Quellen: kollegiale Anfragen, Gespraeche auf Fachanwaltsfortbildung Bau-/Architektenrecht 11/2025, eine Auswertung der oeffentlichen Justizdatenbanken auf Anonymisierungsstand.",
+  "_status": "unvollstaendig",
+  "_erfasst_durch": "Referendar Trauthwein, Stand 20.11.2025",
+  "_pruefer": "RAin Knoblauch",
+  "vergleichsgutachten": [
+    {
+      "az": "LG Passau 2 O 412/24",
+      "auftrag": "PV-Anlage Mangel",
+      "rolle_pfaffenberger": "gerichtlich bestellter Sachverstaendiger",
+      "auffaelligkeiten": [
+        "Wiederholung Satzanfaenge ('Im Hinblick auf')",
+        "pauschale Schaetzung Mangelbeseitigungskosten",
+        "fehlende Mess- und Untersuchungsdaten"
+      ],
+      "rueckmeldung_kollege": "Telefonisch Kollege Sperling, 17.11.2025: 'Ja, das Muster kenne ich.'",
+      "ausgang": "unbekannt - Kollege Sperling angefragt; bisher keine schriftliche Antwort",
+      "akten_zugriff": "nicht moeglich; nur Hoerensagen"
+    },
+    {
+      "az": "LG Landshut 5 O 88/23",
+      "auftrag": "Hausanschluss PV Mangel",
+      "rolle_pfaffenberger": "Privatgutachter",
+      "auffaelligkeiten": ["???"],
+      "_hinweis": "Hier sind die Detail-Informationen noch nicht eingepflegt - Anfrage an Kollegin Roesner laeuft seit 18.11.2025",
+      "ausgang": "vermutlich Vergleich; nicht verifiziert"
+    },
+    {
+      "az": "AG Cham 5 C 217/22",
+      "auftrag": "Aufdach-PV-Anlage, Streit Modulhalter",
+      "rolle_pfaffenberger": "gerichtlich bestellter Sachverstaendiger",
+      "auffaelligkeiten": [
+        "Platzhalter '[KUNDE]' im Tabellenkopf nicht ersetzt",
+        "Doppelzitat Norm DIN EN 61730 mit Schreibfehler 'DIM EN 61730'"
+      ],
+      "_hinweis": "Anonymisierte Veroeffentlichung BeckOnline? - bewusst nicht zitiert, weil Quellenangabe nicht ueberpruefbar",
+      "ausgang": "Klagestattgabe nach muendlicher Anhoerung; SV hatte Platzhalter eingeraeumt",
+      "akten_zugriff": "kollegial bestaetigt durch RA Krall (Regensburg)"
+    },
+    {
+      "az": "LG Regensburg 4 O 1742/22",
+      "auftrag": "Wechselrichter-Defekt Industriedach",
+      "rolle_pfaffenberger": "gerichtlich bestellter Sachverstaendiger",
+      "auffaelligkeiten": [
+        "Wiederholungsmuster 'Zusammenfassend ist festzustellen' dreimal in Kapitel 5",
+        "Generische Schlussformulierung quasi identisch mit unserem Gutachten"
+      ],
+      "_hinweis": "Eigene Recherche im Beck-Streitsache-Archiv; nur Auszuege; Aktenzeichen noch zu verifizieren",
+      "ausgang": "Vergleich; Verfahren erledigt",
+      "akten_zugriff": "nur Vermerk eines Kollegen aus dem Jour fixe 03.11.2025"
+    }
+  ],
+  "_offene_fragen": [
+    "Sind die Wiederholungsmuster bereits in Gutachten vor Verbreitung von LLM-Tools (vor 11/2022) erkennbar? Falls ja, schwaecht das den KI-Verdacht.",
+    "Hat Pfaffenberger Mitarbeiter? § 407a Abs. 3 ZPO-Beteiligungspflicht; ggf. Hinweis im Anhoerungstermin.",
+    "Ist eine systematische, datenschutzkonforme Stichprobenanalyse aller bei der IHK Oberpfalz registrierten Gutachten Pfaffenbergers moeglich? Realistisch eher nicht (Datenschutz)."
+  ],
+  "_warnung": "Die Vergleichsdatenbasis ist klein und qualitativ heterogen. Eine Verallgemeinerung ist nicht zulaessig. Der KI-Verdacht im Streitfall bleibt einzelfallabhaengig und stuetzt sich primaer auf die Indizien in 05_indizien_ki_einsatz.csv."
+}

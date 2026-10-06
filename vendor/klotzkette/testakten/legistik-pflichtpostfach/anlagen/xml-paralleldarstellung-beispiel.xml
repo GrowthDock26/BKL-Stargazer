@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Beispielhafte LegalDocML.de-Darstellung des Pflichtpostfachgesetzes (Auszug Artikel 1 § 1).
+     Vollstaendige Spezifikation: LegalDocML.de Version 1.x des BMJ.
+     Dieses Beispiel ist auf das Wesentliche reduziert und dient der Schulung. -->
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="bill">
+    <meta>
+      <identification source="#bmj">
+        <FRBRWork>
+          <FRBRthis value="/akn/de/bill/2026-06-30/pflichtpostfachgesetz/!main"/>
+          <FRBRuri value="/akn/de/bill/2026-06-30/pflichtpostfachgesetz"/>
+          <FRBRalias value="PflPostG-Entwurf" name="kurztitel"/>
+          <FRBRdate date="2026-06-30" name="bearbeitungsstand"/>
+          <FRBRauthor href="#bundesregierung"/>
+          <FRBRcountry value="de"/>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="bundesregierung" href="/ontology/organizations/de/bundesregierung" showAs="Bundesregierung"/>
+        <TLCOrganization eId="bmj" href="/ontology/organizations/de/bmj" showAs="Bundesministerium der Justiz"/>
+      </references>
+    </meta>
+    <preface>
+      <docTitle>Entwurf eines Gesetzes ueber das elektronische Pflichtpostfach</docTitle>
+      <shortTitle>Pflichtpostfachgesetz</shortTitle>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Artikel 1</num>
+        <heading>Gesetz ueber das elektronische Pflichtpostfach (Pflichtpostfachgesetz - PflPostG)</heading>
+        <section eId="art_1__sec_1">
+          <num>§ 1</num>
+          <heading>Zweck und Anwendungsbereich</heading>
+          <paragraph eId="art_1__sec_1__para_1">
+            <num>(1)</num>
+            <content>
+              <p>Dieses Gesetz regelt die Pflicht zur Vorhaltung eines elektronischen Postfachs (Pflichtpostfach) durch</p>
+              <list eId="art_1__sec_1__para_1__list_1">
+                <point eId="art_1__sec_1__para_1__list_1__pt_1">
+                  <num>1.</num>
+                  <content>
+                    <p>im Handelsregister eingetragene Gesellschaften und ihre inlaendischen Zweigniederlassungen,</p>
+                  </content>
+                </point>
+                <point eId="art_1__sec_1__para_1__list_1__pt_2">
+                  <num>2.</num>
+                  <content>
+                    <p>Anbieter sehr grosser Online-Plattformen und Anbieter sehr grosser Online-Suchmaschinen im Sinne des Artikels 33 Absatz 4 der Verordnung (EU) 2022 2065.</p>
+                  </content>
+                </point>
+              </list>
+            </content>
+          </paragraph>
+          <paragraph eId="art_1__sec_1__para_2">
+            <num>(2)</num>
+            <content>
+              <p>Das Pflichtpostfach dient der elektronischen Zustellung durch Gerichte und Behoerden sowie der Bekanntgabe von Verwaltungsakten.</p>
+            </content>
+          </paragraph>
+        </section>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

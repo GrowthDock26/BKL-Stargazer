@@ -1,0 +1,123 @@
+# Akte "Roeschen Tech GmbH" — Gesellschaftsgründung mit B-Shares und Streit-Eskalation
+
+
+<!-- BEGIN gesamt-pdf-section (autogen) -->
+## Akte komplett herunterladen
+
+Diese Arbeitsakte gibt es in zwei Formaten zum Direkt-Download. Das Gesamt-PDF eignet sich zum Lesen, Ausdrucken und für schnelle Durchsichten. Das Akten-ZIP enthält sämtliche Originaldateien (Markdown-Aktenstücke, Tabellen, E-Mails, Fotos, PDFs, DOCX, XLSX) im Originalordnerlayout für eigene Auswertungen.
+
+| Was | Format | Quelle |
+| --- | --- | --- |
+| Gesamt-PDF (alles in einer Datei, 63 KB) | PDF | [`gesamt-pdf/gesellschaftsgruender-streit-roeschen-tech_gesamt.pdf`](gesamt-pdf/gesellschaftsgruender-streit-roeschen-tech_gesamt.pdf) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-gesellschaftsgruender-streit-roeschen-tech.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-gesellschaftsgruender-streit-roeschen-tech.zip) |
+
+Die ZIP-URL ist stabil und zeigt immer auf die aktuelle Version. Im Akten-ZIP ist das Gesamt-PDF mit enthalten.
+
+<!-- END gesamt-pdf-section (autogen) -->
+
+## ⬇️ Direkt-Download
+
+| Akte | Direkt-Download |
+| --- | --- |
+| `testakte-gesellschaftsgruender-streit-roeschen-tech` (Akte) | [testakte-gesellschaftsgruender-streit-roeschen-tech.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-gesellschaftsgruender-streit-roeschen-tech.zip) |
+
+Diese Akte wird separat als ZIP-Datei aus dem GitHub-Release bereitgestellt. Das ZIP enthält die Originalformate (PDF, DOCX, XLSX, CSV, JPEG) für die Bearbeitung.
+
+
+## Szenario
+
+
+Im November 2025 tritt **Investor Stahlauge Ventures AG** im Rahmen einer Series-A-Finanzierung ein. Es werden **B-Shares** mit Sondervetorechten und 1,5x Liquidation Preference ausgegeben. Das Stammkapital wird auf 40.000 EUR erhoeht; Bezugsrecht der Gründer ausgeschlossen.
+
+Im **Juni 2026** plant Stahlauge Ventures gemeinsam mit zwei Gründern eine **zweite Kapitalerhöhung** um 12.500 EUR — wiederum mit Bezugsrechtsausschluss — zur Aufnahme eines strategischen Investors (Pi Mu Holding GmbH). Die dritte Gründerin Christine **widerspricht**: sie sieht Verwässerung von 19 % auf 14 % als unverhältnismaessig und nicht sachlich gerechtfertigt.
+
+In der **Gesellschafterversammlung vom 18.06.2026** wird die Kapitalerhöhung **mehrheitlich** beschlossen (zustimmend: Andrea, Bert, Stahlauge Ventures mit B-Sondervetorecht; ablehnend: Christine). Christine erhebt **Anfechtungsklage** und beantragt **einstweilige Verfügung** beim Landgericht Berlin sowie **Anmeldungs-Sperre** beim Amtsgericht Charlottenburg.
+
+## Beteiligte
+
+| Person | Rolle | Anteilshöhe |
+|---|---|---|
+| Andrea Roesener (Gründerin, CEO) | Class Common | 12.000 EUR (40 %) -> nach Series A 30 %, nach 2. KE 23,5 % |
+| Bert Schmid (Gründer, CTO) | Class Common | 12.000 EUR (40 %) -> nach Series A 30 %, nach 2. KE 23,5 % |
+| Christine Linnenbach (Gründerin, COO) | Class Common | 6.000 EUR (20 %) -> nach Series A 15 %, nach 2. KE 11,8 % |
+| Stahlauge Ventures AG | Class B | 10.000 EUR (25 % nach Series A) -> nach 2. KE 19,6 % |
+| Pi Mu Holding GmbH (nach 2. KE) | Class C | 12.500 EUR (24,5 %) — geplant |
+
+## Lerninhalte dieser Akte
+
+1. **B-Shares mit Sondervetorechten**: wie sie funktionieren, wo Streit entsteht
+2. **Liquidation Preference 1,5x participating**: Auswirkungen bei Exit
+3. **Bezugsrechtsausschluss Paragraf 55 IV GmbHG**: sachliche Rechtfertigung, BGH-Linie Kali+Salz
+4. **Streit über Verwässerung**: Klage-Werkzeuge für Minderheits-Gesellschafter
+5. **Eilrechtsschutz** beim LG und Registergericht
+6. **Anfechtungsklage Paragraf 246 AktG analog**: Monatsfrist
+7. **Versammlungsleitung bei streitiger GV**: Wahl, Befugnisse, Streit
+8. **Beirat als Schlichter**: Schlichtungs-Klausel und ihre Wirkung
+
+## Inhalt der Akte
+
+```
+01_Satzung_Roeschen_Tech_GmbH.md
+   - Vollstaendige Satzung nach Series A (mit B-Shares)
+   - Vorzugsklauseln, Vinkulierung, Vetorechte
+
+02_Shareholder_Agreement.md
+   - Gesellschaftervereinbarung mit Vesting, Drag-Along, Tag-Along
+   - Stimmverpflichtungen, Pönalen
+   - Liquidation-Preference-Waterfall
+
+03_Cap_Table_Vor_und_Nach_KE.md
+   - Cap Table initial, nach Series A, nach geplanter 2. KE
+   - Verwaesserungs-Berechnungen
+
+04_Einladung_GV_18-06-2026.md
+   - Einladung zur Gesellschafterversammlung mit Tagesordnung
+   - Beschluss-Vorlage zur Kapitalerhoehung mit Bezugsrechtsausschluss
+   - Sachliche Rechtfertigung gemaess Satzung
+
+05_GV_Protokoll_18-06-2026_streitig.md
+   - Protokoll der streitigen Versammlung
+   - Versammlungsleiter-Wahl
+   - Beschlussfassung mit Stimmenverhalten
+   - Christines Vorbehalte
+
+06_Anfechtungsklage_Christine.md
+   - Klagschrift Christines vor LG Berlin
+   - Klagantrag, Begruendung, Anlagen-Verzeichnis
+
+07_Eilantrag_LG_und_Registergericht.md
+   - Antrag auf einstweilige Verfuegung beim LG Berlin
+   - Antrag auf Anmeldungs-Sperre beim AG Charlottenburg
+   - Eidesstattliche Versicherung
+
+08_Beirat_Schlichtungs_Empfehlung.md
+   - Beirat-Schlichtungs-Empfehlung
+   - Vorschlag eines Kompromisses
+
+09_pruefvermerk_beirat_und_kapitalerhoehung.md
+   - Interne Arbeitshinweise
+   - Prüffragen und erste Bewertungslinien
+   - Prüffokus
+```
+
+## Bearbeitungs-Hinweise
+
+### Variante A — Standardgründung prüfen
+
+1. Beginne mit `gesellschaftsgruender-rechtsformwahl` und `gesellschaftsgruender-gmbh-vorbereitung`.
+2. Lies die Satzung der Roeschen Tech GmbH.
+3. Vergleiche mit Standard-Musterprotokoll. Wo sind die Erweiterungen?
+
+### Variante B — Investor-Eintritt lernen
+
+1. `gesellschaftsgruender-share-classes-a-b-c` und `gesellschaftsgruender-gesellschaftervereinbarung`.
+2. Lies das SHA und die Class-B-Klauseln in der Satzung.
+3. Erstelle den Cap Table für Series A nach.
+
+### Variante C — Streit-Eskalation
+
+1. `gesellschaftsgruender-kapitalerhoehung-bezugsrecht`, `gesellschaftsgruender-gesellschafterstreit-eilantraege`.
+2. Lies das GV-Protokoll und die Klagschrift.
+3. Diskutiere: Ist der Bezugsrechtsausschluss sachlich gerechtfertigt? Wie ist der Eilantrag zu bewerten?
+
+## Verbotenes (Plagiats-Hinweis)

@@ -1,0 +1,27 @@
+{
+  "name": "memorandums-ersteller",
+  "version": "52.2.1",
+  "description": "Wandelt Mandantenunterlagen in ein juristisches Memorandum mit Vier-Teile-Gliederung — Sachverhalt mit Quellenreferenz; Ein-Satz-Fragen; Ein-Satz-Antworten; rechtliche Ausführungen mit Pinpoint-Zitierung. Optional Piercing-Questions. Rechtsgebietsneutral. Alias Memorandumsmacher.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "memorandum",
+    "mandatsaufbereitung",
+    "sachverhaltserfassung",
+    "piercing-questions",
+    "quellenreferenzierung",
+    "ein-satz-frage",
+    "ein-satz-antwort",
+    "juristische-pruefung",
+    "anspruchsgrundlage",
+    "subsumtion",
+    "bgh-zitierung",
+    "kommentarliteratur",
+    "halluzinationskontrolle",
+    "anwaltsgeheimnis",
+    "rechtsgebietsneutral"
+  ]
+}

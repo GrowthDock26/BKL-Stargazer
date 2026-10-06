@@ -1,0 +1,24 @@
+{
+  "name": "selbstvertreter-sozialgericht",
+  "version": "52.2.1",
+  "description": "Selbstvertretung vor dem Sozialgericht ohne Anwalt: Anfänger-Workflow, Widerspruch, Klage, Eilantrag, Pflegegrad, Krankenkasse, Bürgergeld, EM-Rente, GdB, Belege, Gutachten, Kostenfreiheit, Sanity-Check, Rechtsprechungschat, Berufung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Klotzkette"
+  },
+  "homepage": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "keywords": [
+    "sozialgericht",
+    "selbstvertretung",
+    "widerspruch",
+    "pflegegrad",
+    "krankenkasse",
+    "buergergeld",
+    "em-rente",
+    "gdb",
+    "einfache-sprache",
+    "eilantrag",
+    "sgg",
+    "verbraucher"
+  ]
+}

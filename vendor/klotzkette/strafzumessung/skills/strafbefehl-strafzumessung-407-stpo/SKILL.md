@@ -1,0 +1,103 @@
+---
+name: strafbefehl-strafzumessung-407-stpo
+description: "Strafzumessung im Strafbefehl § 407 StPO. Strafrahmen Strafbefehl bis 360 Tagessaetze Geldstrafe; Freiheitsstrafe bis 1 Jahr nur mit Bewaehrung und nur bei Pflichtverteidiger. Pauschalisierung der Strafzumessung. Tagessatzhoehe oft schaetzungsweise. Verteidigungs-Strategie bei zu hoher Strafe: Einspruch oder beschraenkter Einspruch § 410 Abs. 2 StPO."
+---
+
+# Strafzumessung im Strafbefehlsverfahren — § 407 StPO
+
+## Worum geht es?
+
+Der Strafbefehl ist ein **schriftliches** Verfahren ohne Hauptverhandlung. Die Strafzumessung erfolgt **pauschalisiert** anhand der Akte. § 407 Abs. 2 StPO begrenzt den Sanktionskatalog: Geldstrafe bis 360 Tagessaetze, Fahrverbot, Einziehung, in Ausnahmefaellen Freiheitsstrafe bis 1 Jahr mit Bewaehrung (und Pflichtverteidigung). Verteidigungssicht: bei zu hoher Strafe Einspruch oder beschraenkter Einspruch nach § 410 Abs. 2 StPO.
+
+## Wann brauchen Sie diese Skill?
+
+- Mandant hat einen Strafbefehl erhalten und Sie pruefen die Strafzumessung.
+- Sie ueberlegen, ob ein beschraenkter Einspruch auf Rechtsfolgen sinnvoll ist.
+- Sie pruefen die Tagessatzfestsetzung gegen den Mandanteneinkommensstand.
+
+## Rechtliche Grundlagen
+
+- **§ 407 Abs. 1 StPO** — Strafbefehl auf Antrag der Staatsanwaltschaft bei Vergehen.
+- **§ 407 Abs. 2 StPO** — Sanktionskatalog:
+  - Nr. 1: Geldstrafe, Verwarnung mit Strafvorbehalt, Fahrverbot, Entziehung der Fahrerlaubnis, Sperre fuer Fahrerlaubniserteilung, Einziehung, Vernichtung, Unbrauchbarmachung, Bekanntmachung, Geldbusse.
+  - Nr. 2: Freiheitsstrafe bis 1 Jahr **mit Bewaehrung und nur mit Verteidiger**.
+- **§ 408 StPO** — Erlass durch Richter; Pruefung des hinreichenden Tatverdachts.
+- **§ 410 Abs. 1 StPO** — Einspruchsfrist 2 Wochen ab Zustellung.
+- **§ 410 Abs. 2 StPO** — Beschraenkung des Einspruchs auf Rechtsfolgen; Schuldspruch wird rechtskraeftig.
+- **§§ 40-43 StGB** — Geldstrafe.
+- **§ 46 StGB** — Strafzumessungsgrundsatz.
+
+## Strafzumessungs-Grundsatz
+
+Im Strafbefehlsverfahren wird die Strafzumessung haeufig **pauschal** vorgenommen:
+
+- Die Tatumstaende ergeben sich allein aus der Akte.
+- Persoenliche und wirtschaftliche Verhaeltnisse werden oft geschaetzt (§ 40 Abs. 3 StGB).
+- Strafzumessungstatsachen nach § 46 Abs. 2 StGB werden gewuerdigt, aber ohne Anhoerung des Beschuldigten.
+
+## Schritt-fuer-Schritt-Anleitung (Verteidigung)
+
+1. **Strafbefehl pruefen**:
+   - Welche Tatbestaende, welcher Strafrahmen?
+   - Welche Anzahl Tagessaetze? Welcher Tagessatz?
+   - Gibt es Fahrverbot, Einziehung, Nebenfolgen?
+2. **Strafzumessung pruefen**:
+   - **Tagessatzanzahl**: Ist die Schuldkomponente realistisch? Vgl. `geldstrafe-tagessatzanzahl-bestimmen`.
+   - **Tagessatzhoehe**: Stimmt die Einkommensschaetzung? Vgl. `tagessatzhoehe-40-ii-stgb-nettotagesverdienst`.
+   - **§ 47 StGB**: Wenn Freiheitsstrafe verhaengt, sind die "besonderen Umstaende" begruendet?
+3. **Beschraenkter Einspruch** (§ 410 Abs. 2 StPO): Schuldspruch wird rechtskraeftig; nur Rechtsfolgen werden in der Hauptverhandlung verhandelt. **Vorsicht**: BZRG-Eintrag bleibt; berufsrechtliche Folgen pruefen.
+4. **Unbeschraenkter Einspruch**: Schuldspruch wird mitverhandelt; auch Freispruch moeglich.
+5. **Strafmilderungsangebote** vorbereiten:
+   - TOA / Schadenswiedergutmachung (§ 46a StGB).
+   - Einkommensnachweise fuer realistische Tagessatzhoehe.
+   - Gestaendnis bei Einspruchsverhandlung (Gestaendnis-Rabatt).
+
+## Tagessatzhoehe — typische Korrektur-Hebel
+
+- Gericht schaetzt oft optimistisch.
+- Einkommensnachweise (Lohnabrechnung letzte 3 Monate; Steuerbescheid; BWA bei Selbststaendigen).
+- Unterhaltspflichten substantiiert vortragen.
+- Konsumschulden nur ausnahmsweise.
+
+## Strafbefehl mit Freiheitsstrafe bis 1 Jahr (§ 407 Abs. 2 Nr. 2 StPO)
+
+- Nur **mit** Verteidiger und nur **mit** Bewaehrung.
+- Voraussetzungen Bewaehrung (§ 56 StGB): Sozialprognose positiv.
+- Wenn Sozialprognose fragwuerdig: **Einspruch zwingend**, sonst rechtskraeftige Verurteilung.
+
+## Beschraenkter Einspruch — strategische Pruefung
+
+| Vorteil | Nachteil |
+|---|---|
+| Schnelle Erledigung | BZRG-Eintrag bleibt |
+| Nur Rechtsfolgen-Verhandlung | Schuldspruch rechtskraeftig |
+| Kosten geringer | Berufsrechtliche Folgen |
+| Geringere Strafverschaerfungsgefahr | Spaetere Strafzumessung beruecksichtigt Vorstrafe |
+
+## Verteidigungs-Argumentationsmuster fuer Einspruch
+
+- "Die Tagessatzhoehe von [X] EUR ist nicht zutreffend, da das Nettoeinkommen meines Mandanten [...] betraegt; Beleg: [...]."
+- "Eine Geldstrafe von [X] Tagessaetzen wird der Schuld nicht gerecht; Strafmilderungsgruende [...] sind unberuecksichtigt geblieben."
+- "§ 46a StGB ist anwendbar, da [Beleg fuer TOA / Wiedergutmachung]."
+
+## Typische Fehler
+
+- **Einspruchsfrist verpennt** (2 Wochen, § 410 StPO).
+- **Beschraenkter Einspruch** ohne BZRG-Pruefung gewaehlt — Folgewirkungen unterschaetzt.
+- **Tagessatzhoehe** akzeptiert ohne Einkommensnachweise.
+- **Strafmilderungsgruende** in der Strafbefehlspruefung uebersehen.
+- **Freiheitsstrafe ohne Verteidiger** im Strafbefehl: Anhaltspunkt fuer Pflichtverteidigung pruefen (§ 140 StPO).
+
+## Querverweise
+
+- `orientierung-strafzumessung-triage` — Eingang ins Plugin.
+- `geldstrafe-tagessatzanzahl-bestimmen` — Anzahl.
+- `tagessatzhoehe-40-ii-stgb-nettotagesverdienst` — Hoehe.
+- `geldstrafe-vs-freiheitsstrafe-47-stgb` — Vorrang Geldstrafe.
+- Plugin `strafbefehl-verteidiger` — Gesamtverteidigung gegen Strafbefehl.
+
+## Quellen und Stand 05/2026
+
+- §§ 407-412 StPO in der geltenden Fassung.
+- §§ 40-43, 46, 47, 56 StGB.
+- Quellenregel: vgl. `references/zitierweise.md`.
